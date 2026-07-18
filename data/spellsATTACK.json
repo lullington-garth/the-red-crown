@@ -1,0 +1,2284 @@
+[
+  {
+    "id": "spell-001",
+    "name": "Stone Fist",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Crushes foes with a mantle of stone and bone-breaking force"
+  },
+  {
+    "id": "spell-002",
+    "name": "Ground Ripper",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Crushes foes with a mantle of stone and bone-breaking force"
+  },
+  {
+    "id": "spell-003",
+    "name": "Stone Fist",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Crushes foes with a mantle of stone and bone-breaking force"
+  },
+  {
+    "id": "spell-004",
+    "name": "Granite Skin",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Crushes foes with a mantle of stone and bone-breaking force"
+  },
+  {
+    "id": "spell-005",
+    "name": "Rooted Will",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-006",
+    "name": "Fire Dart",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 5,
+      "yellow": 4,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 2.5,
+      "green": 5,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches a blazing dart of fire that strikes fast"
+  },
+  {
+    "id": "spell-007",
+    "name": "Inferno",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 5,
+      "yellow": 4,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 2.5,
+      "green": 5,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches a blazing dart of fire that strikes fast"
+  },
+  {
+    "id": "spell-008",
+    "name": "Fire Dart",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 5,
+      "yellow": 4,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 2.5,
+      "green": 5,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches a blazing dart of fire that strikes fast"
+  },
+  {
+    "id": "spell-009",
+    "name": "Flame Veil",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 5,
+      "yellow": 4,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 2.5,
+      "green": 5,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches a blazing dart of fire that strikes fast"
+  },
+  {
+    "id": "spell-010",
+    "name": "Battle Fury",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-011",
+    "name": "Water Cannon",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Blasts a cannon of water that slams foes with force"
+  },
+  {
+    "id": "spell-012",
+    "name": "Crashing Wave",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Blasts a cannon of water that slams foes with force"
+  },
+  {
+    "id": "spell-013",
+    "name": "Water Cannon",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Blasts a cannon of water that slams foes with force"
+  },
+  {
+    "id": "spell-014",
+    "name": "Spray Sentinel",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Blasts a cannon of water that slams foes with force"
+  },
+  {
+    "id": "spell-015",
+    "name": "The Deep Dark Blue",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-016",
+    "name": "Razor Gale",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Hurls razor winds slicing enemies in shrieking arcs"
+  },
+  {
+    "id": "spell-017",
+    "name": "Lightning Arc",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Hurls razor winds slicing enemies in shrieking arcs"
+  },
+  {
+    "id": "spell-018",
+    "name": "Razor Gale",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Hurls razor winds slicing enemies in shrieking arcs"
+  },
+  {
+    "id": "spell-019",
+    "name": "Hurricane Shield",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Hurls razor winds slicing enemies in shrieking arcs"
+  },
+  {
+    "id": "spell-020",
+    "name": "Healing Skies",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-021",
+    "name": "Magma Hammer",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Forms a blazing magma hammer crashing in fury"
+  },
+  {
+    "id": "spell-022",
+    "name": "Cataclysm",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Forms a blazing magma hammer crashing in fury"
+  },
+  {
+    "id": "spell-023",
+    "name": "Magma Hammer",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Forms a blazing magma hammer crashing in fury"
+  },
+  {
+    "id": "spell-024",
+    "name": "Bark of the Oak",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Forms a blazing magma hammer crashing in fury"
+  },
+  {
+    "id": "spell-025",
+    "name": "Burning Blood",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-026",
+    "name": "Fire Ball",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a roaring fire sphere that explodes on impact"
+  },
+  {
+    "id": "spell-027",
+    "name": "Volcanic Explosion",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a roaring fire sphere that explodes on impact"
+  },
+  {
+    "id": "spell-028",
+    "name": "Fire Ball",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a roaring fire sphere that explodes on impact"
+  },
+  {
+    "id": "spell-029",
+    "name": "Static Shield",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a roaring fire sphere that explodes on impact"
+  },
+  {
+    "id": "spell-030",
+    "name": "Sky Skimmer",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-031",
+    "name": "Ice Hammer",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 6
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal ice hammer smashing with force"
+  },
+  {
+    "id": "spell-032",
+    "name": "Maelstrom",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 6
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal ice hammer smashing with force"
+  },
+  {
+    "id": "spell-033",
+    "name": "Ice Hammer",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 6
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal ice hammer smashing with force"
+  },
+  {
+    "id": "spell-034",
+    "name": "Steel Heart",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 6
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 2.5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal ice hammer smashing with force"
+  },
+  {
+    "id": "spell-035",
+    "name": "Roar Of The Wild",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-036",
+    "name": "Ice Shard Shower",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Rains jagged ice shards in freezing barrage"
+  },
+  {
+    "id": "spell-037",
+    "name": "Leviathan",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Rains jagged ice shards in freezing barrage"
+  },
+  {
+    "id": "spell-038",
+    "name": "Ice Shard Shower",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Rains jagged ice shards in freezing barrage"
+  },
+  {
+    "id": "spell-039",
+    "name": "Cyclone Screen",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 5,
+      "green": 10,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Rains jagged ice shards in freezing barrage"
+  },
+  {
+    "id": "spell-040",
+    "name": "From Deep Within",
+    "type": "Other",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 35,
+      "green": 30,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Weak spell casting. Magic drained for 2 rounds."
+    },
+    "statMod": {
+      "LUCK": -1
+    },
+    "enemyMod": null,
+    "description": "Unlocks hidden depths to cast a random spell"
+  },
+  {
+    "id": "spell-041",
+    "name": "Fire Bolt",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fires a concentrated bolt of flame in strike"
+  },
+  {
+    "id": "spell-042",
+    "name": "Cosmic Fire",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fires a concentrated bolt of flame in strike"
+  },
+  {
+    "id": "spell-043",
+    "name": "Fire Bolt",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fires a concentrated bolt of flame in strike"
+  },
+  {
+    "id": "spell-044",
+    "name": "Obsidian Bulwark",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 10,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fires a concentrated bolt of flame in strike"
+  },
+  {
+    "id": "spell-045",
+    "name": "Grounded Focus",
+    "type": "Attack",
+    "element": "Neutral",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-046",
+    "name": "Lashing Vines",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0006",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Animates lashing vines striking with earthen force"
+  },
+  {
+    "id": "spell-047",
+    "name": "Anger of the Tempest",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0006",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Animates lashing vines striking with earthen force"
+  },
+  {
+    "id": "spell-048",
+    "name": "Lashing Vines",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Animates lashing vines striking with earthen force"
+  },
+  {
+    "id": "spell-049",
+    "name": "Scorch Ward",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0006",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Animates lashing vines striking with earthen force"
+  },
+  {
+    "id": "spell-050",
+    "name": "Mirror Surge",
+    "type": "Attack",
+    "element": "Neutral",
+    "bookId": "0006",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-051",
+    "name": "Storm Lash",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-052",
+    "name": "Explosive Acorn",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-053",
+    "name": "Storm Lash",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-054",
+    "name": "Thunder Armour",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-055",
+    "name": "Overcharge",
+    "type": "Attack",
+    "element": "Neutral",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-056",
+    "name": "Cloud Punch",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0008",
+    "attack": {
+      "red": 5,
+      "yellow": 5,
+      "green": 3,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 1,
+      "yellow": 2.5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches dense punch of compressed cloud with force"
+  },
+  {
+    "id": "spell-057",
+    "name": "Beast",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0008",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-058",
+    "name": "Cloud Punch",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 5,
+      "yellow": 5,
+      "green": 3,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 1,
+      "yellow": 2.5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches dense punch of compressed cloud with force"
+  },
+  {
+    "id": "spell-059",
+    "name": "Deep Ward",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0008",
+    "attack": {
+      "red": 5,
+      "yellow": 5,
+      "green": 3,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 1,
+      "yellow": 2.5,
+      "green": 10,
+      "blue": 5
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches dense punch of compressed cloud with force"
+  },
+  {
+    "id": "spell-060",
+    "name": "Elemental Surge",
+    "type": "Attack",
+    "element": "Neutral",
+    "bookId": "0008",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 2.5,
+      "yellow": 5,
+      "green": 15,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  }
+]

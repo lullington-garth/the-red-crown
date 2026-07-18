@@ -1,0 +1,2426 @@
+[
+  {
+    "id": "spell-001",
+    "name": "Stone Fist",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 45,
+      "green": 25,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Crushes foes with a mantle of stone and bone-breaking force"
+  },
+  {
+    "id": "spell-002",
+    "name": "Ground Ripper",
+    "type": "Explosive",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 6,
+      "blue": 7
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 35,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -2"
+    },
+    "statMod": {
+      "STAMINA": -2
+    },
+    "enemyMod": null,
+    "description": "Rends the ground apart with tearing stone and earth"
+  },
+  {
+    "id": "spell-003",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 0,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-004",
+    "name": "Granite Skin",
+    "type": "Defence",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 2,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 2,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 15,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Hardens flesh to granite, dulling incoming blows"
+  },
+  {
+    "id": "spell-005",
+    "name": "Rooted Will",
+    "type": "Other",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {
+      "MAGIC": 1
+    },
+    "enemyMod": null,
+    "description": "Roots arcane power, conserving magic with iron control"
+  },
+  {
+    "id": "spell-006",
+    "name": "Fire Dart",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 5,
+      "yellow": 4,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 45,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches a blazing dart of fire that strikes fast"
+  },
+  {
+    "id": "spell-007",
+    "name": "Inferno",
+    "type": "Explosive",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 7,
+      "yellow": 5,
+      "green": 6,
+      "blue": 7
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 35,
+      "green": 45,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -2"
+    },
+    "statMod": {
+      "STAMINA": -2
+    },
+    "enemyMod": null,
+    "description": "Unleashes a roaring inferno that engulfs targets"
+  },
+  {
+    "id": "spell-008",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-009",
+    "name": "Flame Veil",
+    "type": "Defence",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 10,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Wraps caster in heat veil, weakening enemy strikes"
+  },
+  {
+    "id": "spell-010",
+    "name": "Battle Fury",
+    "type": "Other",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Spell misfires, but payment is still due. STAMINA -2"
+    },
+    "statMod": {
+      "STAMINA": -5
+    },
+    "enemyMod": null,
+    "description": "Ignites battle fury, empowering flame at stamina cost"
+  },
+  {
+    "id": "spell-011",
+    "name": "Water Cannon",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 45,
+      "green": 35,
+      "blue": 15
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Blasts a cannon of water that slams foes with force"
+  },
+  {
+    "id": "spell-012",
+    "name": "Crashing Wave",
+    "type": "Explosive",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 6,
+      "blue": 8
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 45,
+      "blue": 0
+    },
+    "risk": {
+      "type": "stunned",
+      "description": "Caught in backlash of your own spell. Stunned for one round."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons a towering wave crashing in massive impact"
+  },
+  {
+    "id": "spell-013",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 10,
+      "blue": 35
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-014",
+    "name": "Spray Sentinel",
+    "type": "Defence",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 2,
+      "green": 1,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 2,
+      "green": 1,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 25,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Raises a spiral of spray that deflects attacks"
+  },
+  {
+    "id": "spell-015",
+    "name": "The Deep Dark Blue",
+    "type": "Other",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": null,
+      "yellow": null,
+      "green": null,
+      "blue": null
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "ROLL",
+      "amount": -1,
+      "description": "Weak spell casting. You target yourself as wel as your foe."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Channels abyssal depths, drowning multiple foes"
+  },
+  {
+    "id": "spell-016",
+    "name": "Razor Gale",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 35,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Hurls razor winds slicing enemies in shrieking arcs"
+  },
+  {
+    "id": "spell-017",
+    "name": "Lightning Arc",
+    "type": "Explosive",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 6,
+      "yellow": 7,
+      "green": 6,
+      "blue": 7
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 45,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -2"
+    },
+    "statMod": {
+      "STAMINA": -2
+    },
+    "enemyMod": null,
+    "description": "Calls down a crackling lightning arc on impact"
+  },
+  {
+    "id": "spell-018",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 15,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  },
+  {
+    "id": "spell-019",
+    "name": "Hurricane Shield",
+    "type": "Defence",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 3,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 3,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 0,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "SKILL",
+      "amount": -1
+    },
+    "description": "Conjures a spinning hurricane shield disrupting foes"
+  },
+  {
+    "id": "spell-020",
+    "name": "Healing Skies",
+    "type": "Other",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 20,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {
+      "STAMINA": 1
+    },
+    "enemyMod": null,
+    "description": "Draws on sky currents to restore stamina over time"
+  },
+  {
+    "id": "spell-021",
+    "name": "Magma Hammer",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 45,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Forms a blazing magma hammer crashing in fury"
+  },
+  {
+    "id": "spell-022",
+    "name": "Cataclysm",
+    "type": "Explosive",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 10,
+      "yellow": 8,
+      "green": 9,
+      "blue": 9
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 35,
+      "green": 45,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -3"
+    },
+    "statMod": {
+      "STAMINA": -3
+    },
+    "enemyMod": null,
+    "description": "Unleashes elemental ruin in one devastating eruption"
+  },
+  {
+    "id": "spell-023",
+    "name": "Smoulder Drift",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 5,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads smouldering earth that burns beneath foes"
+  },
+  {
+    "id": "spell-024",
+    "name": "Bark of the Oak",
+    "type": "Defence",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 20,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Encases body in oak strength to blunt enemy force"
+  },
+  {
+    "id": "spell-025",
+    "name": "Burning Blood",
+    "type": "Other",
+    "element": "Fire",
+    "bookId": "0001",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Weak spell casting. Payment is still required. STAMINA -3"
+    },
+    "statMod": {
+      "STAMINA": -3
+    },
+    "enemyMod": null,
+    "description": "Sets blood aflame, doubling attack power at risk"
+  },
+  {
+    "id": "spell-026",
+    "name": "Fire Ball",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0002",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 45,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a roaring fire sphere that explodes on impact"
+  },
+  {
+    "id": "spell-027",
+    "name": "Volcanic Explosion",
+    "type": "Explosive",
+    "element": "Fire",
+    "bookId": "0002",
+    "attack": {
+      "red": 9,
+      "yellow": 7,
+      "green": 8,
+      "blue": 8
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 35,
+      "green": 45,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -3"
+    },
+    "statMod": {
+      "STAMINA": -3
+    },
+    "enemyMod": null,
+    "description": "Triggers a volcanic explosion of fire and stone"
+  },
+  {
+    "id": "spell-028",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 20,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-029",
+    "name": "Static Shield",
+    "type": "Defence",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 5,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "SKILL",
+      "amount": -1
+    },
+    "description": "Surrounds caster with static that disrupts precision"
+  },
+  {
+    "id": "spell-030",
+    "name": "Sky Skimmer",
+    "type": "Other",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 25,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "STAMINA",
+      "amount": 2,
+      "description": "Weak spell casting. Power of spell is halved."
+    },
+    "statMod": {
+      "STAMINA": 4
+    },
+    "enemyMod": null,
+    "description": "Rides upper winds to restore stamina in bursts"
+  },
+  {
+    "id": "spell-031",
+    "name": "Ice Hammer",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0003",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 6
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 45,
+      "green": 35,
+      "blue": 20
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal ice hammer smashing with force"
+  },
+  {
+    "id": "spell-032",
+    "name": "Maelstrom",
+    "type": "Explosive",
+    "element": "Water",
+    "bookId": "0003",
+    "attack": {
+      "red": 8,
+      "yellow": 7,
+      "green": 8,
+      "blue": 9
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 45,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stunned",
+      "description": "Caught in backlash of your own spell. Stunned for one round."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Calls forth a raging maelstrom to batter foes"
+  },
+  {
+    "id": "spell-033",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 5,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-034",
+    "name": "Steel Heart",
+    "type": "Defence",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 20,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Tempers heart like steel, reducing enemy blows"
+  },
+  {
+    "id": "spell-035",
+    "name": "Roar Of The Wild",
+    "type": "Other",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 25,
+      "blue": 30
+    },
+    "risk": {
+      "type": "unknown",
+      "raw": "AOE - 1",
+      "description": "Weak spell casting. Area of effect has been reduced."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Unleashes primal roar stunning all in its echo"
+  },
+  {
+    "id": "spell-036",
+    "name": "Ice Shard Shower",
+    "type": "Attack",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 3,
+      "blue": 4
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 45,
+      "green": 35,
+      "blue": 20
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Rains jagged ice shards in freezing barrage"
+  },
+  {
+    "id": "spell-037",
+    "name": "Leviathan",
+    "type": "Explosive",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 11,
+      "yellow": 10,
+      "green": 11,
+      "blue": 12
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 45,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stunned",
+      "description": "Caught in backlash of your own spell. Stunned for one round."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons colossal sea force crashing in tidal waves"
+  },
+  {
+    "id": "spell-038",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 20,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-039",
+    "name": "Cyclone Screen",
+    "type": "Defence",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 5,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "SKILL",
+      "amount": -1
+    },
+    "description": "Raises spiraling cyclone screen twisting attacks"
+  },
+  {
+    "id": "spell-040",
+    "name": "From Deep Within",
+    "type": "Other",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Weak spell casting. Magic drained for 2 rounds."
+    },
+    "statMod": {
+      "LUCK": -1
+    },
+    "enemyMod": null,
+    "description": "Unlocks hidden depths to cast a random spell."
+  },
+  {
+    "id": "spell-041",
+    "name": "Fire Bolt",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 6,
+      "yellow": 5,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 45,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fires a concentrated bolt of flame in strike"
+  },
+  {
+    "id": "spell-042",
+    "name": "Cosmic Fire",
+    "type": "Explosive",
+    "element": "Water",
+    "bookId": "0005",
+    "attack": {
+      "red": 9,
+      "yellow": 8,
+      "green": 9,
+      "blue": 10
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 45,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stunned",
+      "description": "Caught in backlash of your own spell. Stunned for one round."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Calls down cosmic fire burning with celestial heat"
+  },
+  {
+    "id": "spell-043",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 25,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-044",
+    "name": "Obsidian Bulwark",
+    "type": "Defence",
+    "element": "Water",
+    "bookId": "0005",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 3,
+      "green": 2,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 2,
+      "green": 1,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 25,
+      "blue": 30
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Raises jagged obsidian plates to reduce enemy force"
+  },
+  {
+    "id": "spell-045",
+    "name": "Grounded Focus",
+    "type": "Other",
+    "element": "Neutral",
+    "bookId": "0005",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {
+      "SKILL": 1
+    },
+    "enemyMod": null,
+    "description": "Sharpens focus, increasing skill for a short time"
+  },
+  {
+    "id": "spell-046",
+    "name": "Lashing Vines",
+    "type": "Attack",
+    "element": "Earth",
+    "bookId": "0006",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 45,
+      "green": 30,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Animates lashing vines striking with earthen force"
+  },
+  {
+    "id": "spell-047",
+    "name": "Anger of the Tempest",
+    "type": "Explosive",
+    "element": "Air",
+    "bookId": "0006",
+    "attack": {
+      "red": 12,
+      "yellow": 12,
+      "green": 12,
+      "blue": 12
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 30,
+      "green": 45,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -4"
+    },
+    "statMod": {
+      "STAMINA": -4
+    },
+    "enemyMod": null,
+    "description": "Unleashes full wrath of tempest in apocalyptic fury"
+  },
+  {
+    "id": "spell-048",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 10,
+      "blue": 40
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-049",
+    "name": "Scorch Ward",
+    "type": "Defence",
+    "element": "Fire",
+    "bookId": "0006",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 40,
+      "yellow": 10,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Forms blazing ward weakening enemy strikes"
+  },
+  {
+    "id": "spell-050",
+    "name": "Mirror Surge",
+    "type": "Other",
+    "element": "Neutral",
+    "bookId": "0006",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "unknown",
+      "raw": "REVERSE",
+      "description": "Weak spell casting. Enemy hits for double damage."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Reflects incoming damage with mirrored force"
+  },
+  {
+    "id": "spell-051",
+    "name": "Storm Lash",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0007",
+    "attack": {
+      "red": 6,
+      "yellow": 6,
+      "green": 4,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 40,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Cracks a whip of storm energy with electric strike"
+  },
+  {
+    "id": "spell-052",
+    "name": "Explosive Acorn",
+    "type": "Explosive",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 10,
+      "yellow": 9,
+      "green": 10,
+      "blue": 10
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 40,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -4"
+    },
+    "statMod": {
+      "STAMINA": -4
+    },
+    "enemyMod": null,
+    "description": "Hurls explosive acorn erupting in earthen blast"
+  },
+  {
+    "id": "spell-053",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 35,
+      "yellow": 25,
+      "green": 5,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-054",
+    "name": "Thunder Armour",
+    "type": "Defence",
+    "element": "Air",
+    "bookId": "0007",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 5,
+      "green": 25,
+      "blue": 35
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "SKILL",
+      "amount": -1
+    },
+    "description": "Encases body in thunder-charged armor disrupting skill"
+  },
+  {
+    "id": "spell-055",
+    "name": "Overcharge",
+    "type": "Other",
+    "element": "Neutral",
+    "bookId": "0007",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Overcharges body, doubling non-magical attacks briefly"
+  },
+  {
+    "id": "spell-056",
+    "name": "Cloud Punch",
+    "type": "Attack",
+    "element": "Air",
+    "bookId": "0008",
+    "attack": {
+      "red": 5,
+      "yellow": 5,
+      "green": 3,
+      "blue": 5
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 40,
+      "green": 35,
+      "blue": 25
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Launches dense punch of compressed cloud with force"
+  },
+  {
+    "id": "spell-057",
+    "name": "Beast",
+    "type": "Explosive",
+    "element": "Earth",
+    "bookId": "0008",
+    "attack": {
+      "red": 9,
+      "yellow": 8,
+      "green": 9,
+      "blue": 9
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 35,
+      "green": 40,
+      "blue": 10
+    },
+    "risk": {
+      "type": "backfire",
+      "description": "Caught in backlash of your own spell. STAMINA -3"
+    },
+    "statMod": {
+      "STAMINA": -3
+    },
+    "enemyMod": null,
+    "description": "Channels primal beast strength into earthen assault"
+  },
+  {
+    "id": "spell-058",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 25,
+      "green": 10,
+      "blue": 45
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-059",
+    "name": "Deep Ward",
+    "type": "Defence",
+    "element": "Water",
+    "bookId": "0008",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 3,
+      "green": 2,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 3,
+      "green": 2,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 45,
+      "yellow": 10,
+      "green": 25,
+      "blue": 30
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": {
+      "stat": "ATTACK",
+      "amount": -1
+    },
+    "description": "Summons layered deep-water wards for protection"
+  },
+  {
+    "id": "spell-060",
+    "name": "Elemental Surge",
+    "type": "Other",
+    "element": "Neutral",
+    "bookId": "0008",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 30,
+      "yellow": 30,
+      "green": 30,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "MAGIC",
+      "amount": -1,
+      "description": "Weak spell casting. Spell drains your magic. MAGIC -1"
+    },
+    "statMod": {
+      "SKILL": 3
+    },
+    "enemyMod": null,
+    "description": "Surges with elemental power to heighten combat skill"
+  },
+  {
+    "id": "spell-061",
+    "name": "Finger of Death",
+    "type": "Attack",
+    "element": "Fire",
+    "bookId": "0000",
+    "attack": {
+      "red": 100,
+      "yellow": 100,
+      "green": 100,
+      "blue": 100
+    },
+    "duration": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "areaOfEffect": {
+      "red": 1,
+      "yellow": 1,
+      "green": 1,
+      "blue": 1
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 10,
+      "blue": 10
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Spell misfires. No effect."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Instantly Kills Target Enemy"
+  }
+]

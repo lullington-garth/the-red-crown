@@ -1,0 +1,347 @@
+[
+  {
+    "id": 4,
+    "description": "Astral Dominion",
+    "identified": true,
+    "id-description": "Raises the wearers MAGIC by 3",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "MAGIC (B) +3",
+    "stat-mod-object": {
+      "MAGIC (B)": 3
+    },
+    "stat-mod-type": "equipped",
+    "sell": 200,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 5,
+    "description": "Moon Fortune",
+    "identified": true,
+    "id-description": "Ensures the wearer never runs out of LUCK.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "LUCK (B) +10",
+    "stat-mod-object": {
+      "LUCK (B)": 10
+    },
+    "stat-mod-type": "equipped",
+    "sell": 100,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 6,
+    "description": "Masterstroke",
+    "identified": true,
+    "id-description": "Raises the wearers SKILL by 3",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "SKILL (B) +3",
+    "stat-mod-object": {
+      "SKILL (B)": 3
+    },
+    "stat-mod-type": "equipped",
+    "sell": 30,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 7,
+    "description": "Blood Song",
+    "identified": true,
+    "id-description": "Raises the wearers ATTACK strength by 2",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "ATTACK (B) +2",
+    "stat-mod-object": {
+      "ATTACK (B)": 2
+    },
+    "stat-mod-type": "equipped",
+    "sell": 25,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 8,
+    "description": "Cat's Grace",
+    "identified": true,
+    "id-description": "Raises the wearers SKILL by 2",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "SKILL (B) +2",
+    "stat-mod-object": {
+      "SKILL (B)": 2
+    },
+    "stat-mod-type": "equipped",
+    "sell": 20,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 9,
+    "description": "Witch Fire",
+    "identified": true,
+    "id-description": "Raises the wearers MAGIC by 1",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "MAGIC (B) +1",
+    "stat-mod-object": {
+      "MAGIC (B)": 1
+    },
+    "stat-mod-type": "equipped",
+    "sell": 20,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 10,
+    "description": "Troll Heart",
+    "identified": true,
+    "id-description": "Raises the wearers STAMINA by 3",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "STAMINA (B) +3",
+    "stat-mod-object": {
+      "STAMINA (B)": 3
+    },
+    "stat-mod-type": "equipped",
+    "sell": 15,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 11,
+    "description": "Feast Form",
+    "identified": true,
+    "id-description": "This item is now edible. It will fully restore your STAMINA when consumed.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "STAMINA (T)",
+    "stat-mod-object": {},
+    "stat-mod-type": "use",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 12,
+    "description": "Duellist's Wit",
+    "identified": true,
+    "id-description": "Raises the wearers SKILL by 1",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "SKILL (B) +1",
+    "stat-mod-object": {
+      "SKILL (B)": 1
+    },
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 13,
+    "description": "Star Shower",
+    "identified": true,
+    "id-description": "Raises the wearers LUCK by 2",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "LUCK (B) +2",
+    "stat-mod-object": {
+      "LUCK (B)": 2
+    },
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 14,
+    "description": "Giants's Pulse",
+    "identified": true,
+    "id-description": "Raises the wearers STAMINA by 2",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "STAMINA (B) +2",
+    "stat-mod-object": {
+      "STAMINA (B)": 2
+    },
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 15,
+    "description": "Fury's Cry",
+    "identified": true,
+    "id-description": "Raises the wearers ATTACK strength by 1",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "ATTACK (B) +1",
+    "stat-mod-object": {
+      "ATTACK (B)": 1
+    },
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 16,
+    "description": "Wind Weaver",
+    "identified": true,
+    "id-description": "Renders the enchanted item weightless.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "None",
+    "stat-mod-object": {},
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 0
+  },
+  {
+    "id": 17,
+    "description": "Heart of the Mountain",
+    "identified": true,
+    "id-description": "This item is now indestructible.",
+    "magical": true,
+    "breakable": false,
+    "can-equip": true,
+    "stat-mod": "None",
+    "stat-mod-object": {},
+    "stat-mod-type": "equipped",
+    "sell": 10,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 18,
+    "description": "Immortal Flesh",
+    "identified": true,
+    "id-description": "Raises the wearers STAMINA by 4",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "STAMINA (B) +4",
+    "stat-mod-object": {
+      "STAMINA (B)": 4
+    },
+    "stat-mod-type": "equipped",
+    "sell": 20,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 19,
+    "description": "Fate Weaver",
+    "identified": true,
+    "id-description": "Raises the wearers LUCK by 3",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "LUCK (B) +3",
+    "stat-mod-object": {
+      "LUCK (B)": 3
+    },
+    "stat-mod-type": "equipped",
+    "sell": 20,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 20,
+    "description": "Witch Sight",
+    "identified": true,
+    "id-description": "When equipped gives the user the power to detect magical items.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "None",
+    "stat-mod-object": {},
+    "stat-mod-type": "equipped",
+    "sell": 20,
+    "special-ability": "SHOW_MAGIC",
+    "inventory-slots": 1
+  },
+  {
+    "id": 21,
+    "description": "Doom Sight",
+    "identified": true,
+    "id-description": "When equipped gives the user the power to detect cursed items.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "None",
+    "stat-mod-object": {},
+    "stat-mod-type": "equipped",
+    "sell": 25,
+    "special-ability": "SHOW_CURSE",
+    "inventory-slots": 1
+  },
+  {
+    "id": 22,
+    "description": "War Bringer",
+    "identified": true,
+    "id-description": "Raises the wearers ATTACK strength by 3",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "ATTACK (B) +3",
+    "stat-mod-object": {
+      "ATTACK (B)": 3
+    },
+    "stat-mod-type": "equipped",
+    "sell": 50,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 23,
+    "description": "Star Fire",
+    "identified": true,
+    "id-description": "Raises the wearers MAGIC by 2",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "MAGIC (B) +2",
+    "stat-mod-object": {
+      "MAGIC (B)": 2
+    },
+    "stat-mod-type": "equipped",
+    "sell": 150,
+    "special-ability": "None",
+    "inventory-slots": 1
+  },
+  {
+    "id": 24,
+    "description": "Angel Heart",
+    "identified": true,
+    "id-description": "When equipped an angel will join you in battle.",
+    "magical": true,
+    "breakable": null,
+    "can-equip": true,
+    "stat-mod": "None",
+    "stat-mod-object": {},
+    "stat-mod-type": "equipped",
+    "sell": 200,
+    "special-ability": "ANGEL",
+    "inventory-slots": 1
+  }
+]

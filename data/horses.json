@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pack_horse",
+    "name": "Pack Horse",
+    "capacity": 20,
+    "statModifiers": {},
+    "bonus": "Increased carrying capacity. Calm and dependable. A steady companion that will carry everything you can throw at it.",
+    "traits": ["Immune to fear", "Immune to illusions", "Immune to magical disturbances"],
+    "quirks": "Calm, dependable, never panics or complains",
+    "description": "Plain brown and calm. Never panics, never complains. A steady companion that will carry everything you can throw at it.",
+    "playstyleTip": "Perfect for careful hoarders or players who want reliability over flair."
+  },
+  {
+    "id": "war_horse",
+    "name": "War Horse",
+    "capacity": 14,
+    "statModifiers": { "SKILL": 1 },
+    "bonus": "Will fight alongside you if battle is outside but at the risk of item loss if the horse takes too much damage.",
+    "traits": ["Strong & Sturdy"],
+    "quirks": "Slow to anger, respected by villagers, feared by foes",
+    "description": "Tall, muscular, and imposing. Respected by villagers and feared by less disciplined foes. Slow to anger, but immensely strong.",
+    "playstyleTip": "Great for players who anticipate physical challenges or enjoy a commanding presence."
+  },
+  {
+    "id": "enchanted_friesian",
+    "name": "Enchanted Friesian",
+    "capacity": 16,
+    "statModifiers": { "LUCK (B)": 2 },
+    "bonus": "Imbued with subtle elemental magic. Roll 1 extra dice and discard dice of your choice on LUCK rolls",
+    "traits": ["Magical & Elegant"],
+    "quirks": "Intelligent, reacts to spells, may be startled by chaotic magic",
+    "description": "Sleek, black, and imbued with subtle elemental magic. Moves with a grace that hints at intelligence and awareness.",
+    "playstyleTip": "A magical companion for players who want both capacity and a “living magic tool.”"
+  },
+  {
+    "id": "fae_courser",
+    "name": "Fae Courser",
+    "capacity": 12,
+    "statModifiers": { "MAGIC (M)": 2 },
+    "bonus": "Easily spooked but you will never be without magic while you travel with this horse.",
+    "traits": ["Magical & Temperamental"],
+    "quirks": "Easily spooked; may bolt or refuse orders on a bad LUCK roll. Thrives in mystical or wild environments",
+    "description": "Chestnut with a mane that glimmers faintly in sunlight. Bold, playful, and fey in temperament—rider must earn its trust.",
+    "playstyleTip": "Risk/reward choice. Adds excitement and potential bonuses, but requires care and attention."
+  }
+]

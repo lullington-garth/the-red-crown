@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "spell-001",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 7.5,
+      "yellow": 7.5,
+      "green": 2,
+      "blue": 10
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-002",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 7.5,
+      "yellow": 7.5,
+      "green": 2,
+      "blue": 10
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-003",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 7.5,
+      "yellow": 7.5,
+      "green": 2,
+      "blue": 10
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-004",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0009",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 7.5,
+      "yellow": 7.5,
+      "green": 2,
+      "blue": 10
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-005",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0009",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-006",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-007",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-008",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-009",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0012",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-010",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0012",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-011",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 10,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-012",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 10,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-013",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 10,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-014",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0010",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 10,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-015",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0010",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-016",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 5,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  },
+  {
+    "id": "spell-017",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 5,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  },
+  {
+    "id": "spell-018",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 5,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  },
+  {
+    "id": "spell-019",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0011",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 5,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  },
+  {
+    "id": "spell-020",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0011",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 20,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-021",
+    "name": "Smoulder Drift",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads smouldering earth that burns beneath foes"
+  },
+  {
+    "id": "spell-022",
+    "name": "Smoulder Drift",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads smouldering earth that burns beneath foes"
+  },
+  {
+    "id": "spell-023",
+    "name": "Smoulder Drift",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads smouldering earth that burns beneath foes"
+  },
+  {
+    "id": "spell-024",
+    "name": "Smoulder Drift",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads smouldering earth that burns beneath foes"
+  },
+  {
+    "id": "spell-025",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0001",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-026",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-027",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-028",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-029",
+    "name": "The Choker",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0002",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Tightens air coils that slowly crush breath"
+  },
+  {
+    "id": "spell-030",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0002",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-031",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-032",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-033",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-034",
+    "name": "Earthen Crush",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 4,
+      "green": 4,
+      "blue": 3
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 25,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Commands earth to clamp shut in crushing grip"
+  },
+  {
+    "id": "spell-035",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0003",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-036",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-037",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-038",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-039",
+    "name": "Creeping Mist",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0004",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 15,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Spreads creeping mist sapping strength and senses"
+  },
+  {
+    "id": "spell-040",
+    "name": "From Deep Within",
+    "type": "Other",
+    "element": "Water",
+    "bookId": "0004",
+    "attack": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "duration": {
+      "red": 2,
+      "yellow": 2,
+      "green": 2,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "riskMod": {
+      "red": 0,
+      "yellow": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "risk": {
+      "type": "misfire",
+      "description": "Weak spell casting. Magic drained for 2 rounds."
+    },
+    "statMod": {
+      "LUCK": -1
+    },
+    "enemyMod": null,
+    "description": "Unlocks hidden depths to cast a random spell"
+  },
+  {
+    "id": "spell-041",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 20,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-042",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 20,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-043",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 20,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-044",
+    "name": "Burning Roots",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0005",
+    "attack": {
+      "red": 3,
+      "yellow": 3,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 20,
+      "green": 15,
+      "blue": 25
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons blazing roots binding and scorching foes"
+  },
+  {
+    "id": "spell-045",
+    "name": "Crushing Weight",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0005",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 5,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 7.5,
+      "yellow": 7.5,
+      "green": 2,
+      "blue": 10
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons crushing weight to grind foes under pressure"
+  },
+  {
+    "id": "spell-046",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-047",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-048",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-049",
+    "name": "The Drowning",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 3
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Summons rising dark waters dragging foes to drown"
+  },
+  {
+    "id": "spell-050",
+    "name": "Coiling Flame",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0006",
+    "attack": {
+      "red": 2,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 5,
+      "yellow": 10,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Casts a living serpent of fire coiling around foes"
+  },
+  {
+    "id": "spell-051",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-052",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-053",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-054",
+    "name": "Grinding Pressure",
+    "type": "Slow Burn",
+    "element": "Earth",
+    "bookId": "0007",
+    "attack": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 2,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 15,
+      "yellow": 15,
+      "green": 10,
+      "blue": 20
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Applies grinding pressure crushing foes over time"
+  },
+  {
+    "id": "spell-055",
+    "name": "Gasp of the Drowned",
+    "type": "Slow Burn",
+    "element": "Water",
+    "bookId": "0007",
+    "attack": {
+      "red": 1,
+      "yellow": 1,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 3
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 3,
+      "green": 4,
+      "blue": 4
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 10,
+      "green": 5,
+      "blue": 5
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Fills enemy lungs with phantom water, choking slowly"
+  },
+  {
+    "id": "spell-056",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-057",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-058",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-059",
+    "name": "Funeral Pyre",
+    "type": "Slow Burn",
+    "element": "Fire",
+    "bookId": "0008",
+    "attack": {
+      "red": 4,
+      "yellow": 3,
+      "green": 4,
+      "blue": 2
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 2,
+      "green": 3,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 20,
+      "yellow": 25,
+      "green": 20,
+      "blue": 30
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -2,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Raises towering funeral pyre burning with fury"
+  },
+  {
+    "id": "spell-060",
+    "name": "Suffocation",
+    "type": "Slow Burn",
+    "element": "Air",
+    "bookId": "0008",
+    "attack": {
+      "red": 1,
+      "yellow": 2,
+      "green": 2,
+      "blue": 1
+    },
+    "duration": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "areaOfEffect": {
+      "red": 3,
+      "yellow": 4,
+      "green": 4,
+      "blue": 2
+    },
+    "riskMod": {
+      "red": 10,
+      "yellow": 5,
+      "green": 5,
+      "blue": 15
+    },
+    "risk": {
+      "type": "stat",
+      "stat": "DURATION",
+      "amount": -1,
+      "description": "Weak spell casting. Spell duration shortened."
+    },
+    "statMod": {},
+    "enemyMod": null,
+    "description": "Drains air from foes, leaving them gasping"
+  }
+]

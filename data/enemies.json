@@ -1,0 +1,4174 @@
+[
+  {
+    "id": "0001",
+    "name": "Pit Devil",
+    "type": "devil",
+    "stats": {
+      "skill": 6,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 692
+    }
+  },
+  {
+    "id": "0002",
+    "name": "Pit Devil",
+    "type": "devil",
+    "stats": {
+      "skill": 5,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 692
+    }
+  },
+  {
+    "id": "0003",
+    "name": "Pit Devil",
+    "type": "devil",
+    "stats": {
+      "skill": 6,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 692
+    }
+  },
+  {
+    "id": "0004",
+    "name": "Pit Devil",
+    "type": "devil",
+    "stats": {
+      "skill": 7,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 692
+    }
+  },
+  {
+    "id": "0005",
+    "name": "Mine Ghoul - Baz",
+    "type": "ghoul",
+    "stats": {
+      "skill": 5,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 787
+    }
+  },
+  {
+    "id": "0006",
+    "name": "Mine Ghoul - Bobby",
+    "type": "ghoul",
+    "stats": {
+      "skill": 4,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 787
+    }
+  },
+  {
+    "id": "0007",
+    "name": "Mine Ghoul - Stan",
+    "type": "ghoul",
+    "stats": {
+      "skill": 4,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 787
+    }
+  },
+  {
+    "id": "0008",
+    "name": "Mine Ghoul - Shirley",
+    "type": "ghoul",
+    "stats": {
+      "skill": 4,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 787
+    }
+  },
+  {
+    "id": "0009",
+    "name": "Mine Ghoul - Teddy",
+    "type": "ghoul",
+    "stats": {
+      "skill": 5,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 787
+    }
+  },
+  {
+    "id": "0010",
+    "name": "Mr Loveacre",
+    "type": "human",
+    "stats": {
+      "skill": 8,
+      "stamina": 9
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 145
+    }
+  },
+  {
+    "id": "0011",
+    "name": "Soldier",
+    "type": "human",
+    "stats": {
+      "skill": 4,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 23
+    }
+  },
+  {
+    "id": "0012",
+    "name": "Soldier",
+    "type": "human",
+    "stats": {
+      "skill": 5,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 23
+    }
+  },
+  {
+    "id": "0013",
+    "name": "Soldier",
+    "type": "human",
+    "stats": {
+      "skill": 4,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 23
+    }
+  },
+  {
+    "id": "0014",
+    "name": "Soldier",
+    "type": "human",
+    "stats": {
+      "skill": 4,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 23
+    }
+  },
+  {
+    "id": "0015",
+    "name": "Bone Golem",
+    "type": "golem",
+    "stats": {
+      "skill": 7,
+      "stamina": 12
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 1,
+      "magic_res": 2,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 847
+    }
+  },
+  {
+    "id": "0016",
+    "name": "Grey Scale Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 129
+    }
+  },
+  {
+    "id": "0017",
+    "name": "Shrub Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 129
+    }
+  },
+  {
+    "id": "0018",
+    "name": "Wood Fawn",
+    "type": "fawn",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 129
+    }
+  },
+  {
+    "id": "0019",
+    "name": "Max",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 1,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 129
+    }
+  },
+  {
+    "id": "0020",
+    "name": "Bryagh",
+    "type": "dragon",
+    "stats": {
+      "skill": 18,
+      "stamina": 30
+    },
+    "combat": {
+      "attack": 3,
+      "magic": 4,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 3,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "FIRE"
+    },
+    "encounter": {
+      "found": 851
+    }
+  },
+  {
+    "id": "0021",
+    "name": "Bryagh",
+    "type": "dragon",
+    "stats": {
+      "skill": 9,
+      "stamina": 15
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 1,
+      "magic_res": 1,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "FIRE"
+    },
+    "encounter": {
+      "found": 851
+    }
+  },
+  {
+    "id": "0022",
+    "name": "Bryagh",
+    "type": "dragon",
+    "stats": {
+      "skill": 7,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "FIRE"
+    },
+    "encounter": {
+      "found": 851
+    }
+  },
+  {
+    "id": "0023",
+    "name": "Shopkeeper",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 294
+    }
+  },
+  {
+    "id": "0024",
+    "name": "ShopKeeper",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 294
+    }
+  },
+  {
+    "id": "0025",
+    "name": "Thornmaw Elk",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0026",
+    "name": "Thornmaw Elk",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0027",
+    "name": "Thornmaw Elk",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0028",
+    "name": "Thornmaw Elk",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0029",
+    "name": "Thornmaw Elk",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0030",
+    "name": "Stormplume Stag",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0031",
+    "name": "Stormplume Stag",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0032",
+    "name": "Stormplume Stag",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0033",
+    "name": "Stormplume Stag",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0034",
+    "name": "Stormplume Stag",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0035",
+    "name": "Moonclaw Drake",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0036",
+    "name": "Moonclaw Drake",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0037",
+    "name": "Moonclaw Drake",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0038",
+    "name": "Moonclaw Drake",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0039",
+    "name": "Moonclaw Drake",
+    "type": "realm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 2,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 545
+    }
+  },
+  {
+    "id": "0040",
+    "name": "Smoke Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 9,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 3,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 342
+    }
+  },
+  {
+    "id": "0041",
+    "name": "Malcolm",
+    "type": "human",
+    "stats": {
+      "skill": 9,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 344
+    }
+  },
+  {
+    "id": "0042",
+    "name": "Farmer",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "FORK"
+    },
+    "encounter": {
+      "found": 278
+    }
+  },
+  {
+    "id": "0043",
+    "name": "Farm Hand",
+    "type": "phantom",
+    "stats": {
+      "skill": 7,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 278
+    }
+  },
+  {
+    "id": "0044",
+    "name": "Shard Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 9,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "SLASH"
+    },
+    "encounter": {
+      "found": 161
+    }
+  },
+  {
+    "id": "0045",
+    "name": "Milkman",
+    "type": "human",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 230
+    }
+  },
+  {
+    "id": "0046",
+    "name": "Coin Trader",
+    "type": "human",
+    "stats": {
+      "skill": 8,
+      "stamina": 9
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 105
+    }
+  },
+  {
+    "id": "0047",
+    "name": "Potter",
+    "type": "human",
+    "stats": {
+      "skill": 9,
+      "stamina": 9
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 88
+    }
+  },
+  {
+    "id": "0048",
+    "name": "Shopkeeper",
+    "type": "human",
+    "stats": {
+      "skill": 9,
+      "stamina": 9
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 88
+    }
+  },
+  {
+    "id": "0049",
+    "name": "Shopkeeper",
+    "type": "human",
+    "stats": {
+      "skill": 9,
+      "stamina": 9
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 88
+    }
+  },
+  {
+    "id": "0050",
+    "name": "Innkeeper",
+    "type": "human",
+    "stats": {
+      "skill": 8,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "BOTTLED"
+    },
+    "encounter": {
+      "found": 303
+    }
+  },
+  {
+    "id": "0051",
+    "name": "Thug 1",
+    "type": "human",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 319
+    }
+  },
+  {
+    "id": "0052",
+    "name": "Thug 2",
+    "type": "human",
+    "stats": {
+      "skill": 6,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 319
+    }
+  },
+  {
+    "id": "0053",
+    "name": "Thug 3",
+    "type": "human",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 319
+    }
+  },
+  {
+    "id": "0054",
+    "name": "Thug 4",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 319
+    }
+  },
+  {
+    "id": "0055",
+    "name": "Thug Leader",
+    "type": "human",
+    "stats": {
+      "skill": 8,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "BOTTLED"
+    },
+    "encounter": {
+      "found": 319
+    }
+  },
+  {
+    "id": "0056",
+    "name": "WM Overseer",
+    "type": "demon",
+    "stats": {
+      "skill": 7,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 942
+    }
+  },
+  {
+    "id": "0057",
+    "name": "Tree Sentinel",
+    "type": "tree",
+    "stats": {
+      "skill": 7,
+      "stamina": 10
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 1,
+      "magic_res": 1,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 2,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "WHIP"
+    },
+    "encounter": {
+      "found": 929
+    }
+  },
+  {
+    "id": "0058",
+    "name": "Tree Sentinel",
+    "type": "tree",
+    "stats": {
+      "skill": 10,
+      "stamina": 14
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 1,
+      "magic_res": 2,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 2,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "WHIP"
+    },
+    "encounter": {
+      "found": 929
+    }
+  },
+  {
+    "id": "0059",
+    "name": "Shadow Spirit",
+    "type": "spirit",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 10,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 947
+    }
+  },
+  {
+    "id": "0060",
+    "name": "Shadow Spirit",
+    "type": "spirit",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 10,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 947
+    }
+  },
+  {
+    "id": "0061",
+    "name": "Shadow Spirit",
+    "type": "spirit",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 10,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 947
+    }
+  },
+  {
+    "id": "0062",
+    "name": "Shadow Spirit",
+    "type": "spirit",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 10,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 947
+    }
+  },
+  {
+    "id": "0063",
+    "name": "Shadow Spirit",
+    "type": "spirit",
+    "stats": {
+      "skill": 5,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 0,
+      "magic": 2,
+      "defence": 10,
+      "magic_res": 1,
+      "attack_type": "magic",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 947
+    }
+  },
+  {
+    "id": "0064",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 4,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "SLASH"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0065",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "WHIP"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0066",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 5,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0067",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 7,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "SLASH"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0068",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "CHOKE"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0069",
+    "name": "Shadow Demon",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 10,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 2
+    },
+    "special": {
+      "attack": "SLASH"
+    },
+    "encounter": {
+      "found": 971
+    }
+  },
+  {
+    "id": "0070",
+    "name": "Carrion Crawler",
+    "type": "worm",
+    "stats": {
+      "skill": 9,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 2,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 734
+    }
+  },
+  {
+    "id": "0071",
+    "name": "Skunk Rat 1",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0072",
+    "name": "Skunk Rat 2",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0073",
+    "name": "Skunk Rat 3",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0074",
+    "name": "Skunk Rat 4",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "1d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0075",
+    "name": "Skunk Rat 5",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0076",
+    "name": "Skunk Rat 6",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "1d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0077",
+    "name": "Skunk Rat 7",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0078",
+    "name": "Skunk Rat 8",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "POISON"
+    },
+    "encounter": {
+      "found": 737
+    }
+  },
+  {
+    "id": "0079",
+    "name": "Rosebud Guardian",
+    "type": "golem",
+    "stats": {
+      "skill": 9,
+      "stamina": 10
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 1,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 742
+    }
+  },
+  {
+    "id": "0080",
+    "name": "Gorbash",
+    "type": "dragon",
+    "stats": {
+      "skill": 9,
+      "stamina": 10
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 1,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "FIRE"
+    },
+    "encounter": {
+      "found": 446
+    }
+  },
+  {
+    "id": "0081",
+    "name": "Smrgol",
+    "type": "dragon",
+    "stats": {
+      "skill": 9,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 1,
+      "magic_res": 1,
+      "attack_type": "meele",
+      "dice": "2d",
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "FIRE"
+    },
+    "encounter": {
+      "found": 459
+    }
+  },
+  {
+    "id": "0082",
+    "name": "Ogre of Gormley Keep",
+    "type": "ogre",
+    "stats": {
+      "skill": 10,
+      "stamina": 14
+    },
+    "combat": {
+      "attack": 4,
+      "magic": 0,
+      "defence": 6,
+      "magic_res": 10,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "MACE"
+    },
+    "encounter": {
+      "found": 756
+    }
+  },
+  {
+    "id": "0083",
+    "name": "Ogre of Gormley Keep",
+    "type": "ogre",
+    "stats": {
+      "skill": 10,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 4,
+      "magic": 0,
+      "defence": 6,
+      "magic_res": 10,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "MACE"
+    },
+    "encounter": {
+      "found": 756
+    }
+  },
+  {
+    "id": "0084",
+    "name": "Hooded Servant",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 716
+    }
+  },
+  {
+    "id": "0085",
+    "name": "Hooded Servant",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 716
+    }
+  },
+  {
+    "id": "0086",
+    "name": "Hooded Servant",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 716
+    }
+  },
+  {
+    "id": "0087",
+    "name": "Hooded Servant",
+    "type": "demon",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 716
+    }
+  },
+  {
+    "id": "0088",
+    "name": "Worm of Sligoff",
+    "type": "worm",
+    "stats": {
+      "skill": 10,
+      "stamina": 14
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 3,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 776
+    }
+  },
+  {
+    "id": "0089",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 8,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0090",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 7,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0091",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 8,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0092",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0093",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 6,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0094",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 4,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0095",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0096",
+    "name": "Worm Spawn",
+    "type": "worm",
+    "stats": {
+      "skill": 4,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 2,
+      "attack_type": "meele",
+      "dice": 2,
+      "group": false,
+      "weak": "FIRE",
+      "weak_mod": 3,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "ACID"
+    },
+    "encounter": {
+      "found": 775
+    }
+  },
+  {
+    "id": "0097",
+    "name": "Sandmurk Queen",
+    "type": "rat",
+    "stats": {
+      "skill": 2,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": "1d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0098",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 2
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0099",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 2
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0100",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 1
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0101",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 2
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0102",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 1
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0103",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 2
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0104",
+    "name": "Sandmurk",
+    "type": "rat",
+    "stats": {
+      "skill": 1,
+      "stamina": 1
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "CHITTER"
+    },
+    "encounter": {
+      "found": 476
+    }
+  },
+  {
+    "id": "0105",
+    "name": "Wood Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0106",
+    "name": "Wood Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 6,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0107",
+    "name": "Giles",
+    "type": "elf",
+    "stats": {
+      "skill": 8,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": "2d",
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0108",
+    "name": "Wood Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 7,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0109",
+    "name": "Wood Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 6,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0110",
+    "name": "Wood Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 5,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 2,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "both",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0111",
+    "name": "Wood Elf",
+    "type": "phantom",
+    "stats": {
+      "skill": 5,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0112",
+    "name": "Wood Elf",
+    "type": "phantom",
+    "stats": {
+      "skill": 5,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 413
+    }
+  },
+  {
+    "id": "0113",
+    "name": "Danielle",
+    "type": "human",
+    "stats": {
+      "skill": 10,
+      "stamina": 10
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": "BOW"
+    },
+    "encounter": {
+      "found": 423
+    }
+  },
+  {
+    "id": "0114",
+    "name": "Poacher",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0115",
+    "name": "Poacher",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0116",
+    "name": "Poacher",
+    "type": "phantom",
+    "stats": {
+      "skill": 7,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0117",
+    "name": "Grey Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 7,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0118",
+    "name": "Grey Elf",
+    "type": "elf",
+    "stats": {
+      "skill": 7,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0119",
+    "name": "Grey Elf",
+    "type": "phantom",
+    "stats": {
+      "skill": 7,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0120",
+    "name": "Smuggler",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 8
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0121",
+    "name": "Smuggler",
+    "type": "human",
+    "stats": {
+      "skill": 7,
+      "stamina": 6
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0122",
+    "name": "Smuggler",
+    "type": "phantom",
+    "stats": {
+      "skill": 7,
+      "stamina": 5
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 589
+    }
+  },
+  {
+    "id": "0123",
+    "name": "Prisoner",
+    "type": "human",
+    "stats": {
+      "skill": 6,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 638
+    }
+  },
+  {
+    "id": "0124",
+    "name": "Maiden",
+    "type": "human",
+    "stats": {
+      "skill": 6,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 638
+    }
+  },
+  {
+    "id": "0125",
+    "name": "Woodsman",
+    "type": "human",
+    "stats": {
+      "skill": 9,
+      "stamina": 7
+    },
+    "combat": {
+      "attack": 2,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 2,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "None",
+      "immune_mod": null
+    },
+    "special": {
+      "attack": null
+    },
+    "encounter": {
+      "found": 638
+    }
+  },
+  {
+    "id": "0126",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0127",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0128",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0129",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0130",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 3,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0131",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0132",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0133",
+    "name": "Ember Runner",
+    "type": "bird",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0134",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0135",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0136",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0137",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0138",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0139",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0140",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0141",
+    "name": "Cinder Hare",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0142",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0143",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0144",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0145",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0146",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0147",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0148",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 2,
+      "stamina": 3
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  },
+  {
+    "id": "0149",
+    "name": "Magma Toad",
+    "type": "animal",
+    "stats": {
+      "skill": 3,
+      "stamina": 4
+    },
+    "combat": {
+      "attack": 1,
+      "magic": 0,
+      "defence": 0,
+      "magic_res": 0,
+      "attack_type": "melee",
+      "dice": 1,
+      "group": true,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 10
+    },
+    "special": {
+      "attack": "DOUBLE"
+    },
+    "encounter": {
+      "found": 577
+    }
+  }
+]
