@@ -36,7 +36,7 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.margin = "0 auto";
     wrapper.style.fontFamily = "'Book Antiqua', Palatino, serif";
     wrapper.style.lineHeight = "1.6";
-    wrapper.style.backgroundImage = "inherit";
+//    wrapper.style.backgroundImage = "inherit";
     // ------------------------------------------------
     // Helpers
     // ------------------------------------------------
@@ -147,6 +147,7 @@ export function showRulesScreen(container, onContinue) {
 
     const img = document.createElement("img");
     img.src = `mapImages/crown.jpg`;
+    img.style.backgroundImage = "url('./images/paper.jpg')";
     img.style.width = "100%";
     img.style.maxWidth = "325px";
     img.style.display = "block";

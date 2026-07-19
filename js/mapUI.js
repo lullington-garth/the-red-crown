@@ -162,7 +162,6 @@ renderNode(node, handlers) {
             const image = document.createElement("img");
 
             image.src = `./mapImages/${img.name}`;
-            image.style.backgroundImage = "url('./images/paper.jpg')";
             image.style.maxWidth = "80%";
             image.style.height = "auto";
             image.style.display = "block";
