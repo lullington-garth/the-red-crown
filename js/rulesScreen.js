@@ -20,6 +20,9 @@ export function showRulesScreen(container, onContinue) {
             gameDiv.style.border = "1px solid #444";
             gameDiv.style.padding = "10px";
             gameDiv.style.borderRadius = "30px";
+            gameDiv.style.backgroundImage = "url('./images/paper.jpg')";
+            gameDiv.style.backgroundSize = "cover";
+            gameDiv.style.backgroundPosition = "center";
     //        gameDiv.style.backgroundColor = "white";
             document.body.style.backgroundColor = "black";
 
