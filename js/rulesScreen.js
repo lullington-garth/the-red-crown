@@ -15,8 +15,8 @@ export function showRulesScreen(container, onContinue) {
             gameDiv.style.aspectRatio = "3 / 4";
             gameDiv.style.height = "auto";
             gameDiv.style.margin = "0";
-//            gameDiv.style.overflowY = "auto";
-//            gameDiv.style.overflowX = "hidden";
+            gameDiv.style.overflowY = "auto";
+            gameDiv.style.overflowX = "hidden";
             gameDiv.style.border = "1px solid #444";
             gameDiv.style.padding = "10px";
             gameDiv.style.borderRadius = "30px";
@@ -33,7 +33,7 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.margin = "0 auto";
     wrapper.style.fontFamily = "'Book Antiqua', Palatino, serif";
     wrapper.style.lineHeight = "1.6";
-
+wrapper.style.backgroundColor = "red";
     // ------------------------------------------------
     // Helpers
     // ------------------------------------------------
