@@ -143,7 +143,8 @@ export function showRulesScreen(container, onContinue) {
     wrapper.appendChild(btnSkip);
 
     const img = document.createElement("img");
-    img.src = `mapImages/crown.jpg`;
+    img.src = `images/greenWizard.jpg`;
+//    img.src = `mapImages/crown.jpg`;
     img.style.width = "100%";
     img.style.maxWidth = "325px";
     img.style.display = "block";
