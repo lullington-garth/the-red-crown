@@ -34,7 +34,6 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.maxWidth = "600px";
     wrapper.style.margin = "0 auto";
     wrapper.style.lineHeight = "1.6";
-    wrapper.style.backgroundColor = "rgba(146, 116, 116, 0.95)";
     
     // ------------------------------------------------
     // Helpers
@@ -144,6 +143,9 @@ export function showRulesScreen(container, onContinue) {
 
     wrapper.appendChild(btnSkip);
 
+const imageHolder = document.createElement("div");
+imageHolder.style.display = "inline-block";
+
     const img = document.createElement("img");
     img.src = `mapImages/crown.jpg`;
     img.style.width = "100%";
@@ -151,8 +153,10 @@ export function showRulesScreen(container, onContinue) {
     img.style.display = "block";
     img.style.margin = "0 auto 10px";
     img.style.mixBlendMode = "multiply";
-    wrapper.appendChild(img);
- 
+
+imageHolder.appendChild(img);
+wrapper.appendChild(imageHolder); 
+    
     heading("THE RED CROWN");
 
     paragraph(`Magic is dying.
