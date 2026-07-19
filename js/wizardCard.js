@@ -19,8 +19,7 @@ export function createWizardCard(playerStats, includeButton = false, onSelect = 
 
     // Image
     const img = document.createElement("img");
-//    img.src = `images/${playerStats.name.toLowerCase()}Wizard.jpg`;
-    img.src = `mapImages/crown.jpg`;
+    img.src = `images/${playerStats.name.toLowerCase()}Wizard.jpg`;
     img.alt = wizard.wizardName;
     img.style.width = "100%";
     img.style.maxWidth = "265px";
