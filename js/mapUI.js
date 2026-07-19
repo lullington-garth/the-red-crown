@@ -158,11 +158,14 @@ renderNode(node, handlers) {
             wrapper.style.display = "flex";
             wrapper.style.justifyContent = "center";
             wrapper.style.margin = "20px";
+            wrapper.style.backgroundImage = "url('./images/paper1.jpg')";
+            wrapper.style.boxShadow = "0 1px 20px rgba(0,0,0,0.5)";
+            wrapper.style.borderRadius = "10px";
 
             const image = document.createElement("img");
 
             image.src = `./mapImages/${img.name}`;
-            image.style.maxWidth = "80%";
+            image.style.maxWidth = "100%";
             image.style.height = "auto";
             image.style.display = "block";
             image.style.borderRadius = "10px";
