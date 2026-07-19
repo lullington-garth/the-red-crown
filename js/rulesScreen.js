@@ -23,7 +23,6 @@ export function showRulesScreen(container, onContinue) {
             gameDiv.style.backgroundImage = "url('./images/paper.jpg')";
             gameDiv.style.backgroundSize = "cover";
             gameDiv.style.backgroundPosition = "center";
-            gameDiv.style.backgroundAttachment = "scroll";
             document.body.style.backgroundColor = "black";
 
     }
@@ -35,7 +34,7 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.maxWidth = "600px";
     wrapper.style.margin = "0 auto";
     wrapper.style.lineHeight = "1.6";
-    
+    wrapper.style.backgroundImage = "url('./images/paper1.jpg')";
     
     // ------------------------------------------------
     // Helpers
