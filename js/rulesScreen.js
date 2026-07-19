@@ -31,10 +31,12 @@ export function showRulesScreen(container, onContinue) {
 
     const wrapper = document.createElement("div");
     wrapper.style.padding = "20px";
-    wrapper.style.maxWidth = "600px";
+    wrapper.style.maxWidth = "675px";
     wrapper.style.margin = "0 auto";
     wrapper.style.lineHeight = "1.6";
     wrapper.style.backgroundImage = "url('./images/paper1.jpg')";
+    wrapper.style.boxShadow = "0 1px 20px rgba(0,0,0,0.5)";
+    wrapper.style.borderRadius = "10px";
     
     // ------------------------------------------------
     // Helpers
