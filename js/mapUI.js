@@ -67,7 +67,7 @@ renderNode(node, handlers) {
     parsedText = parsedText.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
     textDiv.innerHTML = parsedText;
     textDiv.style.fontFamily = "'Book Antiqua', Palatino, serif";
-    textDiv.style.fontSize = "18px";
+    textDiv.style.fontSize = "20px";
     textDiv.style.textAlign = "justify";
 
     content.appendChild(textDiv);
@@ -117,7 +117,7 @@ renderNode(node, handlers) {
 
                 btn.textContent = `${labelMap[fnName] || fnName}`;
                 btn.style.padding = "10px 16px";
-                btn.style.fontSize = "16px";
+                btn.style.fontSize = "20px";
                 btn.style.cursor = "pointer";
                 btn.style.borderRadius = "6px";
                 btn.style.border = "1px solid rgba(122, 122, 122, 0.95)";
@@ -202,8 +202,6 @@ renderNode(node, handlers) {
         table.style.display = "grid";
         table.style.gridTemplateColumns = "1fr 80px 100px 100px 100px";
         table.style.gap = "6px 10px";
-        table.style.fontFamily = "'Book Antiqua', Palatino, serif";
-        table.style.fontSize = "18px";
 
         // Header
         const hName = document.createElement("div");
@@ -291,7 +289,7 @@ renderNode(node, handlers) {
         const btn = document.createElement("button");
         btn.textContent = `🎲 Test your ${properStatLabel}`;
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -321,7 +319,7 @@ renderNode(node, handlers) {
         const btn = document.createElement("button");
         btn.textContent = "Start Combat";
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -350,7 +348,7 @@ renderNode(node, handlers) {
         const btn = document.createElement("button");
         btn.textContent = "Choose Item";
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -380,7 +378,7 @@ renderNode(node, handlers) {
         const btn = document.createElement("button");
         btn.textContent = "Search Items";
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -412,7 +410,7 @@ if (handlers.swapItem?.length && !handlers.swapItemDone) {
     btn.textContent = "Trade Item";
 
     btn.style.padding = "10px 16px";
-    btn.style.fontSize = "16px";
+    btn.style.fontSize = "20px";
     btn.style.cursor = "pointer";
     btn.style.borderRadius = "6px";
     btn.style.backgroundColor = "#424141";
@@ -456,7 +454,7 @@ if (handlers.swapItem?.length && !handlers.swapItemDone) {
             || "Press to Start";
 
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -497,7 +495,7 @@ if (handlers.swapItem?.length && !handlers.swapItemDone) {
         btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
         btn.style.transition = "0.2s ease";
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
 
@@ -524,7 +522,7 @@ if (handlers.swapItem?.length && !handlers.swapItemDone) {
         const btn = document.createElement("button");
         btn.textContent = "Start New Game";
         btn.style.padding = "10px 16px";
-        btn.style.fontSize = "16px";
+        btn.style.fontSize = "20px";
         btn.style.cursor = "pointer";
         btn.style.borderRadius = "6px";
         btn.style.backgroundColor = "#424141";
@@ -574,9 +572,6 @@ const blockChoices =
     choicesDiv.style.flexDirection = "column";
     choicesDiv.style.gap = "8px";
     choicesDiv.style.margin = "10px 30px 30px 30px";
-
-    choicesDiv.style.fontFamily = "'Book Antiqua', Palatino, serif";
-    choicesDiv.style.fontSize = "18px";
 
     node.choices.forEach(choice => {
         if (choice.hidden) return;
@@ -643,7 +638,6 @@ const blockChoices =
         if (this.playerStats?.debugMode) {
             const toLabel = document.createElement("span");
             toLabel.textContent = `→ ${choice.to}`;
-            toLabel.style.fontSize = "18px";
             toLabel.style.color = "#615e5e";
 
             line.appendChild(toLabel);
@@ -668,8 +662,6 @@ const blockChoices =
         const promptDiv = document.createElement("div");
         promptDiv.textContent = node.prompt;
 //        promptDiv.style.margin = "10px 30px 0px 30px";
-        promptDiv.style.fontFamily = "'Book Antiqua', Palatino, serif";
-        promptDiv.style.fontSize = "18px";
         promptDiv.style.opacity = "0.9";
         promptDiv.style.marginBottom = "25px";
         promptDiv.style.marginLeft = "30px";
@@ -728,8 +720,6 @@ renderDeathNode({ text, deathMessage, onRestart }) {
     const textDiv = document.createElement("div");
     textDiv.style.whiteSpace = "pre-line";
     textDiv.style.margin = "30px";
-    textDiv.style.fontFamily = "'Book Antiqua', Palatino, serif";
-    textDiv.style.fontSize = "18px";
     textDiv.style.textAlign = "justify";
 
     textDiv.textContent = this.formatText(text);
@@ -743,8 +733,6 @@ renderDeathNode({ text, deathMessage, onRestart }) {
     deathDiv.textContent = this.formatText(deathMessage);
     deathDiv.style.whiteSpace = "pre-line"; 
     deathDiv.style.margin = "30px";
-    deathDiv.style.fontFamily = "'Book Antiqua', Palatino, serif";
-    deathDiv.style.fontSize = "18px";
     deathDiv.style.textAlign = "justify";
 
     content.appendChild(deathDiv);
@@ -760,7 +748,7 @@ renderDeathNode({ text, deathMessage, onRestart }) {
     const btn = document.createElement("button");
     btn.textContent = "Your Quest is Over";
     btn.style.padding = "10px 16px";
-    btn.style.fontSize = "16px";
+    btn.style.fontSize = "20px";
     btn.style.cursor = "pointer";
     btn.style.borderRadius = "6px";
     btn.style.border = "1px solid rgba(122, 122, 122, 0.95)";

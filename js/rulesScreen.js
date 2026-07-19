@@ -136,6 +136,7 @@ export function showRulesScreen(container, onContinue) {
     btnSkip.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
     btnSkip.style.borderRadius = "6px";
     btnSkip.style.cursor = "pointer";
+    btnSkip.style.fontSize = "20px";
 
     btnSkip.onclick = onContinue;
 
@@ -381,6 +382,7 @@ Enjoy.
     btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
     btn.style.borderRadius = "6px";
     btn.style.cursor = "pointer";
+    btn.style.fontSize = "20px";
 
     btn.onclick = onContinue;
 
