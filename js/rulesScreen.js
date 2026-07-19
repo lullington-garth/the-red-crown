@@ -33,10 +33,9 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.padding = "20px";
     wrapper.style.maxWidth = "600px";
     wrapper.style.margin = "0 auto";
-    wrapper.style.fontFamily = "'Book Antiqua', Palatino, serif";
     wrapper.style.lineHeight = "1.6";
-    wrapper.style.backgroundColor = "#f8f3f306";
-//    wrapper.style.backgroundImage = "inherit";
+    wrapper.style.backgroundColor = "rgba(255,255,255,0.001)";
+    wrapper.style.border = "1px solid transparent";
     // ------------------------------------------------
     // Helpers
     // ------------------------------------------------
