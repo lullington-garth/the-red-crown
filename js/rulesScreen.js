@@ -143,21 +143,14 @@ export function showRulesScreen(container, onContinue) {
 
     wrapper.appendChild(btnSkip);
 
-const imageContainer = document.createElement("div");
-
-imageContainer.innerHTML = `
-    <img
-        src="mapImages/crown.jpg"
-        style="
-            width:100%;
-            max-width:325px;
-            display:block;
-            margin:0 auto 10px;
-            mix-blend-mode:multiply;
-        ">
-`;
-
-wrapper.appendChild(imageContainer);
+    const img = document.createElement("img");
+    img.src = `mapImages/crown.jpg`;
+    img.style.width = "100%";
+    img.style.maxWidth = "325px";
+    img.style.display = "block";
+    img.style.margin = "0 auto 10px";
+    img.style.mixBlendMode = "multiply";
+    wrapper.appendChild(img);
  
     heading("THE RED CROWN");
 
