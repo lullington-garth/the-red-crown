@@ -34,7 +34,7 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.maxWidth = "600px";
     wrapper.style.margin = "0 auto";
     wrapper.style.lineHeight = "1.6";
-    wrapper.style.backgroundColor = "rgba(146, 116, 116, 0.08)";
+    wrapper.style.backgroundColor = "rgb(146, 116, 116)";
     wrapper.style.border = "1px solid transparent";
     // ------------------------------------------------
     // Helpers
