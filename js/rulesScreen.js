@@ -149,6 +149,7 @@ export function showRulesScreen(container, onContinue) {
     img.style.display = "block";
     img.style.margin = "0 auto 10px";
     img.style.mixBlendMode = "multiply";
+    img.style.isolation = "isolate";
     wrapper.appendChild(img);
  
     heading("THE RED CROWN");

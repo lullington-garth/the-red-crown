@@ -37,8 +37,10 @@ export function createGameplayButtons({
     statBtn.style.borderRadius = "6px";
     statBtn.style.width = "100px";
     statBtn.style.height = "30px";
+    statBtn.style.fontSize = "20px";
     statBtn.addEventListener("click", openStats);
     buttonRow.appendChild(statBtn);
+    
 
     // -----------------------------
     // Inventory
@@ -53,6 +55,7 @@ export function createGameplayButtons({
     invBtn.style.borderRadius = "6px"
     invBtn.style.width = "100px"
     invBtn.style.height = "30px"
+    invBtn.style.fontSize = "20px";
     invBtn.addEventListener("click", openInventory);
     buttonRow.appendChild(invBtn);
 
