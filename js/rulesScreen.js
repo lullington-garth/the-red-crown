@@ -36,7 +36,7 @@ export function showRulesScreen(container, onContinue) {
     wrapper.style.margin = "0 auto";
     wrapper.style.fontFamily = "'Book Antiqua', Palatino, serif";
     wrapper.style.lineHeight = "1.6";
-wrapper.style.backgroundColor = "transparent";
+    wrapper.style.backgroundImage = "inherit";
     // ------------------------------------------------
     // Helpers
     // ------------------------------------------------
