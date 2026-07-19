@@ -8,7 +8,7 @@ function applyPortraitMode() {
     const gameDiv = document.getElementById('game');
     if (!gameDiv) return;
 
-        gameDiv.style.width = "95vw";
+        gameDiv.style.width = "100vw";
         gameDiv.style.maxWidth = "820px";
 
         gameDiv.style.aspectRatio = "3 / 4";
