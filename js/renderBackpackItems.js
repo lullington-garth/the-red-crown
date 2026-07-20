@@ -39,6 +39,7 @@ export function renderBackpackItems({
     scrollContainer.classList.add("hide-scrollbar");
     scrollContainer.style.padding = "6px";
     scrollContainer.style.paddingRight = "10px";
+    scrollContainer.style.backgroundImage = "url('images/paper1.jpg')";
 
     const inv = playerStats.inventory;
 

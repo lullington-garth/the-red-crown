@@ -23,6 +23,7 @@ export function showSpellBook(container, book, wizardColor) {
     header.style.gap = "10px";
     header.style.marginBottom = "13px";
     header.style.fontSize = "20px";
+    header.style.backgroundImage = "url('images/paper1.jpg')";
 
     header.innerHTML = `
         <img src="images/${book.item.image}" 

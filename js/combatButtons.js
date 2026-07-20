@@ -149,7 +149,7 @@ export function createEnemyButtonBar({
 
     Object.assign(bar.style, {
         display: "grid",
-        gridTemplateColumns: "repeat(4, 55px)",
+        gridTemplateColumns: "repeat(4, 50px)",
         rowGap: "12px",
         columnGap: "4px",
         marginBottom: "4px",
