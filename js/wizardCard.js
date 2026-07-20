@@ -7,7 +7,7 @@ export function createWizardCard(playerStats, includeButton = false, onSelect = 
 
     const card = document.createElement("div");
     card.style.textAlign = "center";
-    card.style.height = "auto";
+    card.style.minHeight = "400px";
     card.style.position = "relative";
 
     if (showBorder) {

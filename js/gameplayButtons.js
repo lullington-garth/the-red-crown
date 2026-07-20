@@ -35,7 +35,7 @@ export function createGameplayButtons({
     statBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
     statBtn.style.transition = "0.2s ease"; 
     statBtn.style.borderRadius = "6px";
-    statBtn.style.width = "100px";
+    statBtn.style.width = "130px";
     statBtn.style.height = "30px";
     statBtn.style.fontSize = "20px";
     statBtn.addEventListener("click", openStats);
@@ -53,7 +53,7 @@ export function createGameplayButtons({
     invBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
     invBtn.style.transition = "0.2s ease"; 
     invBtn.style.borderRadius = "6px"
-    invBtn.style.width = "100px"
+    invBtn.style.width = "130px"
     invBtn.style.height = "30px"
     invBtn.style.fontSize = "20px";
     invBtn.addEventListener("click", openInventory);
