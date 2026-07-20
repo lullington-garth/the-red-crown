@@ -268,10 +268,10 @@ if (isPurse) {
     purseBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";    
 
     const img = document.createElement("img");
-    img.src = "images/btngold.svg";
+    img.src = "images/btnGold.svg";
     img.alt = "purse";
-    img.style.width = "18px";
-    img.style.height = "18px";
+    img.style.width = "16px";
+    img.style.height = "16px";
 
     purseBtn.appendChild(img);
 
