@@ -158,9 +158,9 @@ renderNode(node, handlers) {
             wrapper.style.display = "flex";
             wrapper.style.justifyContent = "center";
             wrapper.style.margin = "20px";
-            wrapper.style.backgroundImage = "url('./images/paper1.jpg')";
+//            wrapper.style.backgroundImage = "url('./images/paper1.jpg')";
 //            wrapper.style.boxShadow = "0 1px 20px rgba(0,0,0,0.5)";
-wrapper.style.border = "1px solid #555";
+//wrapper.style.border = "1px solid #555";
             wrapper.style.borderRadius = "10px";
             wrapper.style.paddingTop = "20px";
             wrapper.style.paddingBottom = "20px";
@@ -168,7 +168,7 @@ wrapper.style.border = "1px solid #555";
             const image = document.createElement("img");
 
             image.src = `./mapImages/${img.name}`;
-            image.style.maxWidth = "95%";
+//            image.style.maxWidth = "95%";
             image.style.height = "auto";
             image.style.display = "block";
             image.style.borderRadius = "10px";
