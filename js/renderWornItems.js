@@ -253,7 +253,7 @@ if (isPurse) {
     const buttonRow = document.createElement("div");
     buttonRow.style.display = "flex";
     buttonRow.style.gap = "4px";
-//    buttonRow.style.marginTop = "auto";
+    buttonRow.style.marginTop = "auto";
     buttonRow.style.width = "100%";
     buttonRow.style.minWidth = "0";
 
