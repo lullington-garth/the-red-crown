@@ -129,6 +129,7 @@ export function showCompareSpells(equippedBookItem, wizardColor, playerStats) {
                     compareHeader.style.marginBottom = "13px";
                     compareHeader.style.marginTop = "15px";
                     compareHeader.style.fontSize = "20px";
+                    compareHeader.style.backgroundImage = "url('./images/paper1.jpg')";
                     compareHeader.innerHTML = `
                         <img src="images/${bookItem.image}" 
                             alt="${bookItem.item}" 
@@ -196,8 +197,9 @@ export function showCompareSpells(equippedBookItem, wizardColor, playerStats) {
                 compareAnotherBtn.style.border = "1px solid #555";
                 compareAnotherBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
                 compareAnotherBtn.style.borderRadius = "6px";
-                compareAnotherBtn.style.height = "30px"
-                compareAnotherBtn.style.width = "100%"
+                compareAnotherBtn.style.height = "30px";
+                compareAnotherBtn.style.width = "100%";
+                compareAnotherBtn.style.fontSize = "20px";
 
                 compareAnotherBtn.addEventListener("click", () => {
                     rightCol.innerHTML = "";
