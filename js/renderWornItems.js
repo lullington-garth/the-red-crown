@@ -309,7 +309,7 @@ else if (item) {
         ? "images/btnUse.svg"
         : "images/btnView.svg";
 
-    viewImg.style.width = "15px";
+    viewImg.style.width = "auto";
     viewImg.style.height = "15px";
 
     viewBtn.appendChild(viewImg);
@@ -358,7 +358,7 @@ else if (item) {
 
         const upequipImg = document.createElement("img");
         upequipImg.src = "images/btnUnequip.svg";
-        upequipImg.style.width = "21px";
+        upequipImg.style.width = "auto";
         upequipImg.style.height = "21px";
 
         unequipBtn.appendChild(upequipImg);
