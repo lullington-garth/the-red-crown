@@ -587,6 +587,7 @@ const blockChoices =
         line.style.alignItems = "center";
         line.style.userSelect = "none";
         line.style.gap = "6px";
+        line.style.marginBottom = "12px";
 
         if (choice.disabled) {
             line.style.opacity = "0.4";

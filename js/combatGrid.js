@@ -12,8 +12,8 @@ export function createCombatGrid(container) {
     grid.style.gap = "10px";
     grid.style.marginTop = "5px";
     grid.style.background = "transparent";
-    grid.style.marginLeft = "20px";
-    grid.style.marginRight = "20px"; 
+    grid.style.marginLeft = "18px";
+    grid.style.marginRight = "18px"; 
     container.appendChild(grid);
 
     const cells = {};
