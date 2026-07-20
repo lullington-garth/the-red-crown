@@ -1,8 +1,8 @@
 // combatButtons.js
 import { hasEquippedSpellBook } from "./spellsUI.js";
 
-const BUTTON_HEIGHT = 28;
-const BUTTON_WIDTH = 40;
+const BUTTON_HEIGHT = 35;
+const BUTTON_WIDTH = 48;
 
 const TYPE_COLORS = {
     attack: "#d7d4d4",
@@ -149,8 +149,8 @@ export function createEnemyButtonBar({
 
     Object.assign(bar.style, {
         display: "grid",
-        gridTemplateColumns: "repeat(4, 43px)",
-        rowGap: "6px",
+        gridTemplateColumns: "repeat(4, 55px)",
+        rowGap: "12px",
         columnGap: "4px",
         marginBottom: "4px",
         alignSelf: "flex-start"

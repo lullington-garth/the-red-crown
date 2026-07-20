@@ -23,7 +23,7 @@ export function showBlacksmithDiceGameModal({
 
             <div style="
                 margin-top:6px;
-                font-size:18px;
+                font-size:22px;
                 font-weight:bold;
                 margin-bottom:15px;
             ">
@@ -94,7 +94,7 @@ export function showBlacksmithDiceGameModal({
         <div id="resultText" style="
             text-align:center;
             margin:15px 0;
-            font-size:18px;
+            font-size:20px;
             font-weight:bold;
         ">
             Roll to begin.
@@ -113,7 +113,8 @@ export function showBlacksmithDiceGameModal({
                 padding:10px 16px;
                 border-radius:8px;
                 cursor:pointer;
-                width:100px;
+                width:140px;
+                font-size:20px;
             ">
                 Roll Dice
             </button>
@@ -126,7 +127,8 @@ export function showBlacksmithDiceGameModal({
                 padding:10px 16px;
                 border-radius:8px;
                 cursor:pointer;
-                width:100px;
+                width:140px;
+                font-size:20px;
             ">
                 End Game
             </button>

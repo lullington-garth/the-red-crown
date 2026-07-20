@@ -8,10 +8,12 @@ export function createCombatGrid(container) {
     const grid = document.createElement("div");
     grid.style.display = "grid";
     grid.style.gridTemplateColumns = "repeat(3,1fr)";
-    grid.style.gridTemplateRows = "50px 225px 225px 225px 95px";
+    grid.style.gridTemplateRows = "50px 280px 280px 280px 95px";
     grid.style.gap = "10px";
     grid.style.marginTop = "5px";
     grid.style.background = "transparent";
+    grid.style.marginLeft = "20px";
+    grid.style.marginRight = "20px"; 
     container.appendChild(grid);
 
     const cells = {};

@@ -227,7 +227,25 @@ The item is undoubtedly magical.
 GAIN ITEM
 Emberhide Mantle
 `;
-            }            
+            }    
+            
+        case "shepherdHutImage":
+
+            if (wizard === "green") {
+                return "shepherdsHut.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "smokeHouse.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "lambingShed.jpg";
+            }
+
+            if (wizard === "red") {
+                return "burningBuilding.jpg";
+            }
 
         default:
             return null;

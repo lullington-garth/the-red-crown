@@ -67,6 +67,7 @@ export function openPickupSomeModal(playerStats, items, {
                 row.style.border = "1px solid #424141";
                 row.style.borderRadius = "6px";
                 row.style.marginBottom = "6px";
+                row.style.backgroundImage = "url('./images/paper1.jpg')";
 
                 // LEFT
                 const itemDisplay = showItemDescription(item, playerStats, {
@@ -108,12 +109,15 @@ export function openPickupSomeModal(playerStats, items, {
                     if (isSelected) {
                         selected.delete(item);
                         row.dataset.selected = "false";
+                        row.style.backgroundImage = "url('./images/paper1.jpg')";
                         row.style.backgroundColor = "";
-                        row.style.border = "1px solid transparent";
+                        row.style.border = "1px solid #424141";
+                        row.style.boxShadow = null;
                     }
                     else {
                         selected.add(item);
                         row.dataset.selected = "true";
+                        row.style.backgroundImage = "url('./images/paper2.jpg')";
                         row.style.backgroundColor = "#ffffff3f";
                         row.style.border = "1px solid #8f8c8c";
                         row.style.boxShadow = "0 7px 7px rgba(0,0,0,0.5)";
@@ -151,6 +155,7 @@ export function openPickupSomeModal(playerStats, items, {
                 padding:10px;
                 border-radius:8px;
                 cursor:pointer;
+                font-size:20px;
             ">
                 ${count === items.length ? "Deselect All" : "Select All"}
             </button>
@@ -163,6 +168,7 @@ export function openPickupSomeModal(playerStats, items, {
                 box-shadow:0 1px 7px rgba(0,0,0,0.5);
                 padding:10px;
                 border-radius:8px;
+                font-size:20px;
                 cursor:${isValid ? 'pointer' : 'not-allowed'};
                 opacity:${isValid ? '1' : '0.5'};
             ">

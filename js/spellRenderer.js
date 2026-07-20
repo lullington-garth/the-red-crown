@@ -72,7 +72,7 @@ export function createSpellCard(spell, wizardColor, options = {}) {
     card.style.borderRadius = "20px";
     card.style.padding = "8px";
     card.style.marginBottom = "6px";
-//    card.style.backgroundColor = "#ffffff";
+    card.style.backgroundImage = "url('./images/paper1.jpg')"
     card.style.height = "305px";
     card.style.position = "relative";
 
@@ -229,7 +229,7 @@ export function createCombatSpellCard(spell, wizardColor) {
 //    card.style.backgroundColor = "#f9fafc";
     card.style.border = "1px solid #444";
     card.style.cursor = "pointer";
-    card.style.width = "180px";
+    card.style.width = "100%";
     card.style.position = "relative";
 
     const colorKey = wizardColor.toLowerCase();

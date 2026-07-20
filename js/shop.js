@@ -102,6 +102,7 @@ export function openShop(playerStats, shopItems) {
         btn.style.color = "#d7d4d4";
         btn.style.border = "1px solid #555";
         btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
+        btn.style.fontSize = "20px";
     });
 
     // ----------------------------------------
@@ -183,7 +184,7 @@ function renderSellTab() {
         btn.style.color = "#d7d4d4";
         btn.style.border = "1px solid #555";
         btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
-        btn.style.fontSize = "18px"
+        btn.style.fontSize = "20px"
 
         btn.style.width = "70px";
         btn.style.minWidth = "70px";
