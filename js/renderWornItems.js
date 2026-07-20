@@ -252,9 +252,10 @@ if (iconSrc) {
 if (isPurse) {
     const buttonRow = document.createElement("div");
     buttonRow.style.display = "flex";
-    buttonRow.style.gap = "6px";
-    buttonRow.style.marginTop = "auto";
+    buttonRow.style.gap = "4px";
+//    buttonRow.style.marginTop = "auto";
     buttonRow.style.width = "100%";
+    buttonRow.style.minWidth = "0";
 
     const purseBtn = document.createElement("button");
     purseBtn.style.borderRadius = "4px";
@@ -284,7 +285,7 @@ if (isPurse) {
 else if (item) {
     const buttonRow = document.createElement("div");
     buttonRow.style.display = "flex";
-    buttonRow.style.gap = "6px";
+    buttonRow.style.gap = "2px";
     buttonRow.style.marginTop = "auto";
     buttonRow.style.width = "100%";
 
@@ -295,6 +296,8 @@ else if (item) {
     viewBtn.style.paddingTop = "5px"
     viewBtn.style.flex = "1";
     viewBtn.style.height = "30px";
+    viewBtn.style.minWidth = "0";
+    viewBtn.style.padding = "0";
 
     const isUsable = item["stat-mod-type"] === "use";
 
@@ -309,7 +312,7 @@ else if (item) {
         ? "images/btnUse.svg"
         : "images/btnView.svg";
 
-    viewImg.style.width = "auto";
+    viewImg.style.width = "15px";
     viewImg.style.height = "15px";
 
     viewBtn.appendChild(viewImg);
@@ -358,8 +361,10 @@ else if (item) {
 
         const upequipImg = document.createElement("img");
         upequipImg.src = "images/btnUnequip.svg";
-        upequipImg.style.width = "auto";
+        upequipImg.style.width = "21px";
         upequipImg.style.height = "21px";
+        unequipBtn.style.minWidth = "0";
+        unequipBtn.style.padding = "0";
 
         unequipBtn.appendChild(upequipImg);
 
