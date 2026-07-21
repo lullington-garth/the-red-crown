@@ -41,18 +41,17 @@ contentDiv.innerHTML = "<em>Select something to view.</em>";
 
 // Close button
 const closeBtn = document.createElement("button");
-closeBtn.style.display = "none";
+//closeBtn.style.display = "none";
 closeBtn.textContent = "✖";
-//closeBtn.style.position = "absolute";
-//closeBtn.style.top = "8px";
-//closeBtn.style.right = "8px";
+closeBtn.style.position = "absolute";
+closeBtn.style.top = "8px";
+closeBtn.style.right = "8px";
 closeBtn.style.paddingBottom = "4px";
 closeBtn.style.cursor = "pointer";
 closeBtn.style.backgroundColor = "#424141";
 closeBtn.style.color = "#d7d4d4";
 closeBtn.style.border = "1px solid #555";
 closeBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
-closeBtn.style.border = "0px"
 closeBtn.style.borderRadius = "50%";
 closeBtn.style.width = "30px";
 closeBtn.style.height = "30px";

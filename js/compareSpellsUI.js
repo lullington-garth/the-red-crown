@@ -197,7 +197,7 @@ export function showCompareSpells(equippedBookItem, wizardColor, playerStats) {
                 compareAnotherBtn.style.border = "1px solid #555";
                 compareAnotherBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
                 compareAnotherBtn.style.borderRadius = "6px";
-                compareAnotherBtn.style.height = "30px";
+                compareAnotherBtn.style.height = "35px";
                 compareAnotherBtn.style.width = "100%";
                 compareAnotherBtn.style.fontSize = "20px";
 

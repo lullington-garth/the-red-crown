@@ -56,7 +56,7 @@ options.forEach(opt => {
     btn.style.color = "#d7d4d4";
     btn.style.border = "1px solid #555";
     btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
-    btn.style.fontSize = "14px";
+    btn.style.fontSize = "20px";
     btn.style.padding = "10px 16px";
     btn.style.borderRadius = "8px";
     btn.style.cursor = "pointer";
@@ -167,7 +167,7 @@ export function showPostRollModal({
         btn.style.color = "#d7d4d4";
         btn.style.border = "1px solid #555";
         btn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
-        btn.style.fontSize = "14px";
+        btn.style.fontSize = "20px";
         btn.style.padding = "10px 16px";
         btn.style.borderRadius = "8px";
         btn.style.cursor = "pointer";
@@ -246,6 +246,7 @@ export function rollModal({
                 border:none;
                 border-radius:8px;
                 cursor:pointer;
+                font-size:20px;
             ">
                 Roll
             </button>
@@ -350,6 +351,8 @@ export function rollModal({
                 rollBtn.style.opacity = "0.5";
                 rollBtn.style.cursor = "not-allowed";
                 rollBtn.title = "You must discard a die first";
+                rollBtn.style.fontSize = "20px";
+                
             } else {
                 rollBtn.textContent = "OK";
             }
