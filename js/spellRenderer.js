@@ -73,7 +73,7 @@ export function createSpellCard(spell, wizardColor, options = {}) {
     card.style.padding = "8px";
     card.style.marginBottom = "6px";
     card.style.backgroundImage = "url('./images/paper1.jpg')";
-    card.style.height = "355px";
+    card.style.height = "380px";
     card.style.position = "relative";
 
     // ----- Border color based on element -----

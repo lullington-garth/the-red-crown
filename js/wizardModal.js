@@ -34,7 +34,7 @@ export function showWizardModal(playerStats) {
 
     const starterItem = document.createElement("p");
     starterItem.innerHTML = `${playerStats.wizardName} starts the game with <strong>${wizard.starterItem}</strong>. ${wizard.starterItemDescription}`;
-    starterItem.style.fontSize = "16px";
+    starterItem.style.fontSize = "20px";
     starterItem.style.marginBottom = "10px";
     starterItem.style.textAlign = "left";
     starterItem.style.lineHeight = "1.6";
@@ -54,7 +54,7 @@ export function showWizardModal(playerStats) {
 
     bonus.innerHTML = bonusText;
 
-    bonus.style.fontSize = "16px";
+    bonus.style.fontSize = "20px";
     bonus.style.marginBottom = "10px";
     bonus.style.textAlign = "left";
     bonus.style.lineHeight = "1.6";
@@ -71,7 +71,6 @@ export function showWizardModal(playerStats) {
     returnBtn.textContent = "Return to Selection";
     returnBtn.style.display = "block";
     returnBtn.style.margin = "25px auto 0";
-    returnBtn.style.width = "180px";
     returnBtn.style.height = "35px";
     returnBtn.style.backgroundColor = "#424141";
     returnBtn.style.color = "#d7d4d4";
@@ -79,6 +78,8 @@ export function showWizardModal(playerStats) {
     returnBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
     returnBtn.style.borderRadius = "6px";
     returnBtn.style.cursor = "pointer";
+    returnBtn.style.fontSize = "20px";
+    returnBtn.style.marginBottom = "30px";
 
     returnBtn.addEventListener("click", () => {
         closeModal();

@@ -60,9 +60,10 @@ export function createWizardCard(playerStats, includeButton = false, onSelect = 
     card.appendChild(theme);
     card.appendChild(colour);
     card.appendChild(bonus);
-    card.appendChild(starterItem);
 
     if (includeButton && onSelect) {
+
+    card.appendChild(starterItem);
 
         const btn = document.createElement("button");
 
@@ -81,7 +82,7 @@ export function createWizardCard(playerStats, includeButton = false, onSelect = 
         btn.addEventListener("click", onSelect);
 
         card.appendChild(btn);
-    }
+
         const cyclone = document.createElement("img");
         cyclone.src = "images/cyclone.jpg";
         cyclone.alt = "Cyclone";
@@ -103,6 +104,6 @@ export function createWizardCard(playerStats, includeButton = false, onSelect = 
         });
 
         card.appendChild(cyclone);
-
+    }
     return card;
 }
