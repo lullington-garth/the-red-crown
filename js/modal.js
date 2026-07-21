@@ -42,7 +42,7 @@ contentDiv.innerHTML = "<em>Select something to view.</em>";
 // Close button
 const closeBtn = document.createElement("button");
 //closeBtn.style.display = "none";
-closeBtn.textContent = "✖";
+closeBtn.textContent = "X";
 closeBtn.style.position = "absolute";
 closeBtn.style.top = "8px";
 closeBtn.style.right = "8px";

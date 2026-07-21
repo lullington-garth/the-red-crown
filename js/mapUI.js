@@ -681,6 +681,18 @@ const blockChoices =
 
     bottomImages.forEach(w => content.appendChild(w));
     this.gameDiv.appendChild(content);
+
+    // ----------------------------
+    // Blank Divider
+    // ----------------------------
+    const blankDiv = document.createElement("div");
+    blankDiv.textContent = "";
+    blankDiv.style.whiteSpace = "pre-line"; 
+    blankDiv.style.marginBottom = "100px";
+
+    content.appendChild(blankDiv); 
+
+
 }
 
 formatText(str, extraContext = {}) {
