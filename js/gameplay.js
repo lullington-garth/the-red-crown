@@ -193,6 +193,7 @@ function openStats() {
     topBar.style.display = "flex";
     topBar.style.alignItems = "center";
     topBar.style.marginBottom = "12px";
+    topBar.style.marginTop = "30px";
     topBar.style.position = "relative";
 
 
@@ -216,7 +217,7 @@ function openStats() {
 
 
     // Title
-    const title = document.createElement("h2");
+    const title = document.createElement("h1");
 
     title.textContent = "Stat Sheet";
     title.style.margin = "0";

@@ -10,8 +10,8 @@ export function createDiceImage(colour, value) {
 
     img.src = `dice/${colour}/${value}.png`;
 
-    img.width = 42;
-    img.height = 42;
+    img.width = 50;
+    img.height = 50;
 
     img.style.marginRight = "6px";
     img.style.transition = "transform 0.08s linear";

@@ -14,7 +14,7 @@ export function createGameplayButtons({
     buttonRow.style.top = "0";
     buttonRow.style.zIndex = "1000";
 //    buttonRow.style.background = "#ffffff";
-    buttonRow.style.padding = "20px";
+    buttonRow.style.padding = "40px";
     buttonRow.style.marginTop = "0";
     buttonRow.style.margin = "0";
     buttonRow.style.backgroundImage = "url('images/paper.jpg')";
@@ -36,7 +36,7 @@ export function createGameplayButtons({
     statBtn.style.transition = "0.2s ease"; 
     statBtn.style.borderRadius = "6px";
     statBtn.style.width = "130px";
-    statBtn.style.height = "30px";
+    statBtn.style.height = "35px";
     statBtn.style.fontSize = "20px";
     statBtn.addEventListener("click", openStats);
     buttonRow.appendChild(statBtn);
@@ -54,7 +54,7 @@ export function createGameplayButtons({
     invBtn.style.transition = "0.2s ease"; 
     invBtn.style.borderRadius = "6px"
     invBtn.style.width = "130px"
-    invBtn.style.height = "30px"
+    invBtn.style.height = "35px"
     invBtn.style.fontSize = "20px";
     invBtn.addEventListener("click", openInventory);
     buttonRow.appendChild(invBtn);

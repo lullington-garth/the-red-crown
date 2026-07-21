@@ -8,9 +8,10 @@ export function showWizardSelection(container, wizards, onWizardSelected) {
     const heading = document.createElement('div');
     heading.textContent = "Choose your Wizard";
     heading.style.textAlign = "center";
-    heading.style.marginTop = "5px";
+    heading.style.marginTop = "30px";
     heading.style.marginBottom = "5px";
-    heading.style.fontSize = "22px";
+    heading.style.fontSize = "30px";
+    heading.style.fontWeight = "bold";
 
     container.appendChild(heading);
 
@@ -62,7 +63,7 @@ export function showWizardSelection(container, wizards, onWizardSelected) {
             name,
             ...wizard,
             selectedWizard: wizard,
-            debugMode: true // CHANGE TO FALSE FOR GAME
+            debugMode: false // CHANGE TO FALSE FOR GAME
 
         });
 

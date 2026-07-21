@@ -11,7 +11,7 @@ export function showBookSelection(container, playerStats, items, onComplete) {
 
     const header = document.createElement('h2');
     header.textContent = "Select Spell Book";
-    header.style.marginTop = "0px";
+    header.style.marginTop = "20px";
     header.style.marginBottom = "5px";
     header.style.textAlign = "center";
     wrapper.appendChild(header);

@@ -18,7 +18,7 @@ export function showPreGameStats(container, playerStats, onComplete) {
     header.textContent = `Roll Your Starting Stats`;
     header.style.textAlign = "center";
     header.style.marginBottom = "5px";
-    header.style.marginTop = "5px";
+    header.style.marginTop = "20px";
     wrapper.appendChild(header);
   
 // ---------- Character Grid ----------

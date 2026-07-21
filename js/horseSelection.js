@@ -14,7 +14,7 @@ export function showHorseSelection(container, playerStats, horses, onSelected) {
     header.textContent = "Select Your Horse";
     header.style.textAlign = "center";
     header.style.fontFamily = '"Book Antiqua", Palatino, serif';
-    header.style.marginTop = "0px";
+    header.style.marginTop = "20px";
     wrapper.appendChild(header);
 
     const introText = document.createElement("p");
