@@ -159,7 +159,7 @@ export function showRulesScreen(container, onContinue) {
 
     paragraph(`Magic is dying.
 
-As humanity embraces science and reason, the ancient realms of enchantment are fading into legend. Only one desperate hope remains. Four immortal brothers once ruled the Pillars of Magic together, but one has turned way from magical unity, believing that mankind's thirst from progress can be turned in his favour making him master of both worlds.
+As humanity embraces science and reason, the ancient realms of enchantment are fading into legend. Only one desperate hope remains. Four immortal brothers once ruled the Pillars of Magic together, but one has turned away from magical unity, believing that mankind's thirst from progress can be turned in his favour making him master of both worlds.
 
 To preserve magic forever, the remaining brothers must unite their kingdoms and form a hidden Realm of Magic—but this they can not do without first seizing their brother's power.
 
@@ -387,6 +387,7 @@ Enjoy.
     btn.style.borderRadius = "6px";
     btn.style.cursor = "pointer";
     btn.style.fontSize = "20px";
+    btn.style.marginBlock = "20px";
 
     btn.onclick = onContinue;
 

@@ -55,8 +55,8 @@ closeBtn.style.color = "#d7d4d4";
 closeBtn.style.border = "1px solid #555";
 closeBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
 closeBtn.style.borderRadius = "50%";
-closeBtn.style.width = "30px";
-closeBtn.style.height = "30px";
+//closeBtn.style.width = "30px";
+//closeBtn.style.height = "30px";
 
 closeBtn.addEventListener("click", closeModal);
 

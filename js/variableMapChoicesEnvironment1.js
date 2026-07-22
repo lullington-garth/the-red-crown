@@ -43,7 +43,7 @@ The wind slowly disperses into the vast skies above, leaving only the distant so
 
 Islands of black stone drift upon the waters, their surfaces scattered with strange crystalline formations that glow softly with their own inner light. Far beneath the glass-like surface, vast shadows move through the depths, impossibly large, vanishing into the darkness with a swish of their tails. The air carries the scent of salt and  storm, along with the eerie songs of the creatures that dwell within this realm.
 
-Beneath the beauty though you sense fragility and you can feel the immense strain Solarius is enduring to maintain the balance between the heavens above and the depths below with the barrier between the realms thinning. His power is fading, and your need to claim Ommadon's crown has never felt more urgent.
+Beneath the beauty though you sense fragility and you can feel the immense strain Solarius is enduring to maintain the balance between the heavens above and the depths below with the barrier between the thinning realms. His power is fading, and your need to claim Ommadon's crown has never felt more urgent.
 
 A single star falls from the heavens. It descends slowly, trailing silver light before coming to rest upon the surface of the sea. As it touches the water, the light unfolds into the form of a great silver fish, its scales shining like constellations. It rises from the dark waters and regards you with ancient eyes. When it speaks, the voice is unmistakably Solarius's.
 
@@ -117,7 +117,7 @@ Will you...`;}
         case "Environment1Path3":
             if (wizard === "green") { return `Use the ancient tree roots as steps and climb down the bank?`;}
             if (wizard === "yellow") { return `Trust the strange laws of this realm and leap toward the platform below the clouds?`;}
-            if (wizard === "blue") { return `Descend the spiralling stair into the deps below?`;}
+            if (wizard === "blue") { return `Descend the spiralling stair into the depths below?`;}
 
         case "Environment1Path4":
             if (wizard === "green") { return `Follow the trickling water and descend using the exposed stones as footholds?`;}
@@ -610,9 +610,9 @@ You remember Solarius's words. Respect the nature of the realm and you step from
 
 The darkness swallows you. For a moment your stomach lurches. Then the lights drift beneath your feet, supporting you. They swirl around you, still with their rolling purpose, but somehow leading you, forming a path for you to follow.
 
-It is a little disorientating walk across the abyss below, but with every step to take so the lights gather beneath you. More join them as you travel, forming a winding pathway through the darkness.
+It is a little disorientating to walk across the abyss below, but with every step you take so the lights gather beneath you. More join them as you travel, forming a winding pathway through the darkness.
 
-You travel in the star lit path for what feels like miles through the hidden depths of the realm. Eventually they lead you to a solitary formation rising from the abyssal floor. At first you mistake it for crystal. Then you realise what it truly is. A star, or rather, the fossilised heart of one.
+You travel on the star lit path for what feels like miles through the hidden depths of the realm. Eventually they lead you to a solitary formation rising from the abyssal floor. At first you mistake it for crystal. Then you realise what it truly is. A star, or rather, the fossilised heart of one.
 
 The object glows faintly from within, embedded in the black stone like a jewel left behind by creation itself. You can feel ancient magic radiating from it.
 
@@ -622,8 +622,8 @@ You search carefully around the formation and soon discover a loose shard no lar
 
 You offer silent thanks to the lights that guided you before securing your prize and continuing your journey.
 
-GAIN 2 MAGIC, 1 LUCK AND GAIN ITEM
-
+GAIN 2 MAGIC, 1 LUCK AND 
+GAIN ITEM
 Star Shard`;} 
 
         case "Environment1RealmPathFail":

@@ -41,7 +41,7 @@ export function showItemOverlay(item, message, onClose) {
 
         <h3 style="text-align: center;">${item.item}</h3>
 
-        <p style="font-size:16px; line-height:1.4; text-align:center;">
+        <p style="font-size:20px; line-height:1.4; text-align:center;">
             ${message}
         </p>
 
@@ -55,6 +55,7 @@ export function showItemOverlay(item, message, onClose) {
             box-shadow:0 1px 7px rgba(0,0,0,0.5);
             border-radius:8px;
             cursor:pointer;
+            font-size:20px;
         ">
             Close
         </button>

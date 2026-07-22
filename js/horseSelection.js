@@ -13,15 +13,13 @@ export function showHorseSelection(container, playerStats, horses, onSelected) {
     const header = document.createElement('h2');
     header.textContent = "Select Your Horse";
     header.style.textAlign = "center";
-    header.style.fontFamily = '"Book Antiqua", Palatino, serif';
     header.style.marginTop = "20px";
     wrapper.appendChild(header);
 
     const introText = document.createElement("p");
     introText.textContent = "Choose your companion wisely. Each horse has its own strengths, abilities, and limitations. Your choice will affect your journey ahead.";
     introText.style.textAlign = "left";
-    introText.style.fontFamily = '"Book Antiqua", Palatino, serif';
-    introText.style.fontSize = "16px";
+    introText.style.fontSize = "20px";
     introText.style.lineHeight = "1.5";
     introText.style.marginBottom = "20px";
 
@@ -134,8 +132,7 @@ const description = document.createElement("p");
 description.textContent = `A bond of old magic links your backpack to the saddle bags of your trusted companion. While your horse remains nearby, anything it carries is as accessible as the items upon your own back. There is no need to bring your horse into shops, taverns, or places where it cannot follow.`;
 description.style.textAlign = "left";
 description.style.marginTop = "20px";
-description.style.fontFamily = '"Book Antiqua", Palatino, serif';
-description.style.fontSize = "16px";
+description.style.fontSize = "20px";
 description.style.lineHeight = "1.5";
 
 wrapper.appendChild(description);
@@ -144,8 +141,7 @@ const description1 = document.createElement("p");
 description1.textContent = `Your horse also bears a limited teleportation charm, allowing it to cross short stretches of impassable terrain and meet you safely on the other side.`;
 description1.style.textAlign = "left";
 description1.style.marginTop = "20px";
-description1.style.fontFamily = '"Book Antiqua", Palatino, serif';
-description1.style.fontSize = "16px";
+description1.style.fontSize = "20px";
 description1.style.lineHeight = "1.5";
 
 wrapper.appendChild(description1);
@@ -154,8 +150,7 @@ const description2 = document.createElement("p");
 description2.textContent = `Your horse is a true companion, bound to you by trust and magic, and will remain by your side unless some great power should ever break that bond.`;
 description2.style.textAlign = "left";
 description2.style.marginTop = "20px";
-description2.style.fontFamily = '"Book Antiqua", Palatino, serif';
-description2.style.fontSize = "16px";
+description2.style.fontSize = "20px";
 description2.style.lineHeight = "1.5";
 
 wrapper.appendChild(description2);

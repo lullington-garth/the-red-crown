@@ -8,7 +8,7 @@ const wizardYou = (playerStats.wizardColor || "").toLowerCase();
     switch (path) {
              
         case "Environment2Enter":
-            if (wizard === "green") { return `A rift tears across the realm, spewing alien magic into the woodland ahead.
+            if (wizard === "green") { return `You continue deeper into Corolinus's domain until without warning a rift tears across the realm, spewing alien magic into the woodland ahead.
 
 The wound in reality closes almost as quickly as it appeared, but the opposing magic continues to wreak havoc upon the landscape around you.
 
@@ -31,7 +31,7 @@ The easiest route appears to be a gentle slope leading down towards the valley f
 The final route follows the path taken by the fleeing wildlife. Birds, deer and smaller creatures stream away through a section of forest that has somehow caught fire. Flames creep slowly through the undergrowth and climb the bark of the gigantic trees. Even so, the ground appears comparatively easy to traverse at the moment.
 
 Which route will you take?`;}
-            if (wizard === "yellow") { return `The platform you arrive upon appears almost swamp-like, with twisted trees rising from banks of swirling mist, though the ground beneath your feet remains firm enough to bear your weight.
+            if (wizard === "yellow") { return `You continue for some time before you arrive upon a platform that appears almost swamp-like, with twisted trees rising from banks of swirling mist, though the ground beneath your feet remains firm enough to bear your weight.
 
 As you traverse the island, the earth trembles beneath your feet. The sky roars overhead and a rift between realms tears open. A great wound in reality rips across the island itself. From it rolls a storm: vast banks of grey cloud crackling with blue lightning.
 
@@ -52,7 +52,7 @@ The final path is by far the widest, covering almost two-thirds of the platform'
 None of the choices looks inviting, but with the weather advancing towards you and only open sky behind, you must decide quickly.
 
 Which route will you take?`;}
-            if (wizard === "blue") { return `You have venture into the cave until the silver sands of the distant shore lie only as a thin dusting across the stone floor and the sound of the sea has long since faded behind you.
+            if (wizard === "blue") { return `You pickup a path that leads you to a silver shoreline which you follow until you to arrive at a cave mouth. You venture into the cave until the silver sands of the distant shore lie only as a thin dusting across the stone floor and the sound of the sea has long since faded behind you.
 
 A crack high above allows pale starlight to spill into the cavern. Wherever the light touches, patches of moon moss glow softly upon the walls and floor, bathing the tunnels in a silver radiance.
 
@@ -74,7 +74,7 @@ The crystal has torn its own passage through the rock. Vast shards protrude from
 
 High above a third tunnel starts at the top of a steep climb. Cold air whistles through its heights and the sound of distant wind suggests it may eventually lead to the surface.
 
-The final passage is more of a fissure ripped into the cave floor. Warm air rises from below and a soft orange glow illuminating the depths below. Though the heat is unsettling, the fissure wall have easy hand holds and the route down appears easy enough.
+The final passage is more of a fissure ripped into the cave floor. Warm air rises from below and a soft orange glow illuminates its depths. Though the heat is unsettling, the fissure wall has easy hand holds and the route down appears simple enough.
 
 With the cave sealed behind you, these are the only paths open to you.
 
@@ -904,6 +904,20 @@ Moments later you are out of the cave and beneath the star-filled sky again, cou
             if (wizard === "green") { return `You carefully store the tuft of enchanted fur amongst your belongings before continuing your journey.`;}
             if (wizard === "yellow") { return `You carefully stow the feather amongst your belongings before making your way to the bridge that leads from the island.`;}
             if (wizard === "blue") { return `You carefully stow the vial of blood before continuing along the shoreline.`;}   
+
+        case "environment2Image":
+
+            if (wizard === "green") {
+                return "environment2Green.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "environment2Yellow.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "environment2Blue.jpg";
+            }
 
         default:
             return null;

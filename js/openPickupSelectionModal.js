@@ -25,6 +25,7 @@ export function openPickupSelectionModal(playerStats, items, {
             row.style.gap = "10px";
             row.style.padding = "6px 0";
             row.style.borderBottom = "1px solid #414242";
+            row.style.backgroundImage = "url('./images/paper1.jpg')";
 
             // Left side (item display)
             const itemDisplay = showItemDescription(item, playerStats, {

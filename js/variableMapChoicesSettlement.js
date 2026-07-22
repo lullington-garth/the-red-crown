@@ -229,9 +229,9 @@ The girl chasing shadows suddenly leaps sideways, probably attempting to catch a
 "Sorry!" she squeaks. "Sorry, sorry, sorry!"
 
 Do you possess the Sky Shard?`;}
-            if (wizard === "blue") { return `Not wishing to add to the panic at the Shadow House, you make your way back towards the settlement. You are just passing between what you expect to be a group of barrack building when a you soldier comes haring around the corner his arms full of bundles of spears and swords.  
+            if (wizard === "blue") { return `Not wishing to add to the panic at the Shadow House, you make your way back towards the settlement. You are just passing between what you guess to be a group of barrack buildings when a soldier comes haring around the corner his arms full of bundles of spears and swords.  
 
-He lets out a startle yelp, but there in no way for him to stop in time and he bundles right into you.
+He lets out a startled yelp, but there in no way for him to stop in time and he bundles right into you.
 
 "Sorry!" he calls out as the two of you collide sending spears and swords clattering across the stones.
 
@@ -356,24 +356,24 @@ You follow Serin into a stone workshop built beneath the rocks. Racks of swords,
 
 You are carefully laying your load onto a nearby bench when Serin says, "Is that... is that a Chrystal Shard?"
 
-He dumps is weapons and Serin examines your staff with obvious fascination.
+He dumps is weapons and Serin examines your shard with obvious fascination.
 
 "I've been studying enchanted weapons for years, military and otherwise, but I've never seen anything as potentially powerful as a Crystal Shard. Can I tune it for you?" He looks at you hopefully. "I'd receive a lashing if anyone caught me working on civilian equipment, but a Chrystal Shard..." He shakes his head. "It's a once-in-a-lifetime opportunity."
 
-You say you don't want to get him into any trouble, but he just smiles, "This," he says taking the staff and playing it on the bench. "This is worth a beasting."
+You say you don't want to get him into any trouble, but he just smiles, "This," he says taking the shard and playing it on the bench. "This is worth a beasting."
 
-While he works, the two of you share a simple lunch of smoked fish and hard bread beside the forge. Serin works meticulously, almost reverently as he rolls the staff over and over muttering incantations.
+While he works, the two of you share a simple lunch of smoked fish and hard bread beside the forge. Serin works meticulously, almost reverently as he rolls the shard over and over muttering incantations.
 
-After some time Serin passes the staff back to you. The crystal glows more brightly than before and you can feel its increase in focus immediately.
+After some time Serin passes the shard back to you. The crystal glows more brightly than before and you can feel its increase in focus immediately.
 
 "It accepted the tuning beautifully," he says. "I only wish I had another hundred years to study it."
 
-When you ask what you owe he just laughs. "It's on t he silver shore military that one.`;}     
+When you ask what you owe he just laughs. "It's on the Silver Shore Military that one.`;}     
 
         case "settlementSkyShardYesChoice":
             if (wizard === "green") { return `You thank Caelan for his work, and Elowen for the meal and continue on your journey.`;}
             if (wizard === "yellow") { return `You thank Krint, Mary and Bless for their kindness before returning to the road through Tae Town and heading for the bridges.`;}
-            if (wizard === "blue") { return `You thank Serin for both the meal and his work and head into town towards the plateaux.`;}     
+            if (wizard === "blue") { return `You thank Serin for both the meal and his work and head into town towards the plateau.`;}     
 
         case "settlementHint":
             if (wizard === "green") { return `Elowen and Bram insist on giving you meal. When you pull out you coin pouch, Bram waves it away. "You don't pay here," he say. 

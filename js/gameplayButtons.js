@@ -14,7 +14,7 @@ export function createGameplayButtons({
     buttonRow.style.top = "0";
     buttonRow.style.zIndex = "1000";
 //    buttonRow.style.background = "#ffffff";
-    buttonRow.style.padding = "40px";
+    buttonRow.style.padding = "30px";
     buttonRow.style.marginTop = "0";
     buttonRow.style.margin = "0";
     buttonRow.style.backgroundImage = "url('images/paper.jpg')";

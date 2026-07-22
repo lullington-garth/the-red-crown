@@ -58,6 +58,7 @@ export function startGameplay(
     playerStats.horseName = null
     playerStats.trueFocus = false
     playerStats.passingStones = "that by some stroke of luck, you have stumbled upon the Passing Stones."
+    playerStats.lostHorse = false
 
     // ---- Map state ----
     // ---- Engine (must exist before callbacks use it) ----
@@ -100,7 +101,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(5);
+    engine.start(730);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);
@@ -136,8 +137,9 @@ function returnToMap() {
             returnBtn.style.border = "none";
             returnBtn.style.borderRadius = "8px";
             returnBtn.style.marginLeft = "10px";
-            returnBtn.style.width = "30px";
+            returnBtn.style.width = "50px";
             returnBtn.textContent = "⇦";
+            returnBtn.style.marginTop = "30px";
 
             // return to map (NOT renderGame anymore)
             returnBtn.addEventListener('click', returnToMap);
@@ -145,9 +147,10 @@ function returnToMap() {
             const statsLine = document.createElement('div');
             statsLine.style.display = "flex";
             statsLine.style.gap = "18px";
-            statsLine.style.fontSize = "16px";
+            statsLine.style.fontSize = "20px";
             statsLine.style.marginRight = "15px";
             statsLine.style.whiteSpace = "nowrap";
+            statsLine.style.marginTop = "30px";
 
             ["SKILL", "STAMINA", "MAGIC", "LUCK", "ATTACK"].forEach(stat => {
                 const s = playerStats.stats[stat];
@@ -155,11 +158,11 @@ function returnToMap() {
                 const el = document.createElement("span");
 
                 const label = document.createElement("strong");
-                label.style.fontSize = "15px";
+                label.style.fontSize = "18px";
                 label.textContent = `${stat}: `;
 
                 const value = document.createElement("span");
-                value.style.fontSize = "16px";
+                value.style.fontSize = "18px";
                 value.textContent = `${s.current}/${s.max}`;
 
                 el.appendChild(label);
@@ -193,7 +196,7 @@ function openStats() {
     topBar.style.display = "flex";
     topBar.style.alignItems = "center";
     topBar.style.marginBottom = "12px";
-    topBar.style.marginTop = "30px";
+    topBar.style.marginTop = "20px";
     topBar.style.position = "relative";
 
 
@@ -212,6 +215,7 @@ function openStats() {
     returnBtn.style.marginLeft = "10px";
     returnBtn.style.width = "50px";
     returnBtn.textContent = "⇦";
+    returnBtn.style.marginTop = "15px";
 
     returnBtn.addEventListener("click", returnToMap);
 
@@ -299,7 +303,6 @@ if (equippedBook) {
     const title = document.createElement("h3");
     title.textContent = equippedBook.item.item;
     title.style.margin = "0";
-    title.style.fontFamily = '"Book Antiqua", Palatino, serif';
 
     bookHeader.appendChild(img);
     bookHeader.appendChild(title);

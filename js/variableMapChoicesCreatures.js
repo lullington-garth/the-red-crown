@@ -61,9 +61,9 @@ These creatures are creatures of old sky-magic, and highly prized by hunters. Th
 `;
             }
             if (wizard === "blue") {
-                return `Far behind you the dragons vanish into the darkness as you travel deeper into Solarius’s realm. Water stretches endlessly in every direction, dark and mirror-smooth, reflecting the stars so perfectly that the sky and sea seem to merge into one infinite cosmos.
+                return `As you travel deeper into Solarius’s realm water stretches endlessly in every direction, dark and mirror-smooth, reflecting the stars so perfectly that the sky and sea seem to merge into one infinite cosmos.
 
-Something stirs beneath the surface of your little boat. Great creatures emerge slowly beside your path — long-bodied beings with silver-scaled backs and luminous eyes. Streams of starlight ripple beneath their skin, and each movement leaves glowing trails floating across the water. Heavy claws curve from their forelegs like polished obsidian.
+Something stirs beneath the surface. Great creatures emerge slowly beside your path — long-bodied beings with silver-scaled backs and luminous eyes. Streams of starlight ripple beneath their skin, and each movement leaves glowing trails floating across the water. Heavy claws curve from their forelegs like polished obsidian.
 
 You remember hearing sailors speak longingly of such creatures. They are ancient and steeped in magic, hunted for their enchanted claws, which are said to grant the creatures the ability to draw power from deep within during battle, allowing them to strike with incredible strength. A single claw won in combat is believed to bestow that power upon the bearer.
 `;
@@ -83,7 +83,7 @@ There is nothing animal-like in their gaze. Their eyes are thoughtful, alert and
 `;
             }
             if (wizard === "blue") {
-                return `The creatures gather together in the water beside you. Some circle slowly while others rise half from the sea to stare openly at you beneath the starlight. Their low humming calls echo across the dark water like distant music.
+                return `Your confidence appears to embolden the creatures and they gather together in the water beside you. Some circle slowly while others rise half from the sea to stare openly at you beneath the starlight. Their low humming calls echo across the dark water like distant music.
 
 They seem fascinated by your presence. Every movement feels purposeful, and there is clear understanding in their luminous eyes. You cannot speak their language, if indeed they have one, but you sense that communication with them may still be possible.
 `;

@@ -95,7 +95,7 @@ As you browse the table, Mrs Rivers approaches.
 
 He leads you into the driftwood hut. The interior smells of salt, tar and old rope. Gaps in the sailcloth walls allow starlight to spill inside, illuminating shelves built from wrecked timbers and cargo crates.
 
-The shelves are lines with an odd mix of items Trunk must have gathered over many years combing. Each item has its price scratched onto a small shell next to it.
+The shelves are lined with an odd mix of items Trunk must have gathered over many years combing. Each item has its price scratched onto a small shell next to it.
 
 Marsh Stalker Boots — 3 GP
 Gil Ring — 2 GP
@@ -229,7 +229,7 @@ He sets down the kettle, rummages through his crates and eventually produces a s
 
 He pours some of the glittering dust into his palm.
 
-"Rub it into the crystal and it'll take to it. Makes the thing stronger. Two Gold Pieces."He shrugs. "Take it or leave it. It can sit in the box another ten years if you don't want it."`;}   
+"Rub it into the crystal and it'll take to it. Makes the thing stronger. Two Gold Pieces." He shrugs. "Take it or leave it. It can sit in the box another ten years if you don't want it."`;}   
             
         case "settlementShopRealmStaffChoice1":
             if (wizard === "green") { return `Would you like to accept Root's offer?`;}

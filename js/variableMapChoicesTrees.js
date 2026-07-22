@@ -28,9 +28,9 @@ Standing alone upon the broad path leading to the temple is the gigantic gatekee
 
 As you draw nearer, it seems strangely out of place.
 
-Beyond it, and beside it, you can see nothing except the endless silver shoreline stretching away into the distance. There is break inf the scenery and seemingly no purpose to the archway. It is simply an immense arch standing alone upon the beach beneath the stars.
+Beyond it, and beside it, you can see nothing except the endless silver shoreline stretching away into the distance. There is no break in the scenery and seemingly no purpose to the archway. It is simply an immense arch standing alone upon the beach beneath the stars.
 
-You need not passthrough it, but curiosity urges you towards it and soon you are passing beneath the enormous obsidian arch.
+You need not pass through it, but curiosity urges you towards it and soon you are passing beneath the enormous obsidian arch.
 
 The world changes in a heartbeat. The endless shoreline vanishes, replaced by a magnificent celestial sanctuary hidden beyond the threshold. The silver beach gives way to broad avenues of polished black crystal bordered by tranquil reflecting pools that perfectly mirror the heavens above. Elegant sculptures of planets, comets and constellations line the pathways, while crystal braziers burn with pale silver flame. Tiny motes of starlight drift lazily through the air like wandering fireflies.
 

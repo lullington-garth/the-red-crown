@@ -230,7 +230,23 @@ Without another word, he lowers his eyes and resumes writing upon the parchment 
                 return `mysterious`;
             }   
 
+        case "moneyChangerImage":
 
+            if (wizard === "green") {
+                return "moneyChangerGreen.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "moneyChangerYellow.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "moneyChangerBlue.jpg";
+            }
+
+            if (wizard === "red") {
+                return "moneyChangerRed.jpg";
+            }
 
 
 
