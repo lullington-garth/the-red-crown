@@ -34,7 +34,7 @@ export function runWizardFlow(gameDiv, wizards, horses, items, onComplete) {
         initializeGold(playerStats, 40);
 
         // Starter Items
-        const starterIds = ["0002", // Spell Book
+        const starterIds = ["0364", // Spell Book
 //            "0003","0004","0005","0006","0007","0008",// Spell Book
   //          "0257","0258","0259", // Shields
     //        "0290","0291","0292","0293","0294","0295","0296","0297", // Weapons

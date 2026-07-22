@@ -41,8 +41,8 @@ function cleanSmartQuotes(str) {
 }
 
 // Load Excel file
-//const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Items JSON.xlsx";
-const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Items JSON.xlsx";
+const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Items JSON.xlsx";
+//const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Items JSON.xlsx";
 const workbook = XLSX.readFile(filePath);
 const sheetName = workbook.SheetNames[0];
 const sheet = workbook.Sheets[sheetName];
