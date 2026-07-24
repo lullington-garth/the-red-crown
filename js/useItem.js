@@ -177,12 +177,12 @@ export function showItemModal(item, extraMessage = "", onClose, playerStats, opt
 
 export function consumeItem(playerStats, item) {
     const inv = playerStats.inventory;
-
     if (item.charges != null) {
         item.charges -= 1;
     }
-
     const shouldRemove = item["lose-on-use"] || item.charges <= 0;
+
+    if(item.id === "0364") {item["id-description"] = `${item.charges / 2} portions remain.`}
 
     if (!shouldRemove) return;
 

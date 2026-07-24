@@ -388,6 +388,7 @@ Enjoy.
     btn.style.cursor = "pointer";
     btn.style.fontSize = "20px";
     btn.style.marginBlock = "20px";
+    btn.style.marginBottom = "50px"; 
 
     btn.onclick = onContinue;
 

@@ -90,7 +90,7 @@ At the rear of the shop stands a tall iron cabinet secured with a thick brass lo
 
 Behind the counter stands a thin old toymaker in a patchwork waistcoat, his silver spectacles perched low on the end of his crooked nose. He looks up from a half-finished marionette as you enter, he smiles pleasantly and says, ‘Welcome, traveler. Mind the soldier by your foot. He bites.’
 
-Around the old man’s neck hangs a delicate golden music box no larger than a pocket watch, engraved with tiny stars and moons. You have seen one of those before. It's a Lullaby Box. When wound the beautiful sound will send all but the wearer to sleep. They are extremely rare and immensely powerful. You could down a dragon with a Lullaby Box if it was in earshot.’
+Around the old man’s neck hangs a delicate golden music box no larger than a pocket watch, engraved with tiny stars and moons. You have seen one of those before. It's a Lullaby Box. When wound the beautiful sound will send all but the wearer to sleep. They are extremely rare and immensely powerful. You could down a dragon with a Lullaby Box if it was in earshot.
 
 'Not for sale,' says the shopkeeper noticing your gaze. He tucks the little box into his shirt.`;
             }

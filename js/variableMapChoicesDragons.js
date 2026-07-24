@@ -31,9 +31,7 @@ const wizard = (playerStats.visitingBrother || "").toLowerCase();
                 "Hello, little one. Come to do a spot of fishing?"
 
                 Will you:`;}
-            if (wizard === "blue") { return `Beyond the coastline, a ring of jagged sea stacks rises from the dark ocean, and you guide your vessel towards them through the restless skies.
-
-                Far from shore, you discover a ring of sea stacks rising from the waves. Perched upon them are dozens of slender, serpentine sea dragons. As you approach, the sky rumbles and a great wave rises from the ocean, yet the serpentine dragons seem far too excited about something to notice. From their animated chatter, you gather that court is about to come into session.
+            if (wizard === "blue") { return `Far from shore, you discover a ring of sea stacks rising from the waves. Perched upon them are dozens of slender, serpentine sea dragons. As you approach, the sky rumbles and a great wave rises from the ocean, yet the serpentine dragons seem far too excited about something to notice. From their animated chatter, you gather that court is about to come into session.
 
                 Suddenly, the sea behind their rocks begins to bubble and churn. You watch in wonder as an island rises from the water, covered in every manner of sea vegetation. Towering coral forests colour the rich and varied landscape. Somehow, the island appears to have risen without bringing any animal life with it.
 
