@@ -85,6 +85,7 @@ export function openOverCapacityModal({
             row.style.gap = "10px";
             row.style.borderBottom = "1px solid rgb(0, 0, 0)";
             row.style.boxSizing = "border-box";
+            row.style.backgroundImage = "url('images/paper1.jpg')";            
 
             const label = item.isNew ? "Leave" : "Discard";
 
