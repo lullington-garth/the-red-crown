@@ -39,7 +39,6 @@ export function renderBackpackItems({
     scrollContainer.classList.add("hide-scrollbar");
     scrollContainer.style.padding = "6px";
     scrollContainer.style.paddingRight = "10px";
-    scrollContainer.style.backgroundImage = "url('images/paper1.jpg')";
 
     const inv = playerStats.inventory;
 
@@ -113,6 +112,7 @@ export function renderBackpackItems({
         row.style.marginBottom = "4px";
         row.style.padding = "4px";
         row.style.borderRadius = "6px";
+        row.style.backgroundImage = "url('images/paper1.jpg')";
 
         // Hover effect
         row.addEventListener("mouseenter", () => {

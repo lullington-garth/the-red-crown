@@ -95,7 +95,7 @@ Around the old man’s neck hangs a delicate golden music box no larger than a p
 'Not for sale,' says the shopkeeper noticing your gaze. He tucks the little box into his shirt.`;
             }
             if (wizard === "red") {
-                return `The stench inside the shop is apalling. The cramped room is hot, damp and filthy filled with a cacophony of animal sounds: growling, chittering, sniffing, chirping but somehow all of it unhappy. Cages line every wall from floor to ceiling holding creatures you can hardly guess the names of. Hairless cats with too many eyes stare at you, as lizards with glowing tongues spit black pitch and black-feathered birds mutter softly amongst their many head.
+                return `The stench inside the shop is apalling. The cramped room is hot, damp and filthy filled with a cacophony of animal sounds: growling, chittering, sniffing, chirping but somehow all of it unhappy. Cages line every wall from floor to ceiling holding creatures you can hardly guess the names of. Hairless cats with too many eyes stare at you, as lizards with glowing tongues spit black pitch and black-feathered birds mutter softly amongst their many heads.
 
 Behind the counter stands the shopkeeper, a tall sly-looking man in a stained leather coat. His greasy hair hangs loose about his face and as his calloused hands usher a vicious looking rodent into a corked jar. He glances up at you.
 
@@ -121,7 +121,7 @@ At the end of the counter, curled up in a cage too small for her, lays what you 
             if (wizard === "red") {
                 return `When you are done, the shopkeeper calls you over. 
                 
-                ‘Ever considered a familiar?' he says. 'This ones a clever little devil,' he pulls down a jar with a tiny black imp demon in it. 'Knows spells, this one, let him sleep around your neck and he'll fight for you too. Furiously loyal once bound. Twenty Gold Pieces and he’s yours, and I'll throw in the binding for free.’`;
+                ‘Ever considered a familiar?' he says. 'This one's a clever little devil,' he pulls down a jar with a tiny black imp demon in it. 'Knows spells, this one, let him sleep around your neck and he'll fight for you too. Furiously loyal once bound. Twenty Gold Pieces and he’s yours, and I'll throw in the binding for free.’`;
             }  
             
         case "potterSpecial":

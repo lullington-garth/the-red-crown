@@ -158,7 +158,7 @@ function returnToMap() {
                 const el = document.createElement("span");
 
                 const label = document.createElement("strong");
-                label.style.fontSize = "18px";
+                label.style.fontSize = "17px";
                 label.textContent = `${stat}: `;
 
                 const value = document.createElement("span");

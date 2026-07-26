@@ -63,7 +63,7 @@ export function showWizardSelection(container, wizards, onWizardSelected) {
             name,
             ...wizard,
             selectedWizard: wizard,
-            debugMode: false // CHANGE TO FALSE FOR GAME
+            debugMode: true // CHANGE TO FALSE FOR GAME
 
         });
 
