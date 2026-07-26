@@ -115,12 +115,12 @@ export function renderBackpackItems({
         row.style.backgroundImage = "url('images/paper1.jpg')";
 
         // Hover effect
-        row.addEventListener("mouseenter", () => {
-            row.style.background = "#eef1f55b";
-        });
-        row.addEventListener("mouseleave", () => {
-            row.style.background = "transparent";
-        });
+ //       row.addEventListener("mouseenter", () => {
+   //         row.style.background = "#eef1f55b";
+     //   });
+       // row.addEventListener("mouseleave", () => {
+         //   row.style.background = "transparent";
+     //   });
 
         // ===================
         // LEFT SIDE (icon + text)
@@ -163,6 +163,7 @@ export function renderBackpackItems({
         img.style.width = "30px";
         img.style.height = "30px";
         img.style.mixBlendMode = "multiply";
+        img.style.borderRadius = "4px";
 
         if (item.magical && hasMagicVision(playerStats)) {
             img.style.boxShadow = "0 0 6px 2px rgba(89, 89, 90, 0.48)";
