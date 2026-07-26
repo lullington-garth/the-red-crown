@@ -376,7 +376,8 @@ export function showChooseContractTimedModal({
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode: multiply;
+                    mix-blend-mode:multiply;
+                    border-radius:6px;
                 "
             />
         <h3>Contract 1</h3>
@@ -405,7 +406,8 @@ Signed and entered into the Infernal Ledger under seal and eternal authority,<br
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode: multiply;
+                    mix-blend-mode:multiply;
+                    border-radius:6px;
                 "
             />
 
@@ -433,7 +435,8 @@ Signed and witnessed beneath the gaze of powers ancient and eternal,<br><br>
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode: multiply;
+                    mix-blend-mode:multiply;
+                    border-radius:6px;
                 "
             />
             
