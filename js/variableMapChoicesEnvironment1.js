@@ -11,11 +11,11 @@ const wizard = (playerStats.visitingBrother || "").toLowerCase();
 
 A young fawn emerges from the undergrowth and cautiously approaches. It gazes up at you with calm, intelligent eyes before speaking with Carolinus's voice.
 
-"My brother, this fawn has lent me its spirit so that I may speak with you, but I cannot remain for long. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you stray too far from the realm's natural paths, I fear I may no longer be able to keep you here."
+"{playerStats.wizardName}, this fawn has lent me its spirit so that I may speak with you, but I cannot remain for long. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you stray too far from the realm's natural paths, I fear I may no longer be able to keep you here."
 
 The fawn lowers its head for a moment before continuing.
 
-"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, brother, follow the paths of the realm and respect the balance that dwells here."
+"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, {playerStats.wizardName}, follow the paths of the realm and respect the balance that dwells here."
 
 The fawn takes a step back.
 
@@ -28,11 +28,11 @@ Yet even here you sense weakness beneath the tranquillity. The realm trembles at
 
 The wind circles gently around you, carrying with it the familiar voice of Lo Tae Zhao.
 
-"My brother, the wind has lent me its voice so that I may speak with you, but I cannot linger. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you wander too far from the realm's natural paths, I fear I may no longer be able to keep you here."
+"{playerStats.wizardName}, the wind has lent me its voice so that I may speak with you, but I cannot linger. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you wander too far from the realm's natural paths, I fear I may no longer be able to keep you here."
 
 The wind pauses for a moment before continuing.
 
-"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, brother, follow the paths of the realm and respect the balance that dwells here."
+"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, {playerStats.wizardName}, follow the paths of the realm and respect the balance that dwells here."
 
 The breeze softens.
 
@@ -47,11 +47,11 @@ Beneath the beauty though you sense fragility and you can feel the immense strai
 
 A single star falls from the heavens. It descends slowly, trailing silver light before coming to rest upon the surface of the sea. As it touches the water, the light unfolds into the form of a great silver fish, its scales shining like constellations. It rises from the dark waters and regards you with ancient eyes. When it speaks, the voice is unmistakably Solarius's.
 
-"My brother, this creature has lent me its form so that I may speak with you, but I cannot remain for long. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you stray too far from the realm's natural paths, I fear I may no longer be able to keep you here."
+"{playerStats.wizardName}, this creature has lent me its form so that I may speak with you, but I cannot remain for long. My realm is in flux and my magic is waning. I ask that you respect the nature of this place. Should you stray too far from the realm's natural paths, I fear I may no longer be able to keep you here."
 
 The silver fish drifts silently for a moment, stars glimmering beneath its scales.
 
-"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, brother, follow the paths of the realm and respect the balance that dwells here."
+"Within this realm resides Antiquity, eldest of the great trees. You must seek it out. It alone can grant you a silver acorn, and without it our quest will fail. Remember, {playerStats.wizardName}, follow the paths of the realm and respect the balance that dwells here."
 
 The creature slowly lowers itself back toward the water.
 

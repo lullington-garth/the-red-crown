@@ -264,7 +264,7 @@ const wizard = (playerStats.visitingBrother || "").toLowerCase();
 
 
         case "dragonOpposedRace":
-            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower your brother is exerting to hold the realm together.
+            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you notice that the clouds ahead churn and swirl like a great white sea. Through gaps in the vapour, you glimpse towering pillars of stone suspended impossibly in the sky, connected by winding ribbons of cloud-road. A thunderous roar echoes across the heavens.
 
@@ -291,7 +291,7 @@ A horn sounds somewhere above, the crowd cheers, and Brozieg leaps into the air.
 You peer over his head and see two clear routes. The left route appears longer but free of obstacles. The right route, while more direct, appears to be a maze of building-sized debris darting wildly across the track.
 
 "ROUTE!" screams the dragon.`;}
-            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower your brother is exerting to hold the realm together.
+            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you take in your surroundings. Ancient trees arch overhead, their branches woven together to form a vast emerald canopy. Sunlight filters through leaves of silver and gold, scattering dancing reflections across pools and streams.
 
@@ -332,7 +332,7 @@ You decide to test Twinkle's magic before risking the race and plunge your head 
 You shake the water from your hair and climb back onto Twinkle's back.
 
 "The boys will all want to go through the Death, Death, Bang, Bang, but we can take the safer route if you prefer," she says.`;}
-            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower your brother is exerting to hold the realm together.
+            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you take in your surroundings. As with much of this realm, you find yourself in an area where countless stars blaze across a velvet-black sky. Here, however, rivers of silver radiance flow between the distant constellations and great fragments of celestial stone drift through the void, each glowing faintly with trapped starlight. Ahead, mounted upon an asteroid the size of a castle, a colossal forge shines like a second sun. Its chimneys vent streams of molten starlight into the darkness.
 
@@ -952,7 +952,7 @@ The dragon flies you back to the earth, then heads off towards the forge.`;}
             if (wizard === "blue") { return `You watch as the last few stars blink out of existence to make way for the new, then continue on your journey once more.`;} 
 
          case "dragonRedPath":
-            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that your brother is exerting to hold the realm together.
+            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you notice that the clouds here are pale gold and lavender, drifting in vast, slow rivers beneath a now-still sky of turquoise and white.
 
@@ -969,7 +969,7 @@ You realise with a chill that these are History Eaters. You knew that they exist
 One dragon lifts an entire battle from the clouds and devours it, while another delicately consumes the memory of a long-collapsed bridge.
 
 Yet beside the nearest dragon rests a small collection of untouched memories, glowing faintly upon the stone.`;}
-            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that your brother is exerting to hold the realm together.
+            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 The forest path bends between silver-barked trees and opens suddenly onto a broad glade carpeted with soft moss and scattered wildflowers. Sunlight pours down through the canopy, turning the clearing into a pool of gold and green.
 
@@ -982,7 +982,7 @@ Two young male dragons circle one another in the centre of the clearing, trading
 Nearby, another dragon leans against a tree, singing in a rich, mournful voice while carefully arranging his wings to their greatest advantage. Overhead, a fourth dragon dives and twists through the air in pursuit of an unfortunate bird, performing spectacular aerial manoeuvres and repeatedly checking whether his audience is watching.
 
 Only one dragon seems entirely removed from these displays. He stands nervously at the edge of the clearing, clutching a small chest against his breast. Every few moments he takes a hesitant step forward before losing his courage.`;}
-            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that your brother is exerting to hold the realm together.
+            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 You head out towards the shore stretching ahead of you. The black sand crunches beneath your boots as you walk along the obsidian beach. Above, countless stars burn against an endless darkness, their reflections glittering upon a silent sea as black as polished glass.
 
@@ -1171,7 +1171,7 @@ She places the living flame in your hands.
 
 GAIN ITEM
 Wrym's Fire`;}
-            if (wizard === "blue") { return `You speak of your travels through the magical realms. You tell the dragon of your search for Antiquity and of your intention to consult your brother before entering the hostile red realm of Ommadon. You speak of the crown, of ending the tyrant's rule, and of uniting the four kingdoms into a new realm of magic beyond the reach of fear and hatred.
+            if (wizard === "blue") { return `You speak of your travels through the magical realms. You tell the dragon of your search for Antiquity and of your intention to consult {playerStats.visitingBrotherName} before entering the hostile red realm of Ommadon. You speak of the crown, of ending the tyrant's rule, and of uniting the four kingdoms into a new realm of magic beyond the reach of fear and hatred.
 
 You describe a world where dragons and magical creatures may flourish, and where mankind may still touch wonder through dreams, stories, and imagination.
 
