@@ -114,37 +114,37 @@ const wizard = (playerStats.visitingBrother || "").toLowerCase();
 
                 You can scarcely believe that the court had been convened for your benefit.`;}
 
-         case "dragonMisalignedFalseAntiquityChoice":
-            if (wizard === "yellow") { return `You call out your thanks, though it goes unheard, and continue on your way.`;}
-            if (wizard === "green") { return `You thank the dragon and leave him to his fishing.`;}
-            if (wizard === "blue") { return `You decide to slip away before anyone else reaches the same conclusion.`;}
+case "dragonMisalignedFalseAntiquityChoice":
+    if (wizard === "yellow") { return `You call out your thanks, though it goes unheard, and continue on your way.`;}
+    if (wizard === "green") { return `You thank the dragon and leave him to his fishing.`;}
+    if (wizard === "blue") { return `You decide to slip away before anyone else reaches the same conclusion.`;}
 
-         case "dragonMisalignedEthosTest":
-            if (wizard === "yellow") { return `"See, Duncan!" says the first dragon, her voice shrill. She pulls over a faded map and taps it with a claw. "It's moved!"
+case "dragonMisalignedEthosTest":
+    if (wizard === "yellow") { return `"See, Duncan!" says the first dragon, her voice shrill. She pulls over a faded map and taps it with a claw. "It's moved!"
 
-                "We've moved," says the dragon called Duncan. "We've moved! We are standing on a floating platform. You cannot use it as a fixed point."
+" We've moved," says the dragon called Duncan. "We've moved! We are standing on a floating platform. You cannot use it as a fixed point."
 
-                "Oh, don't be so silly," says the first dragon. "I stand perfectly still when I take my bearings. And this earthwalker agrees. The Omcromidon is moving. Here," she says, thrusting a map towards you, "show him."`;}
-            if (wizard === "green") { return `You take your makeshift rod, settle yourself beside the dragon, and cast your line — or rather your willow vine — into the still waters of the lake.
+"Oh, don't be so silly," says the first dragon. "I stand perfectly still when I take my bearings. And this earthwalker agrees. The Omcromidon is moving. Here," she says, thrusting a map towards you, "show him."`;}
+    if (wizard === "green") { return `You take your makeshift rod, settle yourself beside the dragon, and cast your line — or rather your willow vine — into the still waters of the lake.
 
-                The dragon nods approvingly.
+The dragon nods approvingly.
 
-                "Good day for it."`;}
-            if (wizard === "blue") { return `With all the confidence you can muster, you stand tall and call out:
+"Good day for it."`;}
+    if (wizard === "blue") { return `With all the confidence you can muster, you stand tall and call out:
 
-                "Yes. I am here to be weighed."
+"Yes. I am here to be weighed."
 
-                The dragon appears to consider you. Then the entire island shifts towards you.
+The dragon appears to consider you. Then the entire island shifts towards you.
 
-                "Step onto my hand, mortal," says the vastness around you.
+"Step onto my hand, mortal," says the vastness around you.
 
-                The silver serpentine dragons gasp.
+The silver serpentine dragons gasp.
 
-                "He's going to brush the Petal Moon," one says breathlessly.
+"He's going to brush the Petal Moon," one says breathlessly.
 
-                You do not know what this means, and you are not entirely certain that you wish to step onto a dragon the size of an island, but you can see little alternative.
+You do not know what this means, and you are not entirely certain that you wish to step onto a dragon the size of an island, but you can see little alternative.
 
-                As soon as the ancient dragon has placed you safely amongst the coral forests upon his back, he launches himself into the air.`;}
+As soon as the ancient dragon has placed you safely amongst the coral forests upon his back, he launches himself into the air.`;}
 
          case "dragonMisalignedEthosPass":
             if (wizard === "yellow") { return `You confidently brush the map aside and pull another at random.
@@ -215,60 +215,58 @@ const wizard = (playerStats.visitingBrother || "").toLowerCase();
             if (wizard === "green") { return `You leave the dragon to his fishing and continue your journey.`;}
             if (wizard === "blue") { return `You decide to slip away before anyone else reaches the same conclusion.`;}            
 
-         case "dragonMisalignedEthosFail":
-            if (wizard === "yellow") { return `You take a wild stab at the map.
-    
-                The first dragon looks at you rather strangely.
+case "dragonMisalignedEthosFail":
+    if (wizard === "yellow") { return `You take a wild stab at the map.
 
-                "That's the wrong map, dear," she says. "Are you quite sure you saw the Omcromidon?"
+The first dragon looks at you rather strangely.
 
-                You make a non-committal noise, but the dragons have already turned their attention back to the world below, all of them leaning over the platform's edge once more.`;}
-            if (wizard === "green") { return `You cast your line as the dragon watches patiently.
+"That's the wrong map, dear," she says. "Are you quite sure you saw the Omcromidon?"
 
-                "Very good," he says. "Fishing is mostly waiting."
+You make a non-committal noise, but the dragons have already turned their attention back to the world below, all of them leaning over the platform's edge once more.`;}
+    if (wizard === "green") { return `You cast your line as the dragon watches patiently.
 
-                Several minutes pass. Then your line suddenly jerks.
+"Very good," he says. "Fishing is mostly waiting."
 
-                "Oh," says the dragon. "You've got one."
+Several minutes pass. Then your line suddenly jerks.
 
-                You pull, and the lake explodes. A silver fish the size of a house erupts from the water, still attached to your line. The willow rod bends alarmingly as the fish continues its arc through the air and crashes into the ground in front of you, bringing with it a wall of icy water.
+"Oh," says the dragon. "You've got one."
 
-                You tumble backwards into the reeds. The dragon blinks once as the water soaks your through and the huge fish flops on the shore where you were sitting.
+You pull, and the lake explodes. A silver fish the size of a house erupts from the water, still attached to your line. The willow rod bends alarmingly as the fish continues its arc through the air and crashes into the ground in front of you, bringing with it a wall of icy water.
 
-                "Hmm," he says. "Ambitious." He picks up the enormous fish and drops it on his pile. "Perhaps start with something smaller."
+You tumble backwards into the reeds. The dragon blinks once as the water soaks you through and the huge fish flops on the shore where you were sitting.
 
-                You spend a while longer sitting beside the lake in the pleasant company of the dragon. Although neither of you catches anything further, it is a relaxing way to spend an hour or two. Eventually, the dragon yawns, stretches, and settles back beside the shore.
+"Hmm," he says. "Ambitious." He picks up the enormous fish and drops it on his pile. "Perhaps start with something smaller."
 
-                "Lovely day for it."`;}
-            if (wizard === "blue") { return `The dragon streaks towards the stars. You scream, diving for the coral beneath you and clinging on for dear life. You can scarcely believe that something the size of an island can move so quickly. Burying your head amongst the salty reefs, you desperately hope it will end.
+You spend a while longer sitting beside the lake in the pleasant company of the dragon. Although neither of you catches anything further, it is a relaxing way to spend an hour or two. Eventually, the dragon yawns, stretches, and settles back beside the shore.
 
-                At one point the sky suddenly brightens. You risk a terrified glance upward and discover that you are skimming across the surface of a moon. A silver mist clings to you as you pass through it, and you cry out, frantically brushing the strange substance from your body.
+"Lovely day for it."`;}
+    if (wizard === "blue") { return `The dragon streaks towards the stars. You scream, diving for the coral beneath you and clinging on for dear life. You can scarcely believe that something the size of an island can move so quickly. Burying your head amongst the salty reefs, you desperately hope it will end.
 
-                Then the dragon dives once more. The world below races up to meet you. You shut your eyes and pray for it to end. And it does. Moments later, the dragon settles upon the ocean with impossible grace and lifts you gently from his back, placing you once more upon the rock.
+At one point the sky suddenly brightens. You risk a terrified glance upward and discover that you are skimming across the surface of a moon. A silver mist clings to you as you pass through it, and you cry out, frantically brushing the strange substance from your body.
 
-                You lie panting in the salty sea air.
+Then the dragon dives once more. The world below races up to meet you. You shut your eyes and pray for it to end. And it does. Moments later, the dragon settles upon the ocean with impossible grace and lifts you gently from his back, placing you once more upon the rock.
 
-                "You are an odd one," says the leviathan.
+You lie panting in the salty sea air.
 
-                With that, he slips back beneath the waves.
+"You are an odd one," says the leviathan.
 
-                "Cool," says one of the slender silver serpentine dragons. "So cool."
+With that, he slips back beneath the waves.
 
-                Even in your shocked state, you realise that the court cannot possibly have been convened for your benefit — assuming that what you have just experienced could be called a benefit at all.`;} 
+"Cool," says one of the slender silver serpentine dragons. "So cool."
 
-         case "dragonMisalignedEthosFailChoice":
-            if (wizard === "yellow") { return `You leave the dragons to their mapping and continue your journey.`;}
-            if (wizard === "green") { return `You leave the dragon to his fishing and continue your journey.`;}
-            if (wizard === "blue") { return `You decide to slip away before anyone else reaches the same conclusion.`;}            
+Even in your shocked state, you realise that the court cannot possibly have been convened for your benefit — assuming that what you have just experienced could be called a benefit at all.`;}
 
+case "dragonMisalignedEthosFailChoice":
+    if (wizard === "yellow") { return `You leave the dragons to their mapping and continue your journey.`;}
+    if (wizard === "green") { return `You leave the dragon to his fishing and continue your journey.`;}
+    if (wizard === "blue") { return `You decide to slip away before anyone else reaches the same conclusion.`;}
 
-
-        case "dragonOpposedRace":
-            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
+case "dragonOpposedRace":
+    if (wizard === "yellow") { return `A rumble rolls across the skies, and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you notice that the clouds ahead churn and swirl like a great white sea. Through gaps in the vapour, you glimpse towering pillars of stone suspended impossibly in the sky, connected by winding ribbons of cloud-road. A thunderous roar echoes across the heavens.
 
-At first, you think battle has broken out, but then you see the banners. Dozens of dragons wheel overhead, their scales flashing crimson, sapphire, emerald and gold as they circle a vast starting line marked between two floating spires. Spectators perch upon cloudbanks and rocky outcrops, cheering and waving brightly coloured pennants.
+At first, you think battle has broken out, but then you see the banners. Dozens of dragons wheel overhead, their scales flashing crimson, sapphire, emerald, and gold as they circle a vast starting line marked between two floating spires. Spectators perch upon cloudbanks and rocky outcrops, cheering and waving brightly coloured pennants.
 
 A race.
 
@@ -291,13 +289,13 @@ A horn sounds somewhere above, the crowd cheers, and Brozieg leaps into the air.
 You peer over his head and see two clear routes. The left route appears longer but free of obstacles. The right route, while more direct, appears to be a maze of building-sized debris darting wildly across the track.
 
 "ROUTE!" screams the dragon.`;}
-            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
+if (wizard === "green") { return `A rumble rolls across the skies, and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you take in your surroundings. Ancient trees arch overhead, their branches woven together to form a vast emerald canopy. Sunlight filters through leaves of silver and gold, scattering dancing reflections across pools and streams.
 
-Ahead, you hear a chorus of excited voices. Curious, you follow the sound until you reach a broad crystal lake where a group of young dragons are gathered upon its shores.
+Ahead, you hear a chorus of excited voices. Curious, you follow the sound until you reach a broad crystal lake, where a group of young dragons are gathered upon its shores.
 
-They cannot be much older than hatchlings by dragon standards, though each is still considerably larger than a horse. Their scales shimmer with bright colours and they jostle one another, boasting and laughing about some reckless endeavour they have planned.
+They cannot be much older than hatchlings by dragon standards, though each is still considerably larger than a horse. Their scales shimmer with bright colours, and they jostle one another, boasting and laughing about some reckless endeavour they have planned.
 
 "The tunnel only takes three minutes!" says the largest of them.
 
@@ -319,7 +317,7 @@ As the argument continues, you notice another dragon standing apart from the gro
 
 "Please," she says, looking at you with huge, imploring eyes and, against all logic and sanity, you agree.
 
-Twinkle whoops and runs several circles chasing her own tail.
+Twinkle whoops and runs several circles, chasing her own tail.
 
 "Hop on," she says. "We'll head over to Certain Death."
 
@@ -327,14 +325,14 @@ Twinkle whoops and runs several circles chasing her own tail.
 
 She scampers over towards Certain Death.
 
-You decide to test Twinkle's magic before risking the race and plunge your head into the lake. To your great relief, the enchantment surrounding you works exactly as promised and you can breathe easily beneath the waters.
+You decide to test Twinkle's magic before risking the race and plunge your head into the lake. To your great relief, the enchantment surrounding you works exactly as promised, and you can breathe easily beneath the waters.
 
 You shake the water from your hair and climb back onto Twinkle's back.
 
 "The boys will all want to go through the Death, Death, Bang, Bang, but we can take the safer route if you prefer," she says.`;}
-            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
+if (wizard === "blue") { return `A rumble rolls across the skies, and the ground quakes. Once again, you are reminded of the sheer willpower {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
-When the disturbance settles, you take in your surroundings. As with much of this realm, you find yourself in an area where countless stars blaze across a velvet-black sky. Here, however, rivers of silver radiance flow between the distant constellations and great fragments of celestial stone drift through the void, each glowing faintly with trapped starlight. Ahead, mounted upon an asteroid the size of a castle, a colossal forge shines like a second sun. Its chimneys vent streams of molten starlight into the darkness.
+When the disturbance settles, you take in your surroundings. As with much of this realm, you find yourself in an area where countless stars blaze across a velvet-black sky. Here, however, rivers of silver radiance flow between the distant constellations, and great fragments of celestial stone drift through the void, each glowing faintly with trapped starlight. Ahead, mounted upon an asteroid the size of a castle, a colossal forge shines like a second sun. Its chimneys vent streams of molten starlight into the darkness.
 
 As you watch, a small dragon hurtles past overhead.
 
@@ -352,24 +350,24 @@ There is no time to answer. The dragon is already hurtling full pelt towards a r
 
 You have just enough time to recognise that the edges of the storm contain less debris, while the path through the swirling maelstrom will get you there far more quickly... should you survive the journey.
 
-"HERE WE GO!" cries the dragon.`;} 
+"HERE WE GO!" cries the dragon.`;}
 
-        case "dragonOpposedRaceChoice1":
-            if (wizard === "yellow") { return `Will you take the clear left track?`;}
-            if (wizard === "green") { return `Will you ask to take the safer route?`;}
-            if (wizard === "blue") { return `Will you guide the dragon around the outer edges of the storm and risk the starlight perishing?`;} 
+case "dragonOpposedRaceChoice1":
+    if (wizard === "yellow") { return `Will you take the clear left track?`;}
+    if (wizard === "green") { return `Will you ask to take the safer route?`;}
+    if (wizard === "blue") { return `Will you guide the dragon around the outer edges of the storm and risk the starlight perishing?`;} 
 
-        case "dragonOpposedRaceChoice2":
-            if (wizard === "yellow") { return `Will you take the suicidally cluttered shorter route?`;}
-            if (wizard === "green") { return `Would you rather throw caution to the wind and give the Death, Death, Bang, Bang a try?`;}
-            if (wizard === "blue") { return `Would you rather risk being smashed to a pulp in the angry storm of house-sized rocks?`;} 
+case "dragonOpposedRaceChoice2":
+    if (wizard === "yellow") { return `Will you take the suicidally cluttered, shorter route?`;}
+    if (wizard === "green") { return `Would you rather throw caution to the wind and give the Death, Death, Bang, Bang a try?`;}
+    if (wizard === "blue") { return `Would you rather risk being smashed to a pulp in the angry storm of house-sized rocks?`;}
 
-        case "dragonOpposedRaceHint":
-            if (wizard === "yellow") { return `Brozieg banks away from the main pack.
+case "dragonOpposedRaceHint":
+    if (wizard === "yellow") { return `Brozieg banks away from the main pack.
 
 "Playing it safe?" he rumbles. "Not a popular strategy among racing dragons."
 
-You watch as the other competitors twist and weave through the spinning rocks. Occasionally one takes a hit or makes an incredible escape, and the crowd gasps, but with Brozieg taking a broader route, there are no eyes upon you. The pace remains exhilarating, but you no longer feel as though death is waiting behind every turn.
+You watch as the other competitors twist and weave through the spinning rocks. Occasionally, one takes a hit or makes an incredible escape, and the crowd gasps, but with Brozieg taking a broader route, there are no eyes upon you. The pace remains exhilarating, but you no longer feel as though death is waiting behind every turn.
 
 Brozieg, without the distraction of screaming rock death, proves surprisingly talkative. He asks what brought you to the races, which leads you to mention your search for Antiquity.
 
@@ -381,8 +379,8 @@ The dragon dives, and you realise that you are approaching the finish. Brozieg s
 
 He lowers a wing to allow you to slide from his back. The dragon snorts a puff of warm smoke.
 
-"Thanks for your help. We didn't place, but it was your first time, and without you I couldn't have flown at all."`;}
-            if (wizard === "green") { return `Twinkle enters the calmer waters while the other dragons vanish ahead in bursts of bubbles and spray.
+"Thanks for your help. We didn't place, but it was your first time, and without you, I couldn't have flown at all."`;}
+if (wizard === "green") { return `Twinkle enters the calmer waters while the other dragons vanish ahead in bursts of bubbles and spray.
 
 As she swims, you see that the lake opens into a network of submerged tunnels illuminated by glowing moss and drifting spheres of pale enchantment.
 
@@ -404,12 +402,12 @@ When you tell her it is, she nods.
 
 "Oh, look. We're there."
 
-The tunnel widens and sunlight appears ahead. You emerge from the lake into a peaceful glade. Twinkle lands gracefully beside the shore.
+The tunnel widens, and sunlight appears ahead. You emerge from the lake into a peaceful glade. Twinkle lands gracefully beside the shore.
 
-"Thank you for keeping me company," she says, before scampering off to join the others.`;}
-            if (wizard === "blue") { return `You call out quick instructions, guiding the dragon towards the outer edges of the storm.
+"Thank you for keeping me company," she says before scampering off to join the others.`;}
+if (wizard === "blue") { return `You call out quick instructions, guiding the dragon towards the outer edges of the storm.
 
-The young dragon banks, dives and turns obediently, and soon the journey becomes a careful dance through the fringes of the tempest.
+The young dragon banks, dives, and turns obediently, and soon the journey becomes a careful dance through the fringes of the tempest.
 
 Meteor fragments drift all around you, ranging from pebbles to mountains. Some glow with silver fire. Others leave trails of sparkling dust that linger in the darkness like celestial mist.
 
@@ -439,10 +437,10 @@ Once the starlight has been dispatched and the cradle secured for the return jou
 
 With no fading starlight to race against, the return journey is blissfully uneventful.`;} 
 
-        case "dragonOpposedRaceHintChoice":
-            if (wizard === "yellow") { return `You thank the dragon for the ride and, with a final farewell, continue on your quest.`;}
-            if (wizard === "green") { return `You bid the young dragons farewell and continue your journey.`;}
-            if (wizard === "blue") { return `As the dragon drops you off, you bid him a grateful farewell and continue on your journey.`;} 
+case "dragonOpposedRaceHintChoice":
+    if (wizard === "yellow") { return `You thank the dragon for the ride and, with a final farewell, continue on your quest.`;}
+    if (wizard === "green") { return `You bid the young dragons farewell and continue your journey.`;}
+    if (wizard === "blue") { return `As the dragon drops you off, you bid him a grateful farewell and continue on your journey.`;}
 
         case "dragonOpposedRaceTest":
             if (wizard === "yellow") { return `"Excellent!" roars Brozieg. "I was hoping you'd say that!"
@@ -458,7 +456,7 @@ Brozieg laughs.
 "Now THIS is racing!"
 
 The dragon dives again as a maze of floating arches rushes towards you.`;}
-            if (wizard === "green") { return `Twinkle glances towards the distant splashes left by her companions. Then she grins.
+if (wizard === "green") { return `Twinkle glances towards the distant splashes left by her companions. Then she grins.
 
 "Oh, why not?"
 
@@ -466,7 +464,7 @@ She dives fast and deep. A tunnel entrance rushes towards you.
 
 Then everything becomes about speed.
 
-Twinkle darts through twisting underwater caverns with astonishing agility. She spins between pillars of stone, dives beneath fallen trees and slips through narrow openings that appear far too small for a dragon.
+Twinkle darts through twisting underwater caverns with astonishing agility. She spins between pillars of stone, dives beneath fallen trees, and slips through narrow openings that appear far too small for a dragon.
 
 As water roars around you, silver fish scatter in every direction.
 
@@ -474,8 +472,8 @@ Ahead, glimpses of the other racers flash through the darkness.
 
 "We're gaining!" Twinkle cries.
 
-She surges forward, twisting as the tunnel narrows and jagged rocks loom from the darkness. Ancient roots snake across the passage ahead and Twinkle lowers her head and accelerates.`;}
-            if (wizard === "blue") { return `You guide the dragon into the centre of the raging storm.
+She surges forward, twisting as the tunnel narrows and jagged rocks loom from the darkness. Ancient roots snake across the passage ahead, and Twinkle lowers her head and accelerates.`;}
+if (wizard === "blue") { return `You guide the dragon into the centre of the raging storm.
 
 "Great!" he cries between twists and banks. "I picked up a lunatic who enjoys terrible decisions!"
 
@@ -485,18 +483,18 @@ The starlit sky vanishes, obscured by a tide of rolling stone. Rock and fire fil
 
 The apprentice weaves between them with increasing confidence, responding instantly to your shouted warnings.
 
-You call out as a meteor the size of a cottage sails overhead. The dragon dives, but down here the storm is thicker.
+You call out as a meteor the size of a cottage sails overhead. The dragon dives, but down here, the storm is thicker.
 
 Fragments of glowing crystal spin through the darkness. Exploding meteors scatter clouds of glittering debris. The forge is barely visible in the distance, but you focus upon it, a beacon of golden light amidst the roiling chaos.
 
-You notice that the starlight within the cradle is beginning to fade. You call out, and the apprentice lowers his head and accelerates into the spinning maelstrom.`;} 
+You notice that the starlight within the cradle is beginning to fade. You call out, and the apprentice lowers his head and accelerates into the spinning maelstrom.`;}
 
-        case "dragonOpposedRaceTestFail":
-            if (wizard === "yellow") { return `For a few glorious moments, it seems as though Brozieg will thread the impossible course perfectly.
+case "dragonOpposedRaceTestFail":
+    if (wizard === "yellow") { return `For a few glorious moments, it seems as though Brozieg will thread the impossible course perfectly.
 
 Then disaster strikes.
 
-The dragon twists sharply to avoid another racer. You feel a violent impact. Something clips your side, sending you crashing against a rock above. Your backpack takes the brunt of the blow and you hear a sharp crack, but there is no time to worry about what may have broken.
+The dragon twists sharply to avoid another racer. You feel a violent impact. Something clips your side, sending you crashing against a rock above. Your backpack takes the brunt of the blow, and you hear a sharp crack, but there is no time to worry about what may have broken.
 
 Brozieg spins wildly and dives for a wide opening.
 
@@ -507,7 +505,8 @@ You burst out into a wide, open cloud-stream.
 The less cluttered route, you realise.
 
 Brozieg does not slow, but you feel his huge muscles relax beneath you.`;}
-            if (wizard === "green") { return `NO. NO. NO!
+
+    if (wizard === "green") { return `NO. NO. NO!
 
 Twinkle attempts a gap between two massive roots that is far too small for her. She realises it too late, tries to pull back, but ends up spinning and slamming into the rock.
 
@@ -520,7 +519,8 @@ As it is, your backpack strikes the stone with a terrible crack — the unmistak
 You call out that you are all right. Twinkle visibly relaxes and abandons her reckless pace, gliding into safer waters.
 
 "Sorry," says Twinkle, sounding thoroughly embarrassed.`;}
-            if (wizard === "blue") { return `For several heart-pounding moments, it appears that the apprentice might actually pull off his reckless shortcut.
+
+    if (wizard === "blue") { return `For several heart-pounding moments, it appears that the apprentice might actually pull off his reckless shortcut.
 
 Then a meteor fragment tumbles unexpectedly into your path.
 
@@ -534,13 +534,13 @@ The two of you crash back-first into the spinning missile. It is only through so
 
 You call out again as another projectile spins past only inches away.`;} 
 
-         case "dragonOpposedRaceTestFailChoice":
-            if (wizard === "yellow") { return `You glance back at your pack. Something in there has certainly suffered, but now is not the time to investigate.`;}
-            if (wizard === "green") { return `You assure her that you are unharmed, although you are not nearly so certain that your possessions have fared as well.`;}
-            if (wizard === "blue") { return `Spotting a gap in the storm, you direct the apprentice towards it.`;} 
+case "dragonOpposedRaceTestFailChoice":
+    if (wizard === "yellow") { return `You glance back at your pack. Something in there has certainly suffered, but now is not the time to investigate.`;}
+    if (wizard === "green") { return `You assure her that you are unharmed, although you are not nearly so certain that your possessions have fared as well.`;}
+    if (wizard === "blue") { return `Spotting a gap in the storm, you direct the apprentice towards it.`;} 
 
-         case "dragonOpposedRaceTestPass":
-            if (wizard === "yellow") { return `Brozieg's laughter booms across the sky. The bronze dragon hurls himself into the twisting course with impossible confidence. You plunge through narrow arches, skim across cloud-tops and dart between floating pillars so quickly that the landscape becomes a blur of colour and motion.
+case "dragonOpposedRaceTestPass":
+    if (wizard === "yellow") { return `Brozieg's laughter booms across the sky. The bronze dragon hurls himself into the twisting course with impossible confidence. You plunge through narrow arches, skim across cloud-tops, and dart between floating pillars so quickly that the landscape becomes a blur of colour and motion.
 
 A wall of cloud looms ahead. Head down, Brozieg flies straight through it, sending obscured masonry spinning off in all directions.
 
@@ -568,16 +568,16 @@ When you tell him no thank you, explaining that it would only get in the way of 
 
 "A small gift then."
 
-He places a talon upon your shoulder and a ripple of magic runs through you.`;}
-            if (wizard === "green") { return `Twinkle's uncertainty vanishes.
+He places a talon upon your shoulder, and a ripple of magic runs through you.`;}
+if (wizard === "green") { return `Twinkle's uncertainty vanishes.
 
-For a few glorious minutes she becomes the fastest creature in the entire lake.
+For a few glorious minutes, she becomes the fastest creature in the entire lake.
 
-The young dragon twists through the submerged tunnels like living water itself. She darts between roots, spins through curtains of glowing weed and shoots through narrow stone arches with inches to spare.
+The young dragon twists through the submerged tunnels like living water itself. She darts between roots, spins through curtains of glowing weed, and shoots through narrow stone arches with inches to spare.
 
-The world becomes a blur of green, silver and blue.
+The world becomes a blur of green, silver, and blue.
 
-Other dragons appear ahead and, one by one, Twinkle overtakes them.
+Other dragons appear ahead, and one by one, Twinkle overtakes them.
 
 The expressions on their faces are priceless.
 
@@ -601,12 +601,13 @@ She is positively glowing with pride.
 
 "I won the Death, Death, Bang, Bang!"
 
-She lets out a tremendous laugh before alternating between racing in circles, chasing her tail, hopping into the air and snorting glittering silver dust.`;}
-            if (wizard === "blue") { return `The apprentice dragon becomes a streak of silver lightning.
+She lets out a tremendous laugh before alternating between racing in circles, chasing her tail, hopping into the air, and snorting glittering silver dust.`;}
 
-Every warning you shout is answered instantly. Every turn is executed perfectly. Together you carve a path through the storm that seems less like flying and more like dancing.
+if (wizard === "blue") { return `The apprentice dragon becomes a streak of silver lightning.
 
-A blazing meteor hurtles towards you. The dragon rolls beneath it. Another tumbles across your path and he twists through a gap barely wider than his wingspan. A shower of sparkling debris explodes ahead. The apprentice folds his wings and shoots straight through the centre of it.
+Every warning you shout is answered instantly. Every turn is executed perfectly. Together, you carve a path through the storm that seems less like flying and more like dancing.
+
+A blazing meteor hurtles towards you. The dragon rolls beneath it. Another tumbles across your path, and he twists through a gap barely wider than his wingspan. A shower of sparkling debris explodes ahead. The apprentice folds his wings and shoots straight through the centre of it.
 
 The fading orb of starlight suddenly brightens.
 
@@ -638,13 +639,13 @@ Once the starlight has been dispatched and the cradle secured for the return jou
 
 With no fading starlight to race against, the return journey is blissfully uneventful.`;} 
 
-         case "dragonOpposedRaceTestPassChoice":
-            if (wizard === "yellow") { return `You thank the dragon for the boon and for the exhilarating ride, and with a final farewell, continue on your quest.`;}
-            if (wizard === "green") { return `You call out your thanks to the excitable young dragon for an unforgettable journey and continue on your quest.`;}
-            if (wizard === "blue") { return `As the dragon drops you off, you bid him a grateful farewell and continue on your journey.`;} 
+case "dragonOpposedRaceTestPassChoice":
+    if (wizard === "yellow") { return `You thank the dragon for the boon and for the exhilarating ride, and with a final farewell, continue on your quest.`;}
+    if (wizard === "green") { return `You call out your thanks to the excitable young dragon for an unforgettable journey and continue on your quest.`;}
+    if (wizard === "blue") { return `As the dragon drops you off, you bid him a grateful farewell and continue on your journey.`;}
 
-         case "dragonRealmPath":
-            if (wizard === "yellow") { return `You have been watching a huge cloud bank that has been moving oddly for a while now. It is only as you get closer that you realise they are not clouds at all. At first, you mistake them for a distant mountain range drifting across the heavens, but as you draw nearer you realise you are looking at a city under construction.
+case "dragonRealmPath":
+    if (wizard === "yellow") { return `You have been watching a huge cloud bank that has been moving oddly for a while now. It is only as you get closer that you realise it is not a cloud at all. At first, you mistake it for a distant mountain range drifting across the heavens, but as you draw nearer, you realise you are looking at a city under construction.
 
 Thousands of stone platforms hang suspended in the open sky, some no larger than cottages, others vast enough to support entire villages. Bridges of crystal arch between them. Broad causeways woven from dense white cloud stretch from platform to platform like roads spun from mist.
 
@@ -683,9 +684,9 @@ The first dragon spreads his wings as though the answer is obvious.
 The second dragon shakes his head but turns to you anyway.
 
 "So, boss, what should we do with this?"`;}
-            if (wizard === "green") { return `The path descends through a shallow valley where the grass grows thick between shelves of pale stone. Here and there stand weathered figures no taller than your horse: dragons carved from grey rock. Some crouch upon their haunches, wings folded against their sides, while others curl around smooth stones as though guarding treasures long since lost.
+if (wizard === "green") { return `The path descends through a shallow valley where the grass grows thick between shelves of pale stone. Here and there stand weathered figures no taller than your horse: dragons carved from grey rock. Some crouch upon their haunches, wings folded against their sides, while others curl around smooth stones as though guarding treasures long since lost.
 
-There are dozens of them. At first, you take them for old boundary markers or the work of some forgotten sculptor. They are obviously ancient. Moss gathers upon their backs and flowers grow between their claws. They lie half buried in the earth, with nicks and chips scattered across their carved, scaly bodies.
+There are dozens of them. At first, you take them for old boundary markers or the work of some forgotten sculptor. They are obviously ancient. Moss gathers upon their backs, and flowers grow between their claws. They lie half buried in the earth, with nicks and chips scattered across their carved, scaly bodies.
 
 As you walk among the scattered statues, admiring the craftsmanship, one of them blinks and then snorts. You almost fall over backwards.
 
@@ -697,14 +698,15 @@ You scramble back, tripping over another statue, which is now moving too. Earth 
 
 What you had taken for a hill is, in truth, a dragon of such size that the landscape has grown upon her back.
 
-What you thought were statues appear to be her litter. They yap, leap and flutter, gathering around her boulder-sized feet.
+What you thought were statues appear to be her litter. They yap, leap, and flutter, gathering around her boulder-sized feet.
 
 The great dragon lowers her head until one eye, larger than a wagon wheel, is level with you.
 
 "Small walker," she says, her voice like distant rockfalls. "This is opportune. Perhaps you can aid us. We are a hatchling short. An egg lost, and we, being large, inflexible creatures, are unsuited to narrow places and have failed to retrieve it. Perhaps small hands may succeed where claws cannot."
 
 With no reason not to, you agree to help the dragon.`;}
-            if (wizard === "blue") { return `The path climbs steadily until the ground itself begins to change. The dark stone becomes smoother, and flecks of silver begin to appear within it.
+
+if (wizard === "blue") { return `The path climbs steadily until the ground itself begins to change. The dark stone becomes smoother, and flecks of silver begin to appear within it.
 
 You look up at the countless stars wheeling overhead, so bright and numerous that they cast pale shadows upon the ground. Some drift slowly across the heavens, while others remain fixed in ordered patterns. You watch one cluster rearrange itself while you stand there, as though invisible hands had moved the stars upon a great black map.
 
@@ -718,22 +720,22 @@ One dragon points upward as it approaches and says in a deep, sonorous voice, "Y
 
 A smaller, probably younger dragon carrying neither rod nor chain laughs.
 
-"Or come with me. I'll fly you up there. We'll see the Clearing of the Heavens up close."`;} 
+"Or come with me. I'll fly you up there. We'll see the Clearing of the Heavens up close."`;}
 
-         case "dragonRealmPathChoice1":
-            if (wizard === "yellow") { return `Will you see if you can work out where the platform should go?`;}
-            if (wizard === "green") { return `Will you organise the dragons into a careful, methodical search of the area?`;}
-            if (wizard === "blue") { return `Would you like to accompany the dragons heading to the viewing station?`;} 
+case "dragonRealmPathChoice1":
+    if (wizard === "yellow") { return `Will you see if you can work out where the platform should go?`;}
+    if (wizard === "green") { return `Will you organise the dragons into a careful, methodical search of the area?`;}
+    if (wizard === "blue") { return `Would you like to accompany the dragons heading to the viewing station?`;} 
 
-         case "dragonRealmPathChoice2":
-            if (wizard === "yellow") { return `Would you rather hop onto the platform and cry, "FOLLOW ME!"?`;}
-            if (wizard === "green") { return `Would you rather dive in and see what you turn up?`;}
-            if (wizard === "blue") { return `Would you rather take the younger dragon up on his offer and fly up there to witness the Clearing of the Heavens?`;} 
+case "dragonRealmPathChoice2":
+    if (wizard === "yellow") { return `Would you rather hop onto the platform and cry, "FOLLOW ME!"?`;}
+    if (wizard === "green") { return `Would you rather dive in and see what you turn up?`;}
+    if (wizard === "blue") { return `Would you rather take the younger dragon up on his offer and fly up there to witness the Clearing of the Heavens?`;} 
 
-         case "dragonRealmPathHint":
-            if (wizard === "yellow") { return `You take a careful look around before answering.
+case "dragonRealmPathHint":
+    if (wizard === "yellow") { return `You take a careful look around before answering.
 
-The floating city appears to have some sort of plan behind it, although it is a little hard to see, as many of the areas under construction are hanging in the air like scattered toys. Towers hang upside down beneath neighbouring platforms. Entire streets appear to have been laid sideways, and in a few places half-constructed platforms are stacked awaiting insertion.
+The floating city appears to have some sort of plan behind it, although it is a little hard to see, as many of the areas under construction are hanging in the air like scattered toys. Towers hang upside down beneath neighbouring platforms. Entire streets appear to have been laid sideways, and in a few places, half-constructed platforms are stacked awaiting insertion.
 
 Still, after a few minutes of observation, you can see that, while the sections are not orientated as sensibly as perhaps they might be, they are at least roughly landing where you would expect them to be.
 
@@ -752,13 +754,13 @@ The temple is eventually lowered into place beside a grand avenue stretching acr
 You ask one of the nearby workers about them.
 
 "That?" says the dragon. "That's the Antiquity Road. This will be the Temple of the Great Oak when it's done. Part of a pilgrimage, apparently. You know, for tree nuts. They visit some shiny tree and then come here. Runs all the way to the old quarter. Apparently, if you follow the silver-blue far enough, it leads all the way back to the tree. I can tell you that ain't true, 'coz we haven't built the old quarter yet."`;}
-            if (wizard === "green") { return `You lead the little dragons through the maze of stones, roots and fallen trunks, searching in a grid pattern. Landscape that scarcely hinders you proves troublesome to these creatures made of living rock, and it soon becomes apparent why they need your help.
+if (wizard === "green") { return `You lead the little dragons through the maze of stones, roots, and fallen trunks, searching in a grid pattern. Landscape that scarcely hinders you proves troublesome to these creatures made of living rock, and it soon becomes apparent why they need your help.
 
 The pups watch you with bright, patient eyes while the great mother remains still, her head resting between her forelegs, allowing you to search the hillside.
 
 You search among the hollows and fern beds where a dragon's egg might have rolled. At first, you find nothing save smooth stones and old nests abandoned by birds. Then, beneath a fallen tree, you discover a narrow passage hidden by curtains of moss.
 
-The opening is too small for any of the dragons, and there within the tunnel lies the lost egg, resting safely at the end of the passage.
+The opening is too small for any of the dragons, and within the tunnel lies the lost egg, resting safely at the end of the passage.
 
 You squeeze inside and retrieve the egg, the dragon pups yapping and snorting excitedly as you do so. Once recovered, you return it to the mother.
 
@@ -773,7 +775,8 @@ One of the smaller dragons scrapes at the earth, revealing the same silver-blue 
 "Find the Gatekeeper and follow the silver-blue when bidden," says the mother. "Only then will the silver-blue lead you to that particular ancient magic."
 
 "Now we must sleep once more. Thank you again, small walker."`;}
-            if (wizard === "blue") { return `The dragons lead you along narrow ridges of black stone until you reach a great basin sheltered by towering walls of crystal. At its centre burns no fire, but rather a whirlpool of pale starlight contained within rings of silver metal.
+
+if (wizard === "blue") { return `The dragons lead you along narrow ridges of black stone until you reach a great basin sheltered by towering walls of crystal. At its centre burns no fire, but rather a whirlpool of pale starlight contained within rings of silver metal.
 
 It transpires that your guides are workers rather than spectators, for once they have shown you to the viewing platform, they head down into the crater to join several other dragons working around the forge.
 
@@ -789,39 +792,41 @@ The dragon draws a rod through the pool of light. The tip emerges coated in a pa
 
 "This colour, for instance, will guide you to ancient magical knowledge. The old markers still use it below, even if they have forgotten from where it originates. The paths may fade, but the silver-blue remains wherever true ancient magic resides."
 
-You watch as the constellation is completed and eventually released into the heavens.`;} 
+You watch as the constellation is completed and eventually released into the heavens.`;}
 
-         case "dragonRealmPathHintChoice":
-            if (wizard === "yellow") { return `You thank the worker and follow the silver-blue road. It might not take you all the way to antiquity, but at least you know you are heading in the right direction.`;}
-            if (wizard === "green") { return `You thank the dragon and leave her and her litter to return to their hibernation.`;}
-            if (wizard === "blue") { return `You thank the starsmiths for a wonderful spectacle and continue your journey in search of Antiquity.`;} 
+case "dragonRealmPathHintChoice":
+    if (wizard === "yellow") { return `You thank the worker and follow the silver-blue road. It might not take you all the way to Antiquity, but at least you know you are heading in the right direction.`;}
+    if (wizard === "green") { return `You thank the dragon and leave her and her litter to return to their hibernation.`;}
+    if (wizard === "blue") { return `You thank the starsmiths for a wonderful spectacle and continue your journey in search of Antiquity.`;} 
 
-         case "dragonRealmPathTest":
-            if (wizard === "yellow") { return `You leap onto the platform.
+case "dragonRealmPathTest":
+    if (wizard === "yellow") { return `You leap onto the platform.
 
 Drawing yourself up to your full height—a pointless action when you are little more than squirrel-sized compared to the dragons—you begin issuing instructions.
 
 With gusto, you demand the relocation of platforms, the installation of pillars, the orientation of districts, the righting of towers, and the construction of bridges.
 
-To your great surprise, the two workers who asked for your assistance set to work frantically following your instructions. Soon they rope nearby workers into the build, and to your astonishment they too set to work without question.
+To your great surprise, the two workers who asked for your assistance set to work frantically following your instructions. Soon, they rope nearby workers into the build, and to your astonishment, they too set to work without question.
 
 Before long, you have half the site buzzing around under your direction, with more dragons lining up awaiting your guidance. Somewhere along the way, your bravado has been mistaken for expertise, and you are now the acting foreman of a dragon crew building a city in the sky.`;}
-            if (wizard === "green") { return `You decide that if an egg has been lost, then perhaps it rolled, was carried away, or lies somewhere the dragons themselves have overlooked.
 
-Ignoring the helpful nudges of the smaller creatures, you climb the great mother's stony flank. Trees and bushes grow from the folds of her back, and from that lofty vantage you can see much of the valley below.
+    if (wizard === "green") { return `You decide that if an egg has been lost, then perhaps it rolled, was carried away, or lies somewhere the dragons themselves have overlooked.
+
+Ignoring the helpful nudges of the smaller creatures, you climb the great mother's stony flank. Trees and bushes grow from the folds of her back, and from that lofty vantage, you can see much of the valley below.
 
 A narrow cleft runs through the rocks nearby.`;}
-            if (wizard === "blue") { return `Once you are upon the young dragon's back, it launches itself from the ridge and hurtles towards a patch of darkness above that seems strangely devoid of stars.
+
+    if (wizard === "blue") { return `Once you are upon the young dragon's back, it launches itself from the ridge and hurtles towards a patch of darkness above that seems strangely devoid of stars.
 
 "It's being cleared to make way for the new constellation," says the dragon, almost as if he can read your thoughts. "Look!" he cries excitedly. "The Star-Eater!"
 
-At first you do not see it, not because it was not there, but because it was simply too large for you to comprehend. A dragon too vast for your mind to grasp. A dragon large enough to swallow a sun, which is exactly what it is doing.
+At first, you do not see it, not because it was not there, but because it was simply too large for you to comprehend. A dragon too vast for your mind to grasp. A dragon large enough to swallow a sun, which is exactly what it is doing.
 
 Now that you understand, albeit barely, what you are looking at, you can make out scales blacker than the sky itself and a mouth glowing with a deep red light. The Star-Eater drifts through the heavens with slow, effortless strokes of its unfathomable wings. Each time it opens its jaws, a star vanishes from the sky.
 
 The younger dragon beside you speaks almost reverently.
 
-"It clears the old, fading stars so the forge dragons may build new ones."`;} 
+"It clears the old, fading stars so the forge dragons may build new ones."`;}
 
          case "dragonRealmPathTestPass":
             if (wizard === "yellow") { return `The situation quickly gathers momentum. Dragons fly off carrying instructions to distant platforms. Builders begin shifting foundations. Surveyors consult enormous scrolls covered in diagrams and measurements.
@@ -882,17 +887,17 @@ Far above, the two stars continue to shine while the old constellation disappear
 
 The two of you watch as the Star-Eater devours the last of the dying stars. Then the young dragon turns and carries you back down to the earth below.`;} 
 
-         case "dragonRealmPathTestPassChoice":
-            if (wizard === "yellow") { return `With that, she launches into the air, resuming her normal size as she does so and leaving you to continue your journey.`;}
-            if (wizard === "green") { return `You thank the dragon and leave her and her litter to return to their hibernation.`;}
-            if (wizard === "blue") { return `You thank the dragon for an amazing experience and continue your journey in search of Antiquity.`;} 
+case "dragonRealmPathTestPassChoice":
+    if (wizard === "yellow") { return `With that, she launches into the air, resuming her normal size as she does so and leaving you to continue your journey.`;}
+    if (wizard === "green") { return `You thank the dragon and leave her and her litter to return to their hibernation.`;}
+    if (wizard === "blue") { return `You thank the dragon for an amazing experience and continue your journey in search of Antiquity.`;} 
 
-         case "dragonRealmPathTestFail":
-            if (wizard === "yellow") { return `For several glorious minutes, everything appears to be proceeding perfectly.
+case "dragonRealmPathTestFail":
+    if (wizard === "yellow") { return `For several glorious minutes, everything appears to be proceeding perfectly.
 
 Then somebody asks a question.
 
-Unfortunately, that dragon asks another dragon, who asks a third dragon, who asks a fourth dragon, and before long a heated argument is spreading across the site.
+Unfortunately, that dragon asks another dragon, who asks a third dragon, who asks a fourth dragon, and before long, a heated argument is spreading across the site.
 
 Platforms are dragged in all directions. Towers are picked up and scattered like chess pieces across the skyscape as streets are torn up, moved across the site, and dropped in places that you know no human could ever reach.
 
@@ -911,7 +916,7 @@ It seems that whatever this colossal breed of dragon is, it loves to follow orde
 The work crew seems happy after their beasting.
 
 "Best afternoon we've had in weeks," one remarks cheerfully as he passes. "Foreman hasn't shouted orders that clearly in a long time."`;}
-            if (wizard === "green") { return `You stride up the sloping hillside that is the mother's back, convinced that the egg will be there. Drawn by your confidence, the dragon pups follow, scrambling behind you and sending loose stones skittering down the hillside.
+if (wizard === "green") { return `You stride up the sloping hillside that is the mother's back, convinced that the egg will be there. Drawn by your confidence, the dragon pups follow, scrambling behind you and sending loose stones skittering down the hillside.
 
 There!
 
@@ -919,7 +924,7 @@ You see it: the lost egg nestled within a protruding root knot upon the hillside
 
 You run towards it. The pups, thinking it a game, run with you, sending showers of pebbles cascading down the slope.
 
-You grab the egg, hold it aloft, and suddenly the hillside gives way around you. Earth, trees and rock dragon pups tumble with you down the loosened earth, no longer clinging to the ancient mother's back.
+You grab the egg, hold it aloft, and suddenly the hillside gives way around you. Earth, trees, and rock dragon pups tumble with you down the loosened earth, no longer clinging to the ancient mother's back.
 
 You crash to the valley floor with the egg still in your arms, alarmed dragon pups yapping all around you.
 
@@ -928,13 +933,14 @@ The great mother watches the confusion with ancient patience, though she seems r
 "A little chaotic, small walker," she says. "But still, I am grateful.
 
 "Thank you, small walker. I must now return to my litter. They are somewhat excited, and I must settle them again for hibernation."`;}
-            if (wizard === "blue") { return `The sight of the mind-bending creature unsettles you. It is simply too vast to understand. A dragon that can swallow stars.
+
+if (wizard === "blue") { return `The sight of the mind-bending creature unsettles you. It is simply too vast to understand. A dragon that can swallow stars.
 
 As if it knows your thoughts are upon it, the galactic monster's head turns towards the earth. The younger dragon cries out and scrambles wildly through the sky.
 
 "It's not supposed to do that!" it cries.
 
-For one dreadful moment, its twin sun-like eyes seem to settle upon you. Heat washes over you as the sky brightens beyond a summer's day and your skin prickles.
+For one dreadful moment, its twin sun-like eyes seem to settle upon you. Heat washes over you as the sky brightens beyond a summer's day, and your skin prickles.
 
 But it is over within seconds.
 
@@ -946,13 +952,13 @@ The younger dragon gives a nervous laugh.
 
 The dragon flies you back to the earth, then heads off towards the forge.`;} 
 
-         case "dragonRealmPathTestFailChoice":
-            if (wizard === "yellow") { return `Baffled by it all, you leave the site and continue your journey, but not before shouting: "PUT ALL THE DUCKS IN A SAUCEPAN IN THE LIBRARY!"`;}
-            if (wizard === "green") { return `Glad to have delivered the egg, albeit in a somewhat chaotic fashion, you gather your horse and continue your journey.`;}
-            if (wizard === "blue") { return `You watch as the last few stars blink out of existence to make way for the new, then continue on your journey once more.`;} 
+case "dragonRealmPathTestFailChoice":
+    if (wizard === "yellow") { return `Baffled by it all, you leave the site and continue your journey, but not before shouting: "PUT ALL THE DUCKS IN A SAUCEPAN IN THE LIBRARY!"`;}
+    if (wizard === "green") { return `Glad to have delivered the egg, albeit in a somewhat chaotic fashion, you gather your horse and continue your journey.`;}
+    if (wizard === "blue") { return `You watch as the last few stars blink out of existence to make way for the new, then continue on your journey once more.`;}
 
-         case "dragonRedPath":
-            if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
+case "dragonRedPath":
+    if (wizard === "yellow") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 When the disturbance settles, you notice that the clouds here are pale gold and lavender, drifting in vast, slow rivers beneath a now-still sky of turquoise and white.
 
@@ -969,7 +975,8 @@ You realise with a chill that these are History Eaters. You knew that they exist
 One dragon lifts an entire battle from the clouds and devours it, while another delicately consumes the memory of a long-collapsed bridge.
 
 Yet beside the nearest dragon rests a small collection of untouched memories, glowing faintly upon the stone.`;}
-            if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
+
+    if (wizard === "green") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 The forest path bends between silver-barked trees and opens suddenly onto a broad glade carpeted with soft moss and scattered wildflowers. Sunlight pours down through the canopy, turning the clearing into a pool of gold and green.
 
@@ -981,8 +988,9 @@ Two young male dragons circle one another in the centre of the clearing, trading
 
 Nearby, another dragon leans against a tree, singing in a rich, mournful voice while carefully arranging his wings to their greatest advantage. Overhead, a fourth dragon dives and twists through the air in pursuit of an unfortunate bird, performing spectacular aerial manoeuvres and repeatedly checking whether his audience is watching.
 
-Only one dragon seems entirely removed from these displays. He stands nervously at the edge of the clearing, clutching a small chest against his breast. Every few moments he takes a hesitant step forward before losing his courage.`;}
-            if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
+Only one dragon seems entirely removed from these displays. He stands nervously at the edge of the clearing, clutching a small chest against his breast. Every few moments, he takes a hesitant step forward before losing his courage.`;}
+
+    if (wizard === "blue") { return `A rumble rolls across the skies and the ground quakes. Once again, you are reminded of the sheer willpower that {playerStats.visitingBrotherName} is exerting to hold the realm together.
 
 You head out towards the shore stretching ahead of you. The black sand crunches beneath your boots as you walk along the obsidian beach. Above, countless stars burn against an endless darkness, their reflections glittering upon a silent sea as black as polished glass.
 
@@ -990,20 +998,20 @@ Ahead of you, half buried in the shore, lies the shattered hull of a vast galley
 
 Its timbers are blackened by age and polished smooth by centuries of wind and spray. The vessel has lain here for so long that the sand itself seems to have grown around it. Yet although the seaward side of the ship has been smashed open, the half resting upon the beach remains remarkably intact.
 
-The vessel has fallen onto its side, placing what were once the upper and lower decks almost level with the shore. With your mind brimming with tales of pirates' treasure, you decide that the wreck is worth investigating.`;} 
+The vessel has fallen onto its side, placing what were once the upper and lower decks almost level with the shore. With your mind brimming with tales of pirates' treasure, you decide that the wreck is worth investigating.`;}
 
-         case "dragonRedPathChoice1":
-            if (wizard === "yellow") { return `Will you examine the abandoned memories?`;}
-            if (wizard === "green") { return `Will you approach the nervous dragon?`;}
-            if (wizard === "blue") { return `Will you climb onto the upper decks`;} 
+case "dragonRedPathChoice1":
+    if (wizard === "yellow") { return `Will you examine the abandoned memories?`;}
+    if (wizard === "green") { return `Will you approach the nervous dragon?`;}
+    if (wizard === "blue") { return `Will you climb onto the upper decks?`;} 
 
-         case "dragonRedPathChoice2":
-            if (wizard === "yellow") { return `Would you rather approach the History Eaters themselves?`;}
-            if (wizard === "green") { return `Would you rather visit the silver dragons beneath the trees?`;}
-            if (wizard === "blue") { return `Would you rather explore the lower decks?`;} 
+case "dragonRedPathChoice2":
+    if (wizard === "yellow") { return `Would you rather approach the History Eaters themselves?`;}
+    if (wizard === "green") { return `Would you rather visit the silver dragons beneath the trees?`;}
+    if (wizard === "blue") { return `Would you rather explore the lower decks?`;} 
 
-         case "dragonRedPathHint":
-            if (wizard === "yellow") { return `Several memories lie upon the stone rim beside the nearest dragon.
+case "dragonRedPathHint":
+    if (wizard === "yellow") { return `Several memories lie upon the stone rim beside the nearest dragon.
 
 Most are dim and fading: a merchant arguing over the price of grain; a child losing a toy; the collapse of a forgotten tower.
 
@@ -1020,7 +1028,7 @@ One of the History Eaters opens a pale eye.
 "Too old," it murmurs. "Too important to consume. We leave certain things behind."
 
 The great dragon closes its eye once more.`;}
-            if (wizard === "green") { return `The young dragon starts when you approach and nearly drops the chest he is carrying.
+if (wizard === "green") { return `The young dragon starts when you approach and nearly drops the chest he is carrying.
 
 "Oh!" he exclaims. He glances towards the silver dragons. "Do you think they saw that? No. No."
 
@@ -1037,7 +1045,8 @@ He gazes once more towards the females.
 "Do you think that would impress them?"
 
 You avoid giving a direct answer.`;}
-            if (wizard === "blue") { return `The upper reaches of the galley are little more than a grave of driftwood and broken beams. Whatever wealth the ship once carried has long since been claimed by time, tide, or thief. You sift through collapsed cabins and shattered furniture, but discover nothing of value.
+
+if (wizard === "blue") { return `The upper reaches of the galley are little more than a grave of driftwood and broken beams. Whatever wealth the ship once carried has long since been claimed by time, tide, or thieves. You sift through collapsed cabins and shattered furniture, but discover nothing of value.
 
 Eventually, you enter what was perhaps once the captain's quarters or some kind of chart room.
 
@@ -1055,7 +1064,7 @@ You carefully return the ruined volume to its shelf.
 
 As you turn to leave, the ship suddenly shifts. The entire wreck groans. A crack opens in the deck beside you. Peering through, you glimpse a vast golden eye opening in the darkness below. Beneath the lower decks lies a mountain of treasure, and upon that mountain rests a dragon so enormous that the entire wreck seems little more than a shelter built around its hoard.
 
-The eye slowly closes once more.`;} 
+The eye slowly closes once more.`;}
 
          case "dragonRedPathHintChoice":
             if (wizard === "yellow") { return `Not wishing to disturb the dragons any more than you already have, you quietly leave the basin and continue your search for Antiquity.`;}
@@ -1216,7 +1225,7 @@ At length, the dragons withdraw their claws and lift their heads.
 "It is inconclusive," says the dragon closest to you.
 
 You wait for an explanation, but none comes. When it becomes clear that the dragons have nothing more to say, you step back from the basin. A wave of draining dizziness washes over you.`;}
-            if (wizard === "green") { return `No sooner have you finished your proclamation than one dragon leaps to his feet.
+if (wizard === "green") { return `No sooner have you finished your proclamation than one dragon leaps to his feet.
 
 "I shall undertake this quest to prove my valour!"
 
@@ -1237,32 +1246,33 @@ The silver dragon who first addressed you watches the brawl with mild amusement.
 "Well," she remarks, "it isn't exactly quiet, but it is rather entertaining."
 
 Deciding that discretion is the better part of survival, you scramble to your feet and hastily leave the clearing before one of the combatants accidentally turns you into ash.`;}
-            if (wizard === "blue") { return `You tell the dragon of your search for Antiquity, of how you are combing this realm in the hope of retrieving a silver acorn of—
+
+if (wizard === "blue") { return `You tell the dragon of your search for Antiquity, of how you are combing this realm in the hope of retrieving a silver acorn of—
 
 One enormous claw reaches towards you and, with a flick, you are flying through the air.
 
-You shoot from the broken hull of the galley and tumble across the black sand beyond. Remarkably, nothing appears to be broken, and you have suffered no physical injury. Yet as you struggle to your feet, you feel strangely diminished. Something was drawn from you by the dragon's immense magic in the briefest moment that he touched you.`;} 
+You shoot from the broken hull of the galley and tumble across the black sand beyond. Remarkably, nothing appears to be broken, and you have suffered no physical injury. Yet, as you struggle to your feet, you feel strangely diminished. Something was drawn from you by the dragon's immense magic in the briefest moment that he touched you.`;} 
 
-         case "dragonRedPathTestFailChoice":
-            if (wizard === "yellow") { return `The ancient History Eaters return to their endless task, consuming forgotten ages while you gather yourself and prepare to continue your search for Antiquity.`;}
-            if (wizard === "green") { return `You collect your horse and continue on your way.`;}
-            if (wizard === "blue") { return `Counting yourself fortunate that the encounter ended no worse, you leave the black shore behind and continue your search for Antiquity.`;} 
+case "dragonRedPathTestFailChoice":
+    if (wizard === "yellow") { return `The ancient History Eaters return to their endless task, consuming forgotten ages while you gather yourself and prepare to continue your search for Antiquity.`;}
+    if (wizard === "green") { return `You collect your horse and continue on your way.`;}
+    if (wizard === "blue") { return `Counting yourself fortunate that the encounter ended no worse, you leave the black shore behind and continue your search for Antiquity.`;} 
 
-         case "dragonPath":
-            if (wizard === "yellow") { return `The path brings you to a wide platform suspended among the clouds. It appears to be some kind of hub, laid out rather like a park in the sky. Four further paths lead onward from here.
+case "dragonPath":
+    if (wizard === "yellow") { return `The path brings you to a wide platform suspended among the clouds. It appears to be some kind of hub, laid out rather like a park in the sky. Four further paths lead onward from here.
 
-The first, The Silver Parade, is a winding, silver tree-lined avenue that disappears through the clouds towards a distant platform, where you can make out a group of large creatures gathered in discussion.
+The first, The Silver Parade, is a winding, silver, tree-lined avenue that disappears through the clouds towards a distant platform, where you can make out a group of large creatures gathered in discussion.
 
 The second path passes the grand Festival Fountain that appears to form the centrepiece of the park. Beyond it, you can both see and hear some sort of event taking place, although it is too far away for you to make out exactly what is happening.
 
 The third route passes through a play area where a group of tiny drakes laugh merrily as they leap into puffing air streams that launch them high into the sky before gently carrying them back down onto the soft folds of the cloud-covered ground. Beyond this area, you can just make out several large platforms moving slowly in the distance.
 
-To the left lies Firefly Gardens. An area filled with flowers in brilliant shades of orange, red and yellow. The growth is so thick that you cannot see what lies beyond it.
+To the left lies Firefly Gardens, an area filled with flowers in brilliant shades of orange, red and yellow. The growth is so thick that you cannot see what lies beyond it.
 
 The final path, this one unnamed, skirts the edge of the park altogether. Following this route, you realise, would allow you to avoid the park and all of its destinations entirely.
 
 Which path would you like to take?`;}
-            if (wizard === "green") { return `You arrive at a natural crossroads where four faint paths part ways through the forest.
+if (wizard === "green") { return `You arrive at a natural crossroads where four faint paths part ways through the forest.
 
 The first path follows a small stream which threads through the forest floor, widening in the distance where it appears to join a large lake. Though it is a way off and partially obscured by the trees, you can clearly see there is something huge down by the lakeside.
 
@@ -1273,9 +1283,10 @@ The third trail is more defined, climbing steadily up a low hillside. Roots cros
 The fourth route is lined with lanterns placed at intervals on the ground between the trees. You are not sure that this is a path at all, but the lanterns, snaking into the woods, seem to be heading somewhere.
 
 Which path would you like to take?`;}
-            if (wizard === "blue") { return `It is difficult to pick out specific routes and paths in a realm such as Solarius’s, where the sea and starlit sky appear to stretch on forever. Instead, you look for destinations, and in this matter a number of places of interest stand out.
 
-To the west, a little way out to sea, a group of silver serpentine creatures are gathering around a rocky outcrop. They appear to be waiting for something as they nestle between the patchy, scrubby vegetation on the rock’s surface.
+if (wizard === "blue") { return `It is difficult to pick out specific routes and paths in a realm such as Solarius's, where the sea and starlit sky appear to stretch on forever. Instead, you look for destinations, and in this matter, a number of places of interest stand out.
+
+To the west, a little way out to sea, a group of silver serpentine creatures are gathering around a rocky outcrop. They appear to be waiting for something as they nestle between the patchy, scrubby vegetation on the rock's surface.
 
 To the east, a large black cliff formation cuts into the sea and sky alike. A huge waterfall cascades down the side of the cliff, tumbling into the black, star-dappled seas below. Some sort of lit procession appears to be traversing the cliff top.
 
@@ -1285,31 +1296,31 @@ The last area of interest lies further along the shoreline, where something larg
 
 Which area would you like to explore?`;} 
 
-         case "dragonPathMISALIGNED":
-            if (wizard === "yellow") { return `The Silver Parade leading to the creatures in discussion?`;}
-            if (wizard === "green") { return `Follow the stream toward the distant lake and enormous creature?`;}
-            if (wizard === "blue") { return `The gathering of serpentine creatures, who appear to be waiting for something?`;} 
+case "dragonPathMISALIGNED":
+    if (wizard === "yellow") { return `The Silver Parade leading to the creatures in discussion?`;}
+    if (wizard === "green") { return `Follow the stream towards the distant lake and enormous creature?`;}
+    if (wizard === "blue") { return `The gathering of serpentine creatures, who appear to be waiting for something?`;} 
 
-         case "dragonPathREALM":
-            if (wizard === "yellow") { return `The route through the play area towards the shifting platforms?`;}
-            if (wizard === "green") { return `Climb the hillside route toward the higher ground?`;}
-            if (wizard === "blue") { return `Would you rather investigate the clifftop procession?`;} 
+case "dragonPathREALM":
+    if (wizard === "yellow") { return `The route through the play area towards the shifting platforms?`;}
+    if (wizard === "green") { return `Climb the hillside route towards the higher ground?`;}
+    if (wizard === "blue") { return `Would you rather investigate the clifftop procession?`;} 
 
-         case "dragonPathOPPOSED":
-            if (wizard === "yellow") { return `The path past the Festival Fountain towards the distant event?`;}
-            if (wizard === "green") { return `Head into the trees along the mist-lined path towards the distant laughter?`;}
-            if (wizard === "blue") { return `Would you like to make your way to the clifftop building?`;} 
+case "dragonPathOPPOSED":
+    if (wizard === "yellow") { return `The path past the Festival Fountain towards the distant event?`;}
+    if (wizard === "green") { return `Head into the trees along the mist-lined path towards the distant laughter?`;}
+    if (wizard === "blue") { return `Would you like to make your way to the clifftop building?`;} 
 
-         case "dragonPathRED":
-            if (wizard === "yellow") { return `The Firefly Gardens path with its hidden destination?`;}
-            if (wizard === "green") { return `Follow the lanterns into the trees?`;}
-            if (wizard === "blue") { return `Would you like to investigate the dark shape on the shoreline?`;} 
+case "dragonPathRED":
+    if (wizard === "yellow") { return `The Firefly Gardens path with its hidden destination?`;}
+    if (wizard === "green") { return `Follow the lanterns into the trees?`;}
+    if (wizard === "blue") { return `Would you like to investigate the dark shape on the shoreline?`;} 
 
-         case "dragonPathIGNORE":
-            if (wizard === "yellow") { return `Or would you rather avoid them all and skirt around the edge of the park?`;}
-            if (wizard === "green") { return `Or would you prefer to ignore them all and head deeper into the realm?`;}
-            if (wizard === "blue") { return `Or would you prefer to ignore them all and head deeper into the realm?`;} 
-  
+case "dragonPathIGNORE":
+    if (wizard === "yellow") { return `Or would you rather avoid them all and skirt around the edge of the park?`;}
+    if (wizard === "green") { return `Or would you prefer to ignore them all and head deeper into the realm?`;}
+    if (wizard === "blue") { return `Or would you prefer to ignore them all and head deeper into the realm?`;}
+      
         default:
             return null;
     }
