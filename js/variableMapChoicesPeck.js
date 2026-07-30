@@ -8,33 +8,33 @@ const wizardYou = (playerStats.wizardColor || "").toLowerCase();
     switch (path) {
 
         case "peckMeetChoice1":
-            if (wizard === "green") { return `Leave Puck to his herd and cross the grassy field to the paths on the far side?`;}
-            if (wizard === "yellow") { return `Leave Puck to his herd and cross the cloud-dusted field to the bridges on the far side?`;}
-            if (wizard === "blue") { return `Leave Puck to his herd and make your way out of the cove?`;}   
+            if (wizard === "green") { return `Leave Puck to his herd and cross the grassy field to the paths on the far side?`; }
+            if (wizard === "yellow") { return `Leave Puck to his herd and cross the cloud-dusted field to the bridges on the far side?`; }
+            if (wizard === "blue") { return `Leave Puck to his herd and make your way out of the cove?`; }
 
         case "graffleFleeceColour":
-            if (wizard === "green") { return `brown mossy`;}
-            if (wizard === "yellow") { return `brilliant white`;}
-            if (wizard === "blue") { return `black glossy`;}   
+            if (wizard === "green") { return `brown mossy`; }
+            if (wizard === "yellow") { return `brilliant white`; }
+            if (wizard === "blue") { return `black glossy`; }
 
         case "graffleGraze":
-            if (wizard === "green") { return `lush grassy ground`;}
-            if (wizard === "yellow") { return `cloud-misted ground`;}
-            if (wizard === "blue") { return `gently lapping waters`;}             
+            if (wizard === "green") { return `lush grassy ground`; }
+            if (wizard === "yellow") { return `cloud-misted ground`; }
+            if (wizard === "blue") { return `gently lapping waters`; }
 
         case "peckInfoChoice1":
-            if (wizard === "green") { return `Thank him for his time and follow the paths beyond the flock?`;}
-            if (wizard === "yellow") { return `Thank him for his time and head towards the three bridges beyond the flock?`;}
-            if (wizard === "blue") { return `Thank him for his time and head out of the silver sands of the cove?`;}   
+            if (wizard === "green") { return `Thank him for his time and follow the paths beyond the flock?`; }
+            if (wizard === "yellow") { return `Thank him for his time and head towards the three bridges beyond the flock?`; }
+            if (wizard === "blue") { return `Thank him for his time and head out of the silver sands of the cove?`; }
 
         case "peckInfo":
             if (wizard === "green") { return `He points towards the distant slopes of Ditchdown Valley.
 
-"There's a witch lives in a cave over there. Morwen they call her. Comes down to the village every now and then for salt, candles and such. Reckons the boundaries between the realms are thinning. Says she can hear voices through the stone walls of her cave when the moon's right."
+"There's a witch who lives in a cave over there. Morwen they call her. Comes down to the village every now and then for salt, candles and such. Reckons the boundaries between the realms are thinning. Says she can hear voices through the stone walls of her cave when the moon's right."
 
 He scratches at his beard.
 
-"Down in the woods south of here there's a band of vigilantes camped among the trees. Say they're hunting smugglers and thieves, though some folk reckon they enjoy the chasing more than the catching. Morwen says they've been wandering too close to the weak places between the worlds."
+"Down in the woods south of here, there's a band of vigilantes camped among the trees. Say they're hunting smugglers and thieves, though some folk reckon they enjoy the chasing more than the catching. Morwen says they've been wandering too close to the weak places between the worlds."
 
 He glances towards the north.
 
@@ -62,7 +62,8 @@ He shrugs.
 
 "Mind you, Mr Rivers says she does enjoy the sauce."
 
-When Puck finally finishes his rambling tale, will you:`;}
+When Puck finally finishes his rambling tale, will you:
+`;}
             if (wizard === "blue") { return `He points towards the distant line of pale dunes.
 
 "There's a fellow named Elias Vane living out among the Silver Sand Dunes. Makes his living scavenging whatever the tide leaves behind. Driftwood, wreckage, old bottles, bits of ships and such. Says the sea brings him things from places that don't belong on any map. Claims he once found a bell covered in writing that changed every time he looked at it."
@@ -77,25 +78,25 @@ He glances towards the hills.
 
 He shrugs.
 
-"Mind you, Elias says Tabby does enjoy licking the mould off of pancakes, so who can say?"
+"Mind you, Elias says Tabby does enjoy licking the mould off pancakes, so who can say?"
 
 When Puck finally finishes his rambling tale, will you:
 `;}   
                      
         case "peckRealmStaff":
-            if (wizard === "green") { return `Do you possess the Tanglewood Staff?`;}
-            if (wizard === "yellow") { return `Do you possess the Sky Shard?`;}
-            if (wizard === "blue") { return `Do you possess the Crystal Shard?`;}   
+            if (wizard === "green") { return `Do you possess the Tanglewood Staff?`; }
+            if (wizard === "yellow") { return `Do you possess the Sky Shard?`; }
+            if (wizard === "blue") { return `Do you possess the Crystal Shard?`; }
             
         case "peckRealmStaffName":
-            if (wizard === "green") { return `Tanglewood Staff`;}
-            if (wizard === "yellow") { return `Sky Shard`;}
-            if (wizard === "blue") { return `Crystal Shard`;}   
+            if (wizard === "green") { return `Tanglewood Staff`; }
+            if (wizard === "yellow") { return `Sky Shard`; }
+            if (wizard === "blue") { return `Crystal Shard`; }
             
-        case "peckTradeCoice":
-            if (wizard === "green") { return `You carefully pick your way through the flock towards the paths on the far side of the field.`;}
-            if (wizard === "yellow") { return `You carefully pick your way through the flock towards the three bridges on the far side of the platform.`;}
-            if (wizard === "blue") { return `You carefully pick your way through the flock, cross the silver sands and leave the cove.`;}   
+        case "peckTradeChoice":
+            if (wizard === "green") { return `You carefully pick your way through the flock towards the paths on the far side of the field.`; }
+            if (wizard === "yellow") { return `You carefully pick your way through the flock towards the three bridges on the far side of the platform.`; }
+            if (wizard === "blue") { return `You carefully pick your way through the flock, cross the silver sands and leave the cove.`; }
             
         case "peckLeave":
             if (wizard === "green") { return `Beyond the settlement, three narrow paths lead away across the hillside, winding between rocks, heather and patches of coarse grass.
@@ -122,24 +123,24 @@ The first landmark to catch your eye is a tall, crooked pillar of rock that rise
 
 A little farther along the coast lies a small island, which you judge must be reachable only when the silver waters retreat. A handful of buildings stand scattered upon the rocky ground, while near the centre rises what appears to be the mast of a ship or perhaps some tall wooden pole reaching towards the stars.
 
-Beyond the island, the shoreline continues into the distance. A lone man wanders the beach picking up items and taking his findings back to the rough driftwood shack where he appears to be living.
+Beyond the island, the shoreline continues into the distance. A lone man wanders the beach, picking up items and taking his findings back to the rough driftwood shack where he appears to be living.
 
-Which area will you visit next?`;}   
+Which area will you visit next?`;}  
             
         case "peckLeaveChoice1":
-            if (wizard === "green") { return `The shimmering stepping stones?`;}
-            if (wizard === "yellow") { return `The tiny plateau with the shimmering air?`;}
-            if (wizard === "blue") { return `The crooked finger-like rock?`;}   
+            if (wizard === "green") { return `The shimmering stepping stones?`; }
+            if (wizard === "yellow") { return `The tiny plateau with the shimmering air?`; }
+            if (wizard === "blue") { return `The crooked finger-like rock?`; }
             
         case "peckLeaveChoice2":
-            if (wizard === "green") { return `The wooded area occupied by the men in forest colours?`;}
-            if (wizard === "yellow") { return `The platform occupied by soldiers?`;}
-            if (wizard === "blue") { return `The small island with the mast?`;}   
+            if (wizard === "green") { return `The wooded area occupied by the men in forest colours?`; }
+            if (wizard === "yellow") { return `The platform occupied by soldiers?`; }
+            if (wizard === "blue") { return `The small island with the mast?`; }
             
         case "peckLeaveChoice3":
-            if (wizard === "green") { return `The valley with the distant cave?`;}
-            if (wizard === "yellow") { return `The platform containing the village shop?`;}
-            if (wizard === "blue") { return `The beach comber in his driftwood shack?`;}   
+            if (wizard === "green") { return `The valley with the distant cave?`; }
+            if (wizard === "yellow") { return `The platform containing the village shop?`; }
+            if (wizard === "blue") { return `The beachcomber in his driftwood shack?`; } 
                         
         default:
             return null;

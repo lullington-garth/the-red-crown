@@ -1320,7 +1320,51 @@ case "dragonPathIGNORE":
     if (wizard === "yellow") { return `Or would you rather avoid them all and skirt around the edge of the park?`;}
     if (wizard === "green") { return `Or would you prefer to ignore them all and head deeper into the realm?`;}
     if (wizard === "blue") { return `Or would you prefer to ignore them all and head deeper into the realm?`;}
-      
+
+        case "dragonMisalignedImage":
+            if (wizard === "green") {
+                return "dragonFishing.jpg";
+            }
+            if (wizard === "yellow") {
+                return "dragonScholars.jpg";
+            }
+            if (wizard === "blue") {
+                return "dragonIsland.jpg";
+            } 
+
+        case "dragonRaceImage":
+            if (wizard === "green") {
+                return "dragonRaceGreen.jpg";
+            }
+            if (wizard === "yellow") {
+                return "dragonRaceYellow.jpg";
+            }
+            if (wizard === "blue") {
+                return "dragonRaceBlue.jpg";
+            } 
+
+        case "dragonRealmImage":
+            if (wizard === "green") {
+                return "dragonRealmGreen.jpg";
+            }
+            if (wizard === "yellow") {
+                return "dragonRealmYellow.jpg";
+            }
+            if (wizard === "blue") {
+                return "dragonRealmBlue.jpg";
+            } 
+            
+        case "dragonRedImage":
+            if (wizard === "green") {
+                return "dragonRedGreen.jpg";
+            }
+            if (wizard === "yellow") {
+                return "dragonRedYellow.jpg";
+            }
+            if (wizard === "blue") {
+                return "dragonRedBlue.jpg";
+            }             
+            
         default:
             return null;
     }

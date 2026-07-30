@@ -10,7 +10,7 @@ const wizardYou = (playerStats.wizardColor || "").toLowerCase();
         case "settlementShop":
             if (wizard === "green") { return `You follow the tree-lined valley towards a cave mouth that you first spotted high upon the hillside. When you finally reach it, you discover a young but wild-looking woman sitting upon a boulder outside the entrance, grinding grubs with a mortar and pestle.
 
-Her hair looks like a storm has recently discharged through it. Twigs, leaves and several small creatures have made their homes among the tangled strands, and every so often she pulls something from the mass and drops it into the bowl she is grinding.
+Her hair looks like a storm has recently discharged through it. Twigs, leaves, and several small creatures have made their homes among the tangled strands, and every so often she pulls something from the mass and drops it into the bowl she is grinding.
 
 When she notices you, she offers the bowl.
 
@@ -28,11 +28,11 @@ The shop is busy, with locals constantly coming and going, though it also appear
 The business appears to be family-run. An older man and woman, whom everyone refers to as Mr and Mrs Rivers, oversee the shop, assisted by a young woman in her twenties whom the locals call Chug. Her resemblance to the Rivers is so striking that she can only be their daughter.
 
 Will you...`;}
-            if (wizard === "blue") { return `The silver beach stretches endlessly beneath a star crammed sky. The dark sea rolls quietly against the shore, each wave leaving trails of pale foam that glimmer like moonlight.
+            if (wizard === "blue") { return `The silver beach stretches endlessly beneath a star-crammed sky. The dark sea rolls quietly against the shore, each wave leaving trails of pale foam that glimmer like moonlight.
 
 Ahead, you spot the solitary figure that you saw from afar, dragging a wooden sled across the sand. The man pauses occasionally to stoop and examine whatever the tide has carried ashore before tossing his finds onto the sled behind him.
 
-A short distance farther on stands what you assume to be his home: a crude hut constructed from driftwood, broken spars and weathered sailcloth. Nets, shells and odd pieces of wreckage hang from ropes outside, while crates and baskets lie scattered around the entrance.
+A short distance farther on stands what you assume to be his home: a crude hut constructed from driftwood, broken spars, and weathered sailcloth. Nets, shells, and odd pieces of wreckage hang from ropes outside, while crates and baskets lie scattered around the entrance.
 
 The man glances at you only briefly.
 
@@ -43,19 +43,19 @@ Will you...`;}
         case "settlementShopChoice1":
             if (wizard === "green") { return `Ask to see what she is selling?`;}
             if (wizard === "yellow") { return `Look around the stalls?`;}
-            if (wizard === "blue") { return `Ask to see what he is selling?`;}   
+            if (wizard === "blue") { return `Ask to see what he is selling?`}   
             
         case "settlementShopChoice2":
             if (wizard === "green") { return `Keep following the path through the valley?`;}
             if (wizard === "yellow") { return `Keep following the path through the banked clouds to the bridge on the far side?`;}
-            if (wizard === "blue") { return `Continue along the silver beach?`;}   
+            if (wizard === "blue") { return `Continue along the silver beach?`;}
             
         case "settlementShopBuy":
             if (wizard === "green") { return `The woman rises and beckons you towards the cave.
 
 "I'm Root," she says. "See anything you like, let me know."
 
-The cave is surprisingly bright. A wide opening in the roof allows shafts of sunlight to spill inside, warming the stone floor. It must be a miserable place during rain or winter, but on a fine day it is almost comfortable.
+The cave is surprisingly bright. A wide opening in the roof allows shafts of sunlight to spill inside, warming the stone floor. It must be a miserable place during rain or winter, but on a fine day, it is almost comfortable.
 
 Scattered throughout the cave is an eclectic assortment of objects, each neatly marked in chalk with its price.
 
@@ -74,7 +74,7 @@ As you examine the wares, Root reaches beneath a pile of leaves and produces an 
 "I've got some hot badger blood," she says, pouring a steaming cup. "One Gold Piece. Want some?"`;}
             if (wizard === "yellow") { return `The shop offers a wide variety of goods, exactly as you would expect from a store serving a small community. However, the stall that interests you most bears a sign marked CLEARANCE and appears to contain a collection of items that have accumulated over many years—objects of little use to the townsfolk, yet perhaps valuable to a traveller.
 
-Among the cluttered table you discover the following items, each neatly labelled with its price.
+Among the cluttered table, you discover the following items, each neatly labelled with its price.
 
 Marsh Stalker Boots — 3 GP
 Gil Ring — 2 GP
@@ -93,9 +93,9 @@ As you browse the table, Mrs Rivers approaches.
 
 "Name's Trunk," he says. "If it's here, it's for sale. If it isn't, it washed somewhere else."
 
-He leads you into the driftwood hut. The interior smells of salt, tar and old rope. Gaps in the sailcloth walls allow starlight to spill inside, illuminating shelves built from wrecked timbers and cargo crates.
+He leads you into the driftwood hut. The interior smells of salt, tar, and old rope. Gaps in the sailcloth walls allow starlight to spill inside, illuminating shelves built from wrecked timbers and cargo crates.
 
-The shelves are lined with an odd mix of items Trunk must have gathered over many years combing. Each item has its price scratched onto a small shell next to it.
+The shelves are lined with an odd mix of items Trunk must have gathered over many years combing the shoreline. Each item has its price scratched onto a small shell next to it.
 
 Marsh Stalker Boots — 3 GP
 Gil Ring — 2 GP
@@ -109,7 +109,7 @@ Pewter Tankard — 1 GP
 
 As you examine the goods, Trunk retrieves a battered kettle from a small stove of black stones.
 
-"Tea," he grunts, pouring a steaming cup. "One Gold Piece."`;}   
+"Tea," he grunts, pouring a steaming cup. "One Gold Piece."`;}    
             
         case "settlementShopBuyChoice1":
             if (wizard === "green") { return `Do you possess the Tanglewood Staff?`;}
@@ -124,7 +124,7 @@ As you examine the goods, Trunk retrieves a battered kettle from a small stove o
         case "settlementShopBuyChoice3":
             if (wizard === "green") { return `Would you rather decline the beverage and return to the valley path?`;}
             if (wizard === "yellow") { return `Would you rather decline the beverage and make your way to the bridge on the far side of the platform?`;}
-            if (wizard === "blue") { return `Would you rather decline the drink and return to the beach?`;}   
+            if (wizard === "blue") { return `Would you rather decline the drink and return to the beach?`;}
             
         case "settlementShopHint":
             if (wizard === "green") { return `"So why you in valley?" asks Root. "Don't get many folk passing through."
@@ -160,14 +160,14 @@ As the old beachcomber speaks, you sip the tea. Despite its unusual tang, it is 
         case "settlementShopHintChoice":
             if (wizard === "green") { return `Once you finish your drink, you thank Root and make your way back to the valley path.`;}
             if (wizard === "yellow") { return `Once you finish your drink, you thank the woman and make your way to the bridge on the far side of the platform.`;}
-            if (wizard === "blue") { return `Once you finish your drink, you thank Trunk and return to the silver beach.`;}   
+            if (wizard === "blue") { return `Once you finish your drink, you thank Trunk and return to the silver beach.`;} 
             
         case "settlementShopLeave":
-            if (wizard === "green") { return `Leaving Root's cave behind, you continue along the tree-lined valley. The slopes on either side eventually narrow and finally pinch closed. The path from this point on winds steeply upwards.
+            if (wizard === "green") { return `Leaving Root's cave behind, you continue along the tree-lined valley. The slopes on either side eventually narrow and finally pinch closed. The path from this point onwards winds steeply upwards.
 
-While steep, and seldom trodden, the path is well cut so your progress is good.
+While steep and seldom trodden, the path is well cut, so your progress is good.
 
-Within the hour you reach the crest of the rise and look down into another valley beyond. This one is carpeted in dense forest, and at its centre a soft silver light glows among the trees.`;}
+Within the hour, you reach the crest of the rise and look down into another valley beyond. This one is carpeted in dense forest, and at its centre, a soft silver light glows among the trees.`;}
             if (wizard === "yellow") { return `Leaving the shop behind, you make your way towards the only other exit from the platform: a long bridge suspended above the open skies and stretching towards an enormous plateau; a landmass the size of a city floating among the clouds. Looking to your right, you can see several other bridges extending from the settlement, all connecting to the vast floating land beyond.`;}
             if (wizard === "blue") { return `Leaving Trunk's hut behind, you continue along the silver sands. The shore curves gradually beneath the endless heavens while dark waves lap quietly beside you.
 
@@ -177,24 +177,24 @@ The colossal structure rises from the shoreline like the remains of some forgott
             
         case "settlementShopLeaveChoice":
             if (wizard === "green") { return `With only one path open to you, you begin your descent towards the forest below.`;}
-            if (wizard === "yellow") { return `You step onto the long sky spanning bridge and begin towards the enormous plateau ahead.`;}
-            if (wizard === "blue") { return `It appears to be the only destination open to you so you begin walking towards the enormous obsidian arch.`;}   
+            if (wizard === "yellow") { return `You step onto the long sky-spanning bridge and begin your journey towards the enormous plateau ahead.`;}
+            if (wizard === "blue") { return `It appears to be the only destination open to you, so you begin walking towards the enormous obsidian arch.`;} 
             
         case "settlementShopRealmStaff":
-            if (wizard === "green") { return `As Root approaches carrying the drinks, she suddenly lets out a startled cry, drops the jug and dives back towards her pile of leaves.
+            if (wizard === "green") { return `As Root approaches carrying the drinks, she suddenly lets out a startled cry, drops the jug, and dives back towards her pile of leaves.
 
-For a moment you think that the hot liquid has burnt her, but when she turns around she is grinning broadly and holding a glowing golden vine.
+For a moment, you think that the hot liquid has burnt her, but when she turns around, she is grinning broadly and holding a glowing golden vine.
 
 "That's Tanglewood," she says, pointing excitedly at your staff. "Stuff of nature, that. Wild magic. Loves its own. But rare. Very rare."
 
-She raises the glowing vine and its warm light fills the cave.
+She raises the glowing vine, and its warm light fills the cave.
 
 "Know what this is? Sun-Soaked Suckle Vine. Natural magic too. Put them together—the staff and the vine—and they become one. Stronger together."
 
 She smiles, revealing mossy teeth.
 
-"You give me two Gold Pieces and I'll share some of this vine with you."`;}
-            if (wizard === "yellow") { return `As Mrs Rivers approaches with the drinks, she suddenly lets out an excited squeak. For a moment you think she has spotted some local celebrity, but it quickly becomes apparent that she is staring directly at you.
+"You give me two Gold Pieces, and I'll share some of this vine with you."`;}
+            if (wizard === "yellow") { return `As Mrs Rivers approaches with the drinks, she suddenly lets out an excited squeak. For a moment, you think she has spotted some local celebrity, but it quickly becomes apparent that she is staring directly at you.
 
 "That's a Sky Shard," she says almost reverently. "Bernie! Quick, come here!"
 
@@ -218,12 +218,12 @@ He disappears into the house and returns carrying a large glass jar filled with 
 
 He points towards your shard.
 
-"That crystal can absorb it. Let the flame mingle with the shard's own power. I cannot sell you the jar itself—it would be impractical for a traveller such as yourself anyway—but for 2 Gold Pieces you may place the shard within and allow it to absorb the Lilly Fly Flame."`;}
+"That crystal can absorb it. Let the flame mingle with the shard's own power. I cannot sell you the jar itself—it would be impractical for a traveller such as yourself anyway—but for 2 Gold Pieces, you may place the shard within and allow it to absorb the Lilly Fly Flame."`;}
             if (wizard === "blue") { return `As Trunk pours the tea, his eyes briefly settle upon the Crystal Shard you carry.
 
 He grunts. "You got yourself a Crystal Shard."
 
-He sets down the kettle, rummages through his crates and eventually produces a small waxed pouch. Inside lies a fine silver powder that sparkles like crushed stars.
+He sets down the kettle, rummages through his crates, and eventually produces a small waxed pouch. Inside lies a fine silver powder that sparkles like crushed stars.
 
 "Moonsalt," he says. "Came ashore years back. Magical enough, I suppose."
 
@@ -239,18 +239,18 @@ He pours some of the glittering dust into his palm.
         case "settlementShopRealmStaffChoice2":
             if (wizard === "green") { return `Would you rather decline and continue your journey?`;}
             if (wizard === "yellow") { return `Would you rather decline and continue your journey?`;}
-            if (wizard === "blue") { return `Would you rather decline and continue your journey?`;}   
+            if (wizard === "blue") { return `Would you rather decline and continue your journey?`;} 
             
         case "settlementShopRealmStaffUpgrade":
             if (wizard === "green") { return `Root accepts the staff almost reverently. She places it across her lap and begins carefully weaving the glowing vine around the wood.
 
 It is a beautiful sight. The vine sparkles and crackles softly as it binds itself to the staff, while Root works with patient, practised movements.
 
-For a long while she continues the weaving, winding the golden vine along the entire length of the staff. As she reaches the tip, the staff suddenly flares with brilliant light.
+For a long while, she continues the weaving, winding the golden vine along the entire length of the staff. As she reaches the tip, the staff suddenly flares with brilliant light.
 
 Root sighs with satisfaction.
 
-She places the staff back into your hands. You feel the increase in power immediately and also a little of the residue magic seeping into you.
+She places the staff back into your hands. You feel the increase in power immediately and also a little of the residual magic seeping into you.
 
 GAIN ITEM
 Infused Tanglewood Staff`;}
@@ -260,11 +260,11 @@ It is a beautiful sight.
 
 The process is brief. When the shard reaches its brightest point, the man carefully removes it and places it back into your hand.
 
-You feel the increase in power immediately while a little of the residue magic seeps into you.
+You feel the increase in power immediately, while a little of the residual magic seeps into you.
 
 GAIN ITEM
 Infused Sky Shard`;}
-            if (wizard === "blue") { return `Trunk measures a portion of the moonsalt into a small leather packet and hands it to you.
+            if (wizard === "blue") { return `Trunk measures a portion of the Moonsalt into a small leather packet and hands it to you.
 
 "Work it into the crystal," he says. "Doesn't take long."
 
@@ -272,15 +272,15 @@ You sprinkle the glittering powder across the surface of the Crystal Shard. The 
 
 The shard begins to glow softly. Threads of silver light spread through its interior until the entire crystal shines with a cold, steady radiance.
 
-The process lasts only a few moments, yet when it is complete you can immediately feel the increase in power. As an add bonus where the moonsalt has touched your skin you can feel a little of its magic as rubbed of into you as well.
+The process lasts only a few moments, yet when it is complete, you can immediately feel the increase in power. As an added bonus, where the Moonsalt has touched your skin, you can feel a little of its magic has rubbed off on you as well.
 
 GAIN ITEM
-Infused Crystal Shard`;}   
+Infused Crystal Shard`;}  
             
         case "settlementShopRealmStaffUpgradeChoice":
             if (wizard === "green") { return `Stowing away the staff, you thank Root and make your way back to the valley path.`;}
             if (wizard === "yellow") { return `Stowing away the shard, you thank the couple and make your way to the bridge on the far side of the platform.`;}
-            if (wizard === "blue") { return `Stowing away the shard, you thank Trunk and make your way back to the silver beach.`;}   
+            if (wizard === "blue") { return `Stowing away the shard, you thank Trunk and make your way back to the silver beach.`;}  
 
         case "environmentShop":
 
