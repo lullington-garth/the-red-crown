@@ -4170,5 +4170,89 @@
     "encounter": {
       "found": 577
     }
+  },
+  {
+    "id": "0150",
+    "name": "Carolinus",
+    "type": "wizard",
+    "stats": {
+      "skill": 20,
+      "stamina": 1000
+    },
+    "combat": {
+      "attack": 10,
+      "magic": 10,
+      "defence": 20,
+      "magic_res": 20,
+      "attack_type": "both",
+      "dice": 3,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 30
+    },
+    "special": {
+      "attack": "HEADBOP"
+    },
+    "encounter": {
+      "found": 1056
+    }
+  },
+  {
+    "id": "0151",
+    "name": "Solarius",
+    "type": "wizard",
+    "stats": {
+      "skill": 20,
+      "stamina": 1000
+    },
+    "combat": {
+      "attack": 10,
+      "magic": 10,
+      "defence": 20,
+      "magic_res": 20,
+      "attack_type": "both",
+      "dice": 3,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 30
+    },
+    "special": {
+      "attack": "PIGGYBACK"
+    },
+    "encounter": {
+      "found": 1056
+    }
+  },
+  {
+    "id": "0152",
+    "name": "Lo Tae Zhao",
+    "type": "wizard",
+    "stats": {
+      "skill": 20,
+      "stamina": 1000
+    },
+    "combat": {
+      "attack": 10,
+      "magic": 10,
+      "defence": 20,
+      "magic_res": 20,
+      "attack_type": "both",
+      "dice": 3,
+      "group": false,
+      "weak": "None",
+      "weak_mod": null,
+      "immune": "FIRE",
+      "immune_mod": 30
+    },
+    "special": {
+      "attack": "ABSOFSTEEL"
+    },
+    "encounter": {
+      "found": 1056
+    }
   }
 ]

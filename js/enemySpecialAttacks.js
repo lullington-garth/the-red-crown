@@ -81,6 +81,27 @@ export function resolveEnemySpecial(enemy, context) {
                 subtype: "CHITTER",
                 label: "Chitter"
             };
+        case "HEADBOP":
+            return {
+                damage: 10,
+                type: "special",
+                subtype: "HEADBOP",
+                label: "Head BOP!"
+            };
+        case "PIGGYBACK":
+            return {
+                damage: 10,
+                type: "special",
+                subtype: "PIGGYBACK",
+                label: "PIGGY BACK!"
+            };
+        case "ABSOFSTEEL":
+            return {
+                damage: 10,
+                type: "special",
+                subtype: "ABSOFSTEEL",
+                label: "Abs of Steel"
+            };
         case "BOW":
             return {
                 damage: 3,

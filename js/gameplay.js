@@ -28,7 +28,7 @@ export function startGameplay(
 
     playerStats.comeOnSam = false
     playerStats.fairyShower = false
-    playerStats.visitingBrother = "Blue"
+    playerStats.visitingBrother = "Green"
     playerStats.visitingBrotherName = "Lo Tae Zhao"
     playerStats.visitingBrotherEthos = "STAMINA"
     playerStats.absentBrotherEthos = "LUCK"
@@ -59,7 +59,12 @@ export function startGameplay(
     playerStats.trueFocus = false
     playerStats.passingStones = "that by some stroke of luck, you have stumbled upon the Passing Stones."
     playerStats.lostHorse = false
-
+    playerStats.wolfComing = ""
+    playerStats.hadLolly = false
+    playerStats.treePlanted = false
+    playerStats.blessedByTree = false
+    playerStats.donationMade = false
+    
     // ---- Map state ----
     // ---- Engine (must exist before callbacks use it) ----
     const engine = new MapEngine({
@@ -101,7 +106,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(455);
+    engine.start(702);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);

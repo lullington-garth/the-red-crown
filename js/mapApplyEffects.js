@@ -62,11 +62,32 @@ export function applyEffects(playerStats, effects, isPlayerDeadFn) {
             statKey = playerStats.replenishStat;
         }
 
+        // 🟢 BONUS MAXIMUM STAT (B)
+        const isBonusStat = statKey.endsWith("(B)");
+
+        if (isBonusStat) {
+            statKey = statKey.replace(/\s*\(B\)$/i, "").trim();
+        }
+
         // 🟢 NORMAL STAT HANDLING
         const stat = playerStats.stats?.[statKey];
 
         if (!stat) {
             console.warn(`⚠️ Unknown stat: ${statKey}`);
+            continue;
+        }
+
+        // 🟢 (B) EFFECTS MODIFY MAXIMUM AND MATCH CURRENT TO IT
+        if (isBonusStat) {
+
+            stat.max += Number(value);
+
+            if (stat.min != null && stat.max <= stat.min) {
+                stat.max = stat.min + 1;
+            }
+
+            stat.current = stat.max;
+
             continue;
         }
 

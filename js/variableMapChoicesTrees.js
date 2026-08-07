@@ -253,13 +253,13 @@ As you pass beyond the threshold, a gentle wave of ancient magic flows over you,
 
 Towering trees surround an immense woodland fortress grown from living timber and grey stone. Great roots weave through its walls, flowering vines climb its towers, and broad branches spread high above its rooftops as though the forest itself has embraced the keep.
 
-You have arrived at your {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
+You have arrived at {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
 
 You glance behind you. You are not surprised to find that the doorway has disappeared. Only the ancient forest remains, stretching away between shafts of warm sunlight with no sign that the hidden temple was ever there.
 
 You turn back to see the gatekeeper waiting for you. He leads you up broad stone steps towards the entrance. He touches the broad oak doors with the living wood of his staff. The bark shimmers softly before dissolving into a curtain of glowing silver-green light.
 
-"It is here that I leave you," says the gatekeeper. "Your {playerStats.visitingBrotherName} awaits."
+"It is here that I leave you," says the gatekeeper. "{playerStats.visitingBrotherName} awaits."
 
 He bows his head before turning back towards the forest and descending the steps.
 
@@ -268,13 +268,13 @@ A sudden crack echoes through the woodland, followed by a brief flash of emerald
 
 Soft white clouds drift lazily overhead, while warm sunlight bathes everything in a golden glow. You find yourself standing upon a broad avenue of polished cloudstone leading towards an immense fortress. Its soaring towers and sweeping walls appear to have been carved from the very clouds themselves, each crowned with banners that dance in the ever-present breeze.
 
-You have arrived at your {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
+You have arrived at {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
 
 Curious, you glance back over your shoulder. You are not surprised to see that the doorway through which you entered has vanished. Instead, behind you stretches only the peaceful sky realm, its floating gardens and drifting clouds giving no hint of your passage to this place.
 
 Turning back, you see the gatekeeper waiting for you. The gatekeeper leads you up the broad steps to the fortress entrance, gently touching the great entrance with his staff. The cloudstone ripples like still water before becoming a shimmering curtain of silver light.
 
-"It is here that I leave you," says the gatekeeper. "Your {playerStats.visitingBrotherName} awaits."
+"It is here that I leave you," says the gatekeeper. "{playerStats.visitingBrotherName} awaits."
 
 He inclines his head before turning and descending the broad steps.
 
@@ -285,18 +285,18 @@ As you cross its threshold, reality seems to fold gently around you, and you fin
 
 Before you rises an immense fortress of polished black obsidian and silver crystal. Its towering walls reflect the light of sea and stars, while crystal spires reach towards the heavens like shooting stars frozen in motion. The entire keep seems less constructed than perfectly formed, as though it had always belonged beneath this eternal night.
 
-You have arrived at your {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
+You have arrived at {playerStats.visitingBrotherName}'s keep. It is unreachable without both invitation and the guidance of the gatekeeper.
 
 You glance behind you. You are not surprised to find that the doorway has disappeared. Only the endless silver beach stretches away beneath the stars, with the gentle waves quietly washing against their shores.
 
 You turn back to see the gatekeeper waiting for you. He leads you up wide obsidian steps towards the fortress entrance. He raises his crystal staff and touches the smooth black stone. It ripples like the surface of a still pool before becoming a curtain of shimmering silver light.
 
-"It is here that I leave you," says the gatekeeper. "Your {playerStats.visitingBrotherName} awaits."
+"It is here that I leave you," says the gatekeeper. "{playerStats.visitingBrotherName} awaits."
 
 He inclines his head before turning away and descending the steps.
 
 A single sharp crack breaks the silence of the night, followed by a brilliant flash of starlight. You spin around to find that the gatekeeper has gone.`;}
-            
+
          default:
             return null;
     }

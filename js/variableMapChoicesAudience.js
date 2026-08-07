@@ -122,68 +122,173 @@ export function resolveAudienceVariable(path, playerStats) {
             return resolveAudienceVariable(map[visiting] || map.green, playerStats);
         }
 
-        case "audienceKeepLobby.green":
-            return `
-            You emerge into the entrance hall of {playerStats.visitingBrotherName}’s keep.
+    case "audienceKeepLobby.green":
+        return `
+        You emerge into the entrance hall of {playerStats.visitingBrotherName}’s keep.
 
-            The chamber feels more grown than built. Great living pillars rise from the floor, their bark polished smooth by countless passing hands, while branches weave together overhead into a vaulted canopy of emerald leaves. Warm golden light filters through the foliage from no obvious source, and somewhere nearby you hear the gentle trickle of unseen water. The air carries the rich scent of rain-soaked earth and fresh moss.
+        The chamber feels more grown than built. Great living pillars rise from the floor, their bark polished smooth by countless passing hands, while branches weave together overhead into a vaulted canopy of emerald leaves. Warm golden light filters through the foliage from no obvious source, and somewhere nearby, you hear the gentle trickle of unseen water. The air carries the rich scent of rain-soaked earth and fresh moss.
 
-            Waiting to greet you is a calm figure dressed in layered robes that seem to shift between bark, woven cloth and drifting mist. Their presence feels rooted in the keep itself, as though they have grown here alongside the ancient trees.
+        Waiting to greet you is a calm figure dressed in layered robes that seem to shift between bark, woven cloth and drifting mist. Their presence feels rooted in the keep itself, as though they have grown here alongside the ancient trees.
 
-            Inclining their head in welcome, they silently gesture for you to follow.
+        Inclining their head in welcome, they silently gesture for you to follow.`.trim();
 
-            You are led deep into {playerStats.visitingBrotherName}’s keep.
+    case "audienceKeepLobby.yellow":
+        return `
+        You emerge into the entrance hall of {playerStats.visitingBrotherName}’s keep.
 
-            The stone corridors soften as you pass through them, as though the building has forgotten it is made of rock. Golden light ripples across the walls beneath dancing leaf-shadows, though there are no windows to be seen.
+        The vast chamber appears suspended within an endless sky. Pillars of pale stone rise through drifting clouds before disappearing into brilliant white above. Sunlight pours through the open space without any visible sun, bathing everything in a soft radiance that seems to come from every direction at once.
 
-            At last your guide stops beside a waiting alcove.
+        Waiting for you is a tall, serene figure wrapped in layered robes that billow gently in a breeze you can barely feel. Their outline shifts like passing weather, dissolving into mist before becoming solid once more.
 
-            “Make yourself comfortable,” they say in a deep earthy voice. “{playerStats.visitingBrotherName} will be with you shortly.”
+        They offer a quiet nod and beckon for you to follow.`.trim();
 
-            A bench of living wood curves up beside you, rough to the touch. You take a seat. It is surprisingly comfortable and you rest easy as you breathe in the cool but alien magic.
-        `.trim();
+    case "audienceKeepLobby.blue":
+        return `
+        You emerge into the entrance hall of {playerStats.visitingBrotherName}’s submerged keep.
 
-        case "audienceKeepLobby.yellow":
-            return `
-            You emerge into the entrance hall of {playerStats.visitingBrotherName}’s keep.
+        The circular chamber is enclosed by towering walls of perfectly still water held in place by ancient magic. Beyond them, shimmering shoals of silver fish drift lazily through vast underwater gardens where forests of glowing kelp sway in unseen currents. Blue-green light dances across every surface in slow, hypnotic waves.
 
-            The vast chamber appears suspended within an endless sky. Pillars of pale stone rise through drifting clouds before disappearing into brilliant white above. Sunlight pours through the open space without any visible sun, bathing everything in a soft radiance that seems to come from every direction at once.
+        Waiting to receive you is a graceful figure dressed in layered robes woven from seaweed, silk and something almost liquid. Their movements are fluid and effortless, as though they belong more to the sea than to the land.
 
-            Waiting for you is a tall, serene figure wrapped in layered robes that billow gently in a breeze you can barely feel. Their outline shifts like passing weather, dissolving into mist before becoming solid once more.
+        Without speaking, they turn and beckon for you to follow.`.trim();     
 
-            They offer a quiet nod and beckon for you to follow.
+        case "audienceKeepLobbyFollow":
+        if (visiting === "blue") {
+            return `You are led deep into {playerStats.visitingBrotherName}’s submerged keep.
 
-            You are led deep into the heart of {playerStats.visitingBrotherName}’s keep.
+        The architecture flows around you, never moving, yet somehow always shifting like distant currents. The walls become great panes of enchanted water filled with drifting rivers, glowing plants and strange pale fish. Every step echoes softly beneath the endless rhythm of the sea.
 
-            The corridors shift as you walk—solid one moment, then faintly translucent the next, as though the keep cannot decide whether it is stone or sky. Beneath your feet, the floor feels firm despite the endless sea of rolling clouds below.
+        Eventually your guide leads you into a quiet waiting chamber.
 
-            Finally your guide pauses beside a quiet waiting place.
+        “Make yourself comfortable,” the servant says, their voice smooth and distant. “{playerStats.visitingBrotherName} will be with you shortly.”
 
-            “Make yourself comfortable,” they say, their voice low and steady like wind through high stone. “{playerStats.visitingBrotherName} will be with you shortly.”
+        A seat forms beside you from compacted currents—fluid until you touch it, then firm as carved coral. You lower yourself onto it. It holds you gently as you breathe in the cool, but alien magic.`;
+        }
+        if (visiting === "yellow") {
+            return `You are led deep into the heart of {playerStats.visitingBrotherName}’s keep.
 
-            A bench of cloud-wood forms beside you, solidifying from drifting vapour into pale, gnarled comfort. You sit, supported by the sky itself, breathing in the cool but alien magic.
-        `.trim();
+        The corridors shift as you walk—solid one moment, then faintly translucent the next, as though the keep cannot decide whether it is stone or sky. Beneath your feet, the floor feels firm despite the endless sea of rolling clouds below.
 
-        case "audienceKeepLobby.blue":
-            return `
-            You emerge into the entrance hall of {playerStats.visitingBrotherName}’s submerged keep.
+        Finally your guide pauses beside a quiet waiting place.
 
-            The circular chamber is enclosed by towering walls of perfectly still water held in place by ancient magic. Beyond them, shimmering shoals of silver fish drift lazily through vast underwater gardens where forests of glowing kelp sway in unseen currents. Blue-green light dances across every surface in slow, hypnotic waves.
+        “Make yourself comfortable,” they say, their voice low and steady like wind through high stone. “{playerStats.visitingBrotherName} will be with you shortly.”
 
-            Waiting to receive you is a graceful figure dressed in layered robes woven from seaweed, silk and something almost liquid. Their movements are fluid and effortless, as though they belong more to the sea than to the land.
+        A bench of cloud-wood forms beside you, solidifying from drifting vapour into pale, gnarled comfort. You sit, supported by the sky itself, breathing in the cool, but alien magic.`;
+        }
+        if (visiting === "green") {
+            return `You are led deep into {playerStats.visitingBrotherName}’s keep.
 
-            Without speaking, they turn and beckon for you to follow.
+        The stone corridors soften as you pass through them, as though the building has forgotten it is made of rock. Golden light ripples across the walls beneath dancing leaf-shadows, though there are no windows to be seen.
 
-            You are led deep into {playerStats.visitingBrotherName}’s submerged keep.
+        At last your guide stops beside a waiting alcove.
 
-            The architecture flows around you, never moving, yet somehow always shifting like distant currents. The walls become great panes of enchanted water filled with drifting rivers, glowing plants and strange pale fish. Every step echoes softly beneath the endless rhythm of the sea.
+        “Make yourself comfortable,” they say in a deep earthy voice. “{playerStats.visitingBrotherName} will be with you shortly.”
 
-            Eventually your guide leads you into a quiet waiting chamber.
+        A bench of living wood curves up beside you, rough to the touch. You take a seat. It is surprisingly comfortable and you rest easy as you breathe in the cool, but alien magic.`;
+        }
+            break;
 
-            “Make yourself comfortable,” the servant says, their voice smooth and distant. “{playerStats.visitingBrotherName} will be with you shortly.”
+        case "audienceKeepLobbyDontFollow":
+        if (visiting === "blue") {
+            return `"Very well," says the guide, turning, the key bobbing at their side. As they walk away, you realise that you are in a single corridor with no option but to follow the guide. 
+        
+        Slightly embarrassed, you follow the guide in an uncomfortable silence, down what feels like an extremely long passageway.
 
-            A seat forms beside you from compacted currents—fluid until you touch it, then firm as carved coral. You lower yourself onto it. It holds you gently as you breathe in the cool but alien magic.
-        `.trim();      
+        You try to take your mind off the awkwardness by taking in the vista around you. The architecture is amazing. It flows around you, never moving, yet somehow always shifting like distant currents. The walls become great panes of enchanted water filled with drifting rivers, glowing plants and strange pale fish. Every step echoes softly beneath the endless rhythm of the sea.
+
+        Eventually, a few steps behind your guide, you find yourself in a quiet waiting chamber.
+
+        “Good to see sir found his way here unaided,” the servant says with a slight sardonic bow. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A seat forms beside you from compacted currents—fluid until you touch it, then firm as carved coral. You lower yourself onto it. It holds you gently as you breathe in the cool, but alien magic.`;
+        }
+        if (visiting === "yellow") {
+            return `"Very well," says the guide, turning, the key bobbing at their side. As they walk away, you realise that you are in a single corridor with no option but to follow the guide. 
+        
+        Slightly embarrassed, you follow the guide in an uncomfortable silence, down what feels like an extremely long passageway.
+
+        You try to take your mind off the awkwardness by taking in the vista around you. The corridor shifts as you walk—solid one moment, then faintly translucent the next, as though the keep cannot decide whether it is stone or sky. Beneath your feet, the floor feels firm despite the endless sea of rolling clouds below.
+
+        Finally, your guide pauses beside a quiet waiting place.
+
+        “Good to see sir found his way here unaided,” the servant says with a slight sardonic bow, their voice low and steady like wind through high stone. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A bench of cloud-wood forms beside you, solidifying from drifting vapour into pale, gnarled comfort. You sit, supported by the sky itself, breathing in the cool, but alien magic.`;
+        }
+        if (visiting === "green") {
+            return `"Very well," says the guide, turning, the key bobbing at their side. As they walk away, you realise that you are in a single corridor with no option but to follow the guide. 
+        
+        Slightly embarrassed, you follow the guide in an uncomfortable silence, down what feels like an extremely long passageway.
+
+        You try to take your mind off the awkwardness by taking in the vista around you. The stone corridors soften as you pass through them, as though the building has forgotten it is made of rock. Golden light ripples across the walls beneath dancing leaf-shadows, though there are no windows to be seen.
+
+        At last, your guide stops beside a waiting alcove.
+
+        “Good to see sir found his way here unaided,” the servant says with a slight sardonic bow. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A bench of living wood curves up beside you, rough to the touch. You take a seat. It is surprisingly comfortable, and you rest easy as you breathe in the cool, but alien magic.`;
+        }
+            break;
+
+    case "brothersFight":
+        if (visiting === "blue") {
+            return `You punch your brother playfully on the arm. 
+            
+            He screams out, "MY NERVE ENDINGS! MY NERVE ENDINGS!" Then he cowers into a ball as you rain more punches down upon him and says, "It's me, {playerStats.wizardName}. It's me!"
+
+            Then he leaps up and fights back. You rough and tumble for a bit until {playerStats.visitingBrotherName} declares himself the winner.`;
+        }
+        if (visiting === "yellow") {
+            return `You punch your brother playfully and lightly in the stomach. 
+            
+            "Wow Lo," you say, "your tummy is rock hard!"
+
+            Then he soundly beats you. You rough and tumble for a bit until finally you declare yourself the winner. (You were not).`;
+        }
+        if (visiting === "green") {
+            return `You punch your brother playfully on the arm. 
+            
+            He bops you on the head with a nearby sword. "I'M AN OPPORTUNIST!" he screams. Then, with a loud theatrical roar, he raises his arms like a bear and leaps on you.
+
+            You rough and tumble for a bit until {playerStats.visitingBrotherName} declares himself the absolute winner.`;
+        }
+        break;
+
+    case "audienceKeepLobbyCaught":
+        if (visiting === "blue") {
+            return `Embarrassed, you head down the corridor with the guide behind you like a guard. You hope {playerStats.visitingBrotherName} never hears about your folly.
+
+        You try to take your mind off your shame by taking in the vista around you. The architecture is amazing. It flows around you, never moving, yet somehow always shifting like distant currents. The walls become great panes of enchanted water filled with drifting rivers, glowing plants and strange pale fish. Every step echoes softly beneath the endless rhythm of the sea.
+
+        Eventually, you find yourself in a quiet waiting chamber.
+
+        “If sir thinks he can wait without pilfering the keep, I will fetch my master,” the servant says with a slight sardonic bow. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A seat forms beside you from compacted currents—fluid until you touch it, then firm as carved coral. You lower yourself onto it, wondering if straps will shoot out to bind you, but no such thing happens. You breathe in the cool, but alien magic as the guide gives you a look of disdain before leaving.`;
+        }
+        if (visiting === "yellow") {
+            return `Embarrassed, you head down the corridor with the guide behind you like a guard. You hope {playerStats.visitingBrotherName} never hears about your folly. 
+
+        You try to take your mind off your shame by taking in the vista around you. The corridor shifts as you walk—solid one moment, then faintly translucent the next, as though the keep cannot decide whether it is stone or sky. Beneath your feet, the floor feels firm despite the endless sea of rolling clouds below.
+
+        Finally, your guide pauses beside a quiet waiting place.
+
+        “If sir thinks he can wait without pilfering the keep, I will fetch my master,” the servant says with a slight sardonic bow. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A bench of cloud-wood forms beside you, solidifying from drifting vapour into pale, gnarled comfort. You lower yourself onto it, wondering if straps will shoot out to bind you, but no such thing happens. You breathe in the cool, but alien magic as the guide gives you a look of disdain before leaving.`;
+        }
+        if (visiting === "green") {
+            return `Embarrassed, you head down the corridor with the guide behind you like a guard. You hope {playerStats.visitingBrotherName} never hears about your folly. 
+
+        You try to take your mind off your shame by taking in the vista around you. The stone corridors soften as you pass through them, as though the building has forgotten it is made of rock. Golden light ripples across the walls beneath dancing leaf-shadows, though there are no windows to be seen.
+
+        At last, your guide stops beside a waiting alcove.
+
+        “If sir thinks he can wait without pilfering the keep, I will fetch my master,” the servant says with a slight sardonic bow. “{playerStats.visitingBrotherName} will be with you shortly.”
+
+        A bench of living wood curves up beside you, rough to the touch. You lower yourself onto it, wondering if straps will shoot out to bind you, but no such thing happens. You breathe in the cool, but alien magic as the guide gives you a look of disdain before leaving.`;
+        }
+            break;
 
         case "audienceOwnRoom": {
             const visitor = (playerStats.wizardColor || "").toLowerCase();

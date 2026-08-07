@@ -58,6 +58,17 @@ The creature slowly lowers itself back toward the water.
 "Good luck. We shall meet again soon."
 
 As the fish slips beneath the surface, its form dissolves into starlight, drifting downward into the unfathomable depths below.`;}
+
+case "environment1WeirdOption":
+if (wizard === "green") { return `Would you rather prance into the woods in pursuit of the fawn?`;}
+if (wizard === "yellow") { return `Would you rather jump up and see if you can catch the talking wind?`;}
+if (wizard === "blue") { return `Would you rather dive into the water and follow the dispersing stars?`;}
+
+case "environment1WeirdChoice":
+if (wizard === "green") { return `You bound into the forest after the fawn, but within seconds it is gone, and the trees and undergrowth prove too thick for you to sensibly traverse. You turn back and follow and stumble back to the clearing.`;}
+if (wizard === "yellow") { return `You can't.`;}
+if (wizard === "blue") { return `Donk! The water here does not appear to respond the same as it does in your realm. You collide with the surface and go skidding across it like it was ice.`;}
+
 case "Environment1Paths":
     if (wizard === "green") { return `There is only one obvious path through the forest. You follow it until the trees begin to thin, eventually emerging onto the side of a broad hillside overlooking a shallow dell below.
 

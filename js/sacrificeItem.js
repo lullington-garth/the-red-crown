@@ -36,6 +36,15 @@ export function handleSacrificeItem(
 
             break;
 
+        case "all":
+
+            title = "Select an Item to Donate";
+
+            filterFn = item =>
+                item.status !== "cursed";
+
+            break;
+
         default:
 
             title = "Select Magical Item to Sacrifice";

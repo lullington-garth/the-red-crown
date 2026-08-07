@@ -71,6 +71,17 @@ export function resolveCombatVariable(
                 return ["0123"];
             }
 
+        case "wizardFight":
+            if (brother === "green") {
+                return ["0150"];
+            }
+            if (brother === "blue") {
+                return ["0151"];
+            }
+            if (brother === "yellow") {
+                return ["0152"];
+            }
+
         case "poachers":
             if (brother === "green") {
                 return ["0117","0118","0119"];

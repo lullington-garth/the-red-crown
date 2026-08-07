@@ -18,8 +18,8 @@ function yesNoToBool(value) {
 }
 
 // Load Excel file (same folder)
-//const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Enemy JSON.xlsx";
-const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Enemy JSON.xlsx";
+const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Enemy JSON.xlsx";
+//const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Enemy JSON.xlsx";
 const workbook = XLSX.readFile(filePath);
 
 const sheetName = workbook.SheetNames[0];
