@@ -364,6 +364,36 @@ There are twelve Worn Item slots, each intended for a different type of equipmen
 
     divider();
 
+    section("STATS");
+
+    paragraph(`You will find that each wizard has an affinity with a different stat. This is reflected in their bonus rolls at the beginning of the game and will affect how some encounters play out.`);
+
+    paragraph(`STAMINA is not only a measure of your current health, but also of your resolve and fitness.`);
+
+    paragraph(`There may be occasions when you are asked to roll against your stats: LUCK, MAGIC, SKILL, and STAMINA. In the case of STAMINA, this will be resolved as INNER STRENGTH. As with standard Fighting Fantasy games, only LUCK is reduced by one when tested. All other stats remain unaffected by stat rolls unless specifically stated during an encounter.`);
+
+    paragraph(`During the game, you may come across stats suffixed with (B), (T), or (=). These suffixes are usually found on items, and the effect will take place either when the item is used (potions, spells, etc.) or when the item is equipped (weapons, worn items, etc.).`);
+
+    paragraph(`<strong>(B) BASE:</strong> This raises or lowers your maximum cap but will not affect your current stat unless it exceeds the new maximum.`);
+
+    paragraph(`For example, if your STAMINA is currently 20, with a maximum of 22, and you equip a STAMINA (B) +2 helmet, your current STAMINA will remain at 20, but your new maximum will rise to 24.`);
+
+    paragraph(`If, however, your current STAMINA was 22 and your maximum STAMINA was 22, and you equipped a STAMINA (B) -2 pair of gloves, then both your maximum and current STAMINA would be reduced, as your current stat cannot exceed the maximum cap.`);
+
+    paragraph(`<strong>(T) TOTAL:</strong> This is often found in potions and salves, as well as some spells. This will raise your current stat to its current maximum.`);
+
+    paragraph(`For example, if your current LUCK was 1, with a maximum of 10, and you drank a potion of LUCK (T), your LUCK would be restored to 10.`);
+
+    paragraph(`<strong>(=) EQUALS:</strong> This will alter a stat to the new figure.`);
+
+    paragraph(`For example, if you enter into a contract where the outcome is MAGIC (=) 12, then whatever your current and maximum MAGIC were, they will both be changed to 12. These are rare and are not always announced.`);
+
+    paragraph(`<strong>GENERAL:</strong> SKILL and ATTACK maximum and current scores are affected by (B), not just the maximum. An ATTACK (B) +2 weapon will raise both your current and maximum ATTACK scores by 2.`);
+
+    paragraph(`All other stats work as they do in standard Fighting Fantasy games. LUCK +2 will add 2 to your current LUCK total, up to your current maximum.`);
+
+    divider();
+
     section("GAMEPLAY");
 
     paragraph(`There are many routes through the game.

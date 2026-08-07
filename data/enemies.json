@@ -645,7 +645,7 @@
   },
   {
     "id": "0024",
-    "name": "ShopKeeper",
+    "name": "Shopkeeper",
     "type": "human",
     "stats": {
       "skill": 7,
