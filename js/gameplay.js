@@ -64,7 +64,7 @@ export function startGameplay(
     playerStats.treePlanted = false
     playerStats.blessedByTree = false
     playerStats.donationMade = false
-    playerStats.loveacreResponse = "Mr Loveacre seems thrilled with your purchase"
+    playerStats.loveacreResponse = "Mr Loveacre seems thrilled with your purchase."
 
     // ---- Map state ----
     // ---- Engine (must exist before callbacks use it) ----

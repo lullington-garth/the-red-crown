@@ -67,6 +67,7 @@ export function createSpellTransformationModal({
     closeBtn.style.cursor = "pointer";
     closeBtn.style.opacity = "0";
     closeBtn.style.transition = "opacity 0.4s ease";
+    closeBtn.style.fontSize = "20px";
 
     container.appendChild(spellImage);
     container.appendChild(title);

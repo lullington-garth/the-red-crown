@@ -25,6 +25,20 @@ export function resolvePotterVariable(path, playerStats) {
             if (wizard === "red") {
                 return "petShopOwner.jpg";
             }
+        
+        case "charmImage":
+            if (wizard === "green") {
+                return "0200.jpg";
+            }
+            if (wizard === "yellow") {
+                return "0141.jpg";
+            }
+            if (wizard === "blue") {
+                return "0016.jpg";
+            }
+            if (wizard === "red") {
+                return "0358.jpg";
+            }
 
         case "potterOutside":
             if (wizard === "yellow") {

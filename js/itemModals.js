@@ -137,6 +137,7 @@ export function confirmUseItemModal(item, onConfirm, context = "inventory", extr
                 border-radius:8px;
                 cursor:pointer;
                 min-width:100px;
+                font-size:20px;
             ">
                 Use
             </button>
@@ -150,6 +151,7 @@ export function confirmUseItemModal(item, onConfirm, context = "inventory", extr
                 border-radius:8px;
                 cursor:pointer;
                 width:100px;
+                font-size:20px;
             ">Cancel</button>
 
         </div>
