@@ -98,7 +98,7 @@ export function getItemBonusText(item) {
 
     Object.keys(mods).forEach(stat => {
         const val = mods[stat];
-        if (val === 0) return;
+        if (val <= 0) return;
 
         if (val > 0) {
             parts.push(`${stat} +${val}`);

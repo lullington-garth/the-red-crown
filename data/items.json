@@ -10363,7 +10363,7 @@
     "item": "Timmy Troll's Tantrum Tunic",
     "description": "A heavy green tunic made from troll hide",
     "identified": true,
-    "id-description": "A magical tunic that offers the wearer great strength at the cost of STAMINA.",
+    "id-description": "A magical tunic that offers the wearer ATTACK +3 at the cost of STAMINA (B) -5.",
     "type": "torso",
     "found": 694,
     "used": 0,
