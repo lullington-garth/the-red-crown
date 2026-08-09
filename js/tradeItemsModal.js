@@ -146,7 +146,7 @@ export function openTradeItemsModal(playerStats, {
                 selectedPlayerItem = item;
                 selectedPlayerRow = row;
 
-                row.style.background = "rgba(255, 255, 255, 0.4)";
+                row.style.backgroundImage = "url('./images/paper2.jpg')";
 
                 updateTradeButtonState();
             });
