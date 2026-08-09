@@ -140,7 +140,7 @@ export function openTradeItemsModal(playerStats, {
             row.addEventListener("click", () => {
 
                 if (selectedPlayerRow) {
-                    selectedPlayerRow.style.background = "";
+                    selectedPlayerRow.style.backgroundImage = "url('./images/paper1.jpg')";
                 }
 
                 selectedPlayerItem = item;
