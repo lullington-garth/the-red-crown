@@ -119,8 +119,10 @@ case "service2Name":
 case "bathhouseEntrance":
     if (wizard === "green") {
         return `Inside the bathhouse, the air is thick with steam and chatter in a dozen unfamiliar tongues. Pools of pale green water bubble softly beneath hanging lanterns filled with fireflies. Patrons of all shapes and sizes lounge upon heated stones or soak in baths sunk into the floor: scaled creatures with pearl-white eyes, hunched Goblins wrapped in towels, elegant horned women with silver skin, and squat hairy beasts grooming one another with hooked combs. The walls are covered in polished cedar panels slick with moisture, while unseen pipes rattle and hiss somewhere overhead.
-                Behind a long counter sits a grey-skinned woman with heavy eyelids and long barbed ears. She takes a drag of a foul-smelling roll-up she is smoking. She puffs out a cloud of the acrid smoke and, in a bored voice, rasps, ‘We got two services… or the gift shop’s that way.’ She points lazily with a long claw down the corridor.
-                She pulls a tatty parchment out from behind the counter and drops it in front of you:
+
+        Behind a long counter sits a grey-skinned woman with heavy eyelids and long barbed ears. She takes a drag of a foul-smelling roll-up she is smoking. She puffs out a cloud of the acrid smoke and, in a bored voice, rasps, ‘We got two services… or the gift shop’s that way.’ She points lazily with a long claw down the corridor.
+
+        She pulls a tatty parchment out from behind the counter and drops it in front of you:
 
                 Total Sensory Renewal 3gp
                 Breathless Clarity Ritual 1gp
@@ -130,7 +132,8 @@ case "bathhouseEntrance":
     }
     if (wizard === "yellow") {
         return `The interior is warm, dimly lit and strangely peaceful. Thin curtains of mist drift lazily through the air while crystal lanterns glow softly overhead. Circular pools filled with luminous water line the walls, separated by hanging silk screens embroidered with silver thread. Non-human patrons relax throughout the hall: towering insectoid nobles having their shells polished by masked attendants, feathered serpent-creatures coiled in heated sand pits, and tiny winged beings submerged in bowls of fragrant oils no larger than cauldrons.
-                At the centre of the chamber stands a polished marble counter behind which waits a graceful fawn-like woman dressed in pale blue robes. Her antlers are decorated with tiny silver chains and charms, which chime softly whenever she moves. She bows deeply as you approach, smiling with exaggerated warmth.
+
+        At the centre of the chamber stands a polished marble counter behind which waits a graceful fawn-like woman dressed in pale blue robes. Her antlers are decorated with tiny silver chains and charms, which chime softly whenever she moves. She bows deeply as you approach, smiling with exaggerated warmth.
 
                 ‘Welcome, honoured traveller, to the Distant Mists House of Healing,’ she says sweetly. ‘We offer only the finest restorative experiences to weary souls.’ She gestures with elegant grace towards two painted boards hanging behind her:
 
@@ -144,8 +147,10 @@ case "bathhouseEntrance":
     }
     if (wizard === "blue") {
         return `The place appears peaceful enough. Smoke curls from clay ovens built into grassy mounds while strings of coloured lanterns hang between branches overhead. Soft music drifts through the trees, accompanied by laughter and the gentle clinking of cups.
-                There are very few proper chairs. Some customers sit upon polished tree stumps gathered around wide stone slabs used as tables. Others lounge in hanging rope swings suspended from branches overhead. A family of squat hairy creatures eat noisily from a long wooden trough while, high above them, tiny winged patrons crawl in and out of what appears to be an enormous hollowed-out beehive fitted with tiny tables inside.
-                Suddenly, a tiny creature with floppy ears and enormous eyes hurries towards you, wearing a spotless white apron. Its thin hands wring together as it bows so low its forehead almost touches the ground.
+
+        There are very few proper chairs. Some customers sit upon polished tree stumps gathered around wide stone slabs used as tables. Others lounge in hanging rope swings suspended from branches overhead. A family of squat hairy creatures eat noisily from a long wooden trough while, high above them, tiny winged patrons crawl in and out of what appears to be an enormous hollowed-out beehive fitted with tiny tables inside.
+
+        A tiny creature with floppy ears and enormous eyes hurries towards you, wearing a spotless white apron. Its thin hands wring together as it bows so low its forehead almost touches the ground.
 
                 ‘Sir! Sir! How may I help you today?’
 
@@ -196,6 +201,7 @@ case "bathhouseEntrance":
             }
             if (wizard === "yellow") {
                 return `You are led through a silver curtain into a narrow octagonal chamber filled with softly chiming crystals suspended from the ceiling by fine chains. Cushions lie arranged in a perfect circle around a shallow basin of black water. The air smells faintly of flowers and old parchment.
+
                 The moment the door closes, the crystals begin to sing. At first, it is beautiful. The crystals sing, the pool ripples, but then another layer of chiming crystals is added over the top of the first. Now the sound is both uncomfortable and a little disturbing. This continues, layer after layer, the sounds louder, harsher and less comprehensible, until, with your head fit to burst and your ears bleeding, you finally pass out.
                 `;
             }
@@ -218,11 +224,13 @@ case "bathhouseEntrance":
                 ‘STRING HIM UP,’ says Max cheerfully.
 
                 Before you can protest, Stan seizes you effortlessly and flips you upside down. Thick ropes are wrapped tightly around your ankles while you struggle and shout in confusion, but the Troll appears completely deaf to your complaints.
+
                 A moment later, the rope is thrown over a high wooden beam and you are hauled violently upwards until you are dangling high above the yard. The blood rushes painfully to your head. Stan then produces another rope, loops it tightly around your neck and offers you the loose end.
 
                 ‘Bite,’ he grunts.
 
                 You hesitate only briefly before he roughly jams the rope into your mouth. Below you, the gym patrons gather excitedly. Then the Goblin begins climbing the rope towards you.
+
                 You scream. The rope tightens savagely around your throat, and seconds later you pass out.`;
             }
 
@@ -371,6 +379,7 @@ case "bathhouseEntrance":
     }
     if (wizard === "red") {
         return `The yard suddenly falls silent.
+
         Sweating creatures lower their weights and stare at the scene before them in uneasy disbelief. The Minotaur slowly drops the iron chain he was lifting while the Goblin hangs motionless on his rig.
 
         There is no sound. The patrons seem uncertain whether they should attack you or keep their distance.
