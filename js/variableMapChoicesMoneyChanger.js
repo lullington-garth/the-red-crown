@@ -107,7 +107,7 @@ He licks his lips nervously, then, with his eyes still darting towards the curta
 
 He leans backwards thoughtfully, staring up at the ceiling for a long time.
 
-‘Standing stones... yeah... yeah, I’ve seen those,’ he says eventually. ‘Big ones. Old ones. They sort of hum if you listen properly. Or maybe that was Barny. Did you want to meet Barny? I can get him. You'd like Barny. He'll know where the stones are.’
+‘Standing stones... yeah... yeah, I’ve seen those,’ he says eventually. ‘Big ones. Old ones. They sort of hum if you listen properly. Or maybe that was Barney. Did you want to meet Barney? I can get him. You'd like Barney. He'll know where the stones are.’
 
 He nods slowly to himself.
 
@@ -248,7 +248,23 @@ Without another word, he lowers his eyes and resumes writing upon the parchment 
                 return "moneyChangerRed.jpg";
             }
 
+        case "moneyShopImage":
 
+            if (wizard === "green") {
+                return "moneyShopGreen.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "moneyShopYellow.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "moneyShopBlue.jpg";
+            }
+
+            if (wizard === "red") {
+                return "moneyShopRed.jpg";
+            }
 
         default:
             return null;

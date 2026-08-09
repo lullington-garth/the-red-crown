@@ -168,13 +168,19 @@ renderNode(node, handlers) {
             const image = document.createElement("img");
 
             image.src = `./mapImages/${img.name}`;
+
+            // If it isn't found in mapImages, try images instead
+            image.onerror = () => {
+                image.onerror = null; // Prevent an infinite loop if it's missing there too
+                image.src = `./images/${img.name}`;
+            };
+
             image.style.maxWidth = "650px";
             image.style.width = "100%";
             image.style.height = "auto";
             image.style.display = "block";
             image.style.borderRadius = "10px";
             image.style.mixBlendMode = "multiply";
-
 
             if (img.shadow) {
                 image.style.boxShadow = "0 0 12px rgba(0,0,0,0.9)";

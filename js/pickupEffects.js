@@ -31,7 +31,7 @@ function handleSuperSpendCoin(item, playerStats) {
 
     removeGold(playerStats, lostGold);
 
-    const message = "Your gold has been halved and all future purchases will cost double until the coin is removed.";
+//    const message = "Your gold has been halved and all future purchases will cost double until the coin is removed.";
 
-    showItemOverlay(item, message);
+//    showItemOverlay(item, message);
 }
