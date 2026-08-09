@@ -94,6 +94,7 @@ export function openTradeItemsModal(playerStats, {
     leftColumn.style.border = "1px solid #555";
     leftColumn.style.borderRadius = "8px";
     leftColumn.style.padding = "8px";
+    leftColumn.classList.add("hide-scrollbar");
 
     // =====================================
     // RIGHT COLUMN
