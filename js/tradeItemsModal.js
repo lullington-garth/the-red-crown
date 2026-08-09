@@ -127,7 +127,7 @@ export function openTradeItemsModal(playerStats, {
             row.style.borderBottom = "1px solid #444";
             row.style.cursor = "pointer";
             row.style.borderRadius = "6px";
-            row.style.backgroundImage = "url('./images/paper.jpg')";
+            row.style.backgroundImage = "url('./images/paper1.jpg')";
 
             const display = showItemDescription(
                 item,
