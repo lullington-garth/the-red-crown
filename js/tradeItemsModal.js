@@ -144,7 +144,7 @@ export function openTradeItemsModal(playerStats, {
                 selectedPlayerItem = item;
                 selectedPlayerRow = row;
 
-                row.style.background = "rgba(236, 233, 233, 0.35)";
+                row.style.background = "rgba(255, 255, 255, 0.4)";
 
                 updateTradeButtonState();
             });
@@ -251,7 +251,6 @@ export function openTradeItemsModal(playerStats, {
             cursor:not-allowed;
             background:#272424;
             color:white;
-            font-weight:bold;
             opacity:0.45;
             font-size:20px;
         " disabled>
