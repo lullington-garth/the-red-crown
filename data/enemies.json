@@ -2245,7 +2245,7 @@
     "type": "dragon",
     "stats": {
       "skill": 9,
-      "stamina": 5
+      "stamina": 15
     },
     "combat": {
       "attack": 2,
