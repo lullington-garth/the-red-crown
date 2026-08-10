@@ -665,10 +665,10 @@
   },
   {
     "id": "0021",
-    "item": "Swallow Token",
+    "item": "Bird Token",
     "description": "A small wooden token depicting a painted yellow bird",
     "identified": true,
-    "id-description": "The token shows a tiny swallow perched amongst a flowering sprig.",
+    "id-description": "The token shows a tiny finch carved in great detail.",
     "type": "coin",
     "found": 403,
     "used": 485,
