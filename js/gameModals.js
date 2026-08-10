@@ -1,6 +1,6 @@
 // gameModals.js
 
-import { setModalContent, openModal, closeModal } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { renderPlayerDice, renderEnemyDice, renderGameDice } from "./diceUI.js";
 import { getGold } from "./gold.js";
 import { diceFlow } from "./diceFlow.js";
@@ -363,6 +363,7 @@ export function showBlacksmithDiceGameModal({
     }
 
     updateUI(state);
+    hideModalCloseButton();
     setModalContent(container);
     openModal();
 }
@@ -415,6 +416,7 @@ export function showDaggerGameModal({
                 padding:10px 16px;
                 border-radius:8px;
                 cursor:pointer;
+                font-size:20px;
             ">
                 Prepare to catch the dagger
             </button>
@@ -428,7 +430,7 @@ export function showDaggerGameModal({
         closeModal();
         onRoll();
     });
-
+    hideModalCloseButton();
     setModalContent(container);
     openModal();
 }
@@ -505,7 +507,8 @@ const message = success
                 box-shadow:0 1px 7px rgba(0,0,0,0.5);
                 padding:10px 18px;
                 border-radius:8px;
-                cursor:pointer;
+                cursor:pointer;              
+                font-size:20px;
             ">
                 ${buttonText}
             </button>
