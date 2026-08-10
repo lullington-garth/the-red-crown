@@ -251,6 +251,11 @@ You can fight up to six enemies at once. If there are more than six, the remaini
 A ranged enemy will appear in grey on the combat sheet.
 `);
 
+    paragraph(`<strong>SWEEPING BLOWS</strong>: When fighting multiple enemies with a melee attack, rolling a double results in a sweeping blow. A sweeping blow can strike up to three enemies and ignores your SKILL limit.
+For example, if your SKILL is 8 and you roll a double 5, the roll would normally be a miss because 10 exceeds your SKILL. However, because you rolled a double, it counts as a hit and becomes a sweeping blow.
+Sweeping blows cannot be blocked, even by enemies that are resistant to physical attacks.
+`);
+
     paragraph("<strong>LUCK</strong>: You may not use LUCK in battle unless specifically instructed to do so by the use of an item, potion or spell.");
 
     divider();
