@@ -372,7 +372,7 @@ export function rollModal({
 
         // SECOND CLICK → CONFIRM
         if (rolled && lastRoll) {
-            closeModal();
+//            closeModal();
             onRollComplete(lastRoll.total);
         }
     });
