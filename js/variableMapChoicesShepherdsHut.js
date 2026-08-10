@@ -18,7 +18,7 @@ export function resolveShepherdsHutVariable(path, playerStats) {
                 return `lambing shed`;
             }
             if (wizard === "red") {
-                return `burning village`;
+                return `burning house`;
             }
 
         case "hutGift":
@@ -239,6 +239,24 @@ Emberhide Mantle
 
             if (wizard === "red") {
                 return "burningBuilding.jpg";
+            }
+
+        case "shepherdHutItemImage":
+
+            if (wizard === "green") {
+                return "0029.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "0283.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "0024.jpg";
+            }
+
+            if (wizard === "red") {
+                return "0335.jpg";
             }
 
         default:

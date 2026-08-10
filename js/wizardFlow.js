@@ -31,7 +31,7 @@ export function runWizardFlow(gameDiv, wizards, horses, items, onComplete) {
         };
 
         // Initialize gold
-        initializeGold(playerStats, 40);
+        initializeGold(playerStats, 30);
 
         // Starter Items
         const starterIds = ["0364", // Spell Book

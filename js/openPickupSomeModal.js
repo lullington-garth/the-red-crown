@@ -80,17 +80,17 @@ export function openPickupSomeModal(playerStats, items, {
 
                 // Make the whole row clickable
                 row.style.cursor = "pointer";
-                row.addEventListener("mouseenter", () => {
-                    if (row.dataset.selected !== "true") {
-                        row.style.backgroundColor = "#00000010";
-                    }
-                });
+//                row.addEventListener("mouseenter", () => {
+  //                  if (row.dataset.selected !== "true") {
+    //                    row.style.backgroundColor = "#00000010";
+      //              }
+        //        });
 
-                row.addEventListener("mouseleave", () => {
-                    if (row.dataset.selected !== "true") {
-                        row.style.backgroundColor = "";
-                    }
-                });
+//                row.addEventListener("mouseleave", () => {
+  //                  if (row.dataset.selected !== "true") {
+    //                    row.style.backgroundColor = "";
+      //              }
+        //        });
                 row.style.border = "1px solid #424141";
                 row.style.borderRadius = "6px";
                 row.style.padding = "8px";
@@ -98,8 +98,9 @@ export function openPickupSomeModal(playerStats, items, {
 
                 // Apply initial highlighting
                 if (selected.has(item)) {
-                    row.style.backgroundColor = "#7f83813f";
+                    row.style.backgroundImage = "url('./images/paper2.jpg')";
                     row.style.border = "1px solid #8f8c8c";
+                    row.style.boxShadow = "0 7px 7px rgba(0,0,0,0.5)";
                 }
 
                 row.addEventListener("click", () => {
@@ -110,7 +111,7 @@ export function openPickupSomeModal(playerStats, items, {
                         selected.delete(item);
                         row.dataset.selected = "false";
                         row.style.backgroundImage = "url('./images/paper1.jpg')";
-                        row.style.backgroundColor = "";
+//                        row.style.backgroundColor = "";
                         row.style.border = "1px solid #424141";
                         row.style.boxShadow = null;
                     }
@@ -118,7 +119,7 @@ export function openPickupSomeModal(playerStats, items, {
                         selected.add(item);
                         row.dataset.selected = "true";
                         row.style.backgroundImage = "url('./images/paper2.jpg')";
-                        row.style.backgroundColor = "#ffffff3f";
+//                        row.style.backgroundColor = "#ffffff3f";
                         row.style.border = "1px solid #8f8c8c";
                         row.style.boxShadow = "0 7px 7px rgba(0,0,0,0.5)";
                     }
@@ -146,20 +147,6 @@ export function openPickupSomeModal(playerStats, items, {
 
     footer.innerHTML = `
         <div style="display:flex; gap:10px;">
-            <button id="selectAllBtn" style="
-                flex:1;
-                background:#424141;
-                color:#d7d4d4;
-                border:1px solid #555;
-                box-shadow:0 1px 7px rgba(0,0,0,0.5);
-                padding:10px;
-                border-radius:8px;
-                cursor:pointer;
-                font-size:20px;
-            ">
-                ${count === items.length ? "Deselect All" : "Select All"}
-            </button>
-
             <button id="confirmBtn" style="
                 flex:2;
                 background:${isValid ? '#424141' : '#3a3a3a'};
@@ -173,6 +160,19 @@ export function openPickupSomeModal(playerStats, items, {
                 opacity:${isValid ? '1' : '0.5'};
             ">
                 Take Selected (${count})
+            </button>
+            <button id="selectAllBtn" style="
+                flex:1;
+                background:#424141;
+                color:#d7d4d4;
+                border:1px solid #555;
+                box-shadow:0 1px 7px rgba(0,0,0,0.5);
+                padding:10px;
+                border-radius:8px;
+                cursor:pointer;
+                font-size:20px;
+            ">
+                ${count === items.length ? "Deselect All" : "Select All"}
             </button>
         </div>
     `;
