@@ -1,6 +1,6 @@
 // tradeItemsModal.js
 
-import { setModalContent, setModalWidth, openModal, closeModal } from "./modal.js";
+import { setModalContent, setModalWidth, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 
 import { showItemDescription } from "./inventoryUI.js";
 
@@ -315,6 +315,6 @@ export function openTradeItemsModal(playerStats, {
 
     setModalContent(container);
     setModalWidth("600px");
-
+    hideModalCloseButton();
     openModal();
 }

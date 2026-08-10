@@ -1,6 +1,6 @@
 // openPickupSomeModal.js
 
-import { setModalContent, setModalWidth, openModal, closeModal } from "./modal.js";
+import { setModalContent, setModalWidth, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { showItemDescription } from "./inventoryUI.js";
 import { showConfirmOverlay } from "./overlayConfirm.js";
 
@@ -241,5 +241,6 @@ export function openPickupSomeModal(playerStats, items, {
 
     setModalContent(container);
     setModalWidth("450px");
+    hideModalCloseButton();
     openModal();
 }

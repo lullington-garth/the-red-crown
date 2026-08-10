@@ -3,7 +3,7 @@
 import { getEnhancersForBase, createMixedPotion, getAvailablePotionItems, getAvailableBases } from "./mixPotion.js";
 import { getGold, removeGold } from './gold.js';
 import { showItemOverlay } from "./itemOverlay.js";
-import { setModalContent, openModal, closeModal, setModalWidth } from "./modal.js";
+import { setModalContent, openModal, closeModal, setModalWidth, hideModalCloseButton } from "./modal.js";
 import { openCombatSelectionModal } from "./combatSelectionModal.js";
 import { tryAddItems } from "./calculateCapacity.js";
 
@@ -130,6 +130,7 @@ exitBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
 exitBtn.style.padding = "10px 16px";
 exitBtn.style.borderRadius = "8px";
 exitBtn.style.cursor = "pointer";
+exitBtn.style.fontSize = "20px";
 
 exitBtn.addEventListener("click", () => {
   showItemOverlay(
@@ -474,5 +475,6 @@ function createPotionRow(item, onClick, selected = false) {
   // ----------------------------------------
   setModalContent(container);
   setModalWidth("550px");
+  hideModalCloseButton();
   openModal();
 }

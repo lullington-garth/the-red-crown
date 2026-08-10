@@ -23,6 +23,24 @@ const wizard = (playerStats.wizardColor || "").toLowerCase();
             if (wizard === "yellow") { return `peace`;}
             if (wizard === "blue") { return `luck`;}
             if (wizard === "red") { return `strength`;}
+
+        case "cursedRingImage":
+
+            if (wizard === "green") {
+                return "0205.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "0204.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "0203.jpg";
+            }
+
+            if (wizard === "red") {
+                return "0334.jpg";
+            }            
      
         default:
             return null;
