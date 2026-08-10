@@ -1,6 +1,6 @@
 // enchantmentModals.js
 
-import { setModalContent, openModal, closeModal, setModalWidth } from "./modal.js";
+import { setModalContent, openModal, closeModal, setModalWidth, hideModalCloseButton } from "./modal.js";
 import { runMagicRevealEffect } from "./magicRevealEffect.js";
 import { showItemOverlay } from "./itemOverlay.js";
 import { removeGold } from "./gold.js";
@@ -129,6 +129,7 @@ export function openEnchantmentSelectionModal(
 
     setModalContent(container);
     setModalWidth("450px");
+    hideModalCloseButton();
     openModal();
 }
 
@@ -200,6 +201,7 @@ export function showEnchantmentResultModal({
     closeBtn.style.cursor = "pointer";
     closeBtn.style.opacity = "0";
     closeBtn.style.transition = "opacity 0.4s ease";
+    closeBtn.style.fontSize = "20px";
 
     container.appendChild(itemImage);
     container.appendChild(title);
