@@ -1,5 +1,5 @@
 // diceModals.js
-import { setModalContent, openModal, closeModal } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { showItemDescription } from "./inventoryUI.js";
 import { renderPlayerDice } from './diceUI.js';
 import { rollCombatDice, discardPlayerDie } from './dice.js';
@@ -254,6 +254,7 @@ export function rollModal({
     `;
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 
     const diceContainer = container.querySelector("#diceContainer");
@@ -372,7 +373,7 @@ export function rollModal({
 
         // SECOND CLICK → CONFIRM
         if (rolled && lastRoll) {
-//            closeModal();
+            closeModal();
             onRollComplete(lastRoll.total);
         }
     });
