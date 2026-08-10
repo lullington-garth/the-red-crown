@@ -16,9 +16,9 @@ export function handleCurio(playerStats, context, onResolved) {
         rollMessage: `<hr><br>
         Roll to decide the results... `,
 
-//        onComplete: ({ rollTotal }) => {
-onComplete: () => { // 👈 force it
-const rollTotal = 6; // 👈 force it
+        onComplete: ({ rollTotal }) => {
+//onComplete: () => { // 👈 force it
+//const rollTotal = 6; // 👈 force it
             let message = "";
 
             if (!playerStats.stats) {
