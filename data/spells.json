@@ -130,16 +130,16 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
-      "yellow": 2,
-      "green": 1,
-      "blue": 1
+      "red": 2,
+      "yellow": 4,
+      "green": 2,
+      "blue": 2
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 2,
-      "green": 1,
-      "blue": 1
+      "yellow": 4,
+      "green": 2,
+      "blue": 2
     },
     "riskMod": {
       "red": 45,
@@ -330,15 +330,15 @@
     },
     "duration": {
       "red": 2,
-      "yellow": 2,
-      "green": 1,
-      "blue": 1
+      "yellow": 4,
+      "green": 2,
+      "blue": 2
     },
     "areaOfEffect": {
       "red": 2,
-      "yellow": 2,
-      "green": 1,
-      "blue": 1
+      "yellow": 3,
+      "green": 2,
+      "blue": 2
     },
     "riskMod": {
       "red": 35,
@@ -526,16 +526,16 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
-      "yellow": 2,
-      "green": 1,
+      "red": 2,
+      "yellow": 4,
+      "green": 2,
       "blue": 2
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 2,
-      "green": 1,
-      "blue": 2
+      "yellow": 3,
+      "green": 2,
+      "blue": 3
     },
     "riskMod": {
       "red": 45,
@@ -725,14 +725,14 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
-      "yellow": 3,
-      "green": 1,
-      "blue": 1
+      "red": 2,
+      "yellow": 4,
+      "green": 3,
+      "blue": 3
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 3,
+      "yellow": 4,
       "green": 2,
       "blue": 2
     },
@@ -926,15 +926,15 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
-      "yellow": 3,
+      "red": 2,
+      "yellow": 4,
       "green": 3,
       "blue": 2
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 2,
-      "green": 2,
+      "yellow": 3,
+      "green": 3,
       "blue": 1
     },
     "riskMod": {
@@ -1131,10 +1131,10 @@
       "blue": 3
     },
     "areaOfEffect": {
-      "red": 2,
+      "red": 1,
       "yellow": 4,
-      "green": 3,
-      "blue": 3
+      "green": 2,
+      "blue": 2
     },
     "riskMod": {
       "red": 45,
@@ -1324,14 +1324,14 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
+      "red": 2,
       "yellow": 3,
       "green": 3,
       "blue": 2
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 2,
+      "yellow": 3,
       "green": 2,
       "blue": 1
     },
@@ -1526,10 +1526,10 @@
       "blue": 3
     },
     "areaOfEffect": {
-      "red": 2,
+      "red": 1,
       "yellow": 4,
       "green": 3,
-      "blue": 3
+      "blue": 2
     },
     "riskMod": {
       "red": 45,
@@ -1717,14 +1717,14 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
-      "yellow": 3,
+      "red": 2,
+      "yellow": 4,
       "green": 2,
       "blue": 3
     },
     "areaOfEffect": {
       "red": 1,
-      "yellow": 2,
+      "yellow": 3,
       "green": 1,
       "blue": 2
     },
@@ -1919,15 +1919,15 @@
     },
     "duration": {
       "red": 3,
-      "yellow": 3,
+      "yellow": 4,
       "green": 2,
       "blue": 2
     },
     "areaOfEffect": {
       "red": 2,
-      "yellow": 2,
-      "green": 1,
-      "blue": 1
+      "yellow": 3,
+      "green": 2,
+      "blue": 2
     },
     "riskMod": {
       "red": 40,
@@ -2119,13 +2119,13 @@
       "red": 2,
       "yellow": 4,
       "green": 3,
-      "blue": 3
+      "blue": 2
     },
     "areaOfEffect": {
-      "red": 2,
+      "red": 1,
       "yellow": 4,
       "green": 3,
-      "blue": 3
+      "blue": 2
     },
     "riskMod": {
       "red": 45,
@@ -2315,7 +2315,7 @@
       "blue": 0
     },
     "duration": {
-      "red": 1,
+      "red": 2,
       "yellow": 3,
       "green": 2,
       "blue": 3

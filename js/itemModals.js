@@ -297,6 +297,7 @@ export function openItemSelectionModal(playerStats, {
                     box-shadow:0 1px 7px rgba(0,0,0,0.5);
                     border-radius:8px;
                     cursor:pointer;
+                    font-size:20px;
                 ">
                     Select
                 </button>

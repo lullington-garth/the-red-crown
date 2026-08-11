@@ -91,8 +91,8 @@ function toNumber(value) {
 }
 
 // ---------- LOAD EXCEL ----------
-//const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Spell Book JSON OTHER.xlsx";
-const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Spell Book JSON 1.xlsx";
+const filePath = "C:\\Users\\DouglasHeather\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Spell Book JSON 1.xlsx";
+//const filePath = "C:\\Users\\lulli\\OneDrive - Steeldeck\\Documents\\FF For Martin & David\\Spell Book JSON 1.xlsx";
 
 const workbook = XLSX.readFile(filePath);
 const sheetName = workbook.SheetNames[0];
