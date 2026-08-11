@@ -86,14 +86,15 @@ coins.forEach(item => {
     text.textContent = item.item;
     text.style.flex = "1";
 
-    // 👁 VIEW BUTTON (same style as worn items)
+        // 👁 VIEW BUTTON
     const viewBtn = document.createElement("button");
-    viewBtn.style.display = "0 0 auto";
+
+    viewBtn.style.display = "flex";
     viewBtn.style.justifyContent = "center";
     viewBtn.style.alignItems = "center";
     viewBtn.style.borderRadius = "4px";
     viewBtn.style.fontSize = "16px";
-    viewBtn.style.paddingTop = "5px";
+    viewBtn.style.padding = "0";
     viewBtn.style.height = "30px";
     viewBtn.style.width = "40px";
     viewBtn.style.backgroundColor = "#424141";
@@ -105,8 +106,7 @@ coins.forEach(item => {
     viewImg.src = "images/btnView.svg";
     viewImg.style.width = "15px";
     viewImg.style.height = "15px";
-    viewImg.style.justifyContent = "center";
-    viewImg.style.alignItems = "center";
+    viewImg.style.display = "block";
 
     viewBtn.appendChild(viewImg);
 
