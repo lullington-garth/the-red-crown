@@ -88,6 +88,9 @@ coins.forEach(item => {
 
     // 👁 VIEW BUTTON (same style as worn items)
     const viewBtn = document.createElement("button");
+    viewBtn.style.display = "0 0 auto";
+    viewBtn.style.justifyContent = "center";
+    viewBtn.style.alignItems = "center";
     viewBtn.style.borderRadius = "4px";
     viewBtn.style.fontSize = "16px";
     viewBtn.style.paddingTop = "5px";
