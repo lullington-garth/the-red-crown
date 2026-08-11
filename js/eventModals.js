@@ -86,6 +86,7 @@ export function showWrongChamberChoiceModal({
                     padding:10px 18px;
                     border-radius:8px;
                     cursor:pointer;
+                    font-size:20px;
                 "
             >
                 ${data.button}
@@ -193,6 +194,7 @@ export function showHandOfDespairResultModal({
                     padding:10px 18px;
                     border-radius:8px;
                     cursor:pointer;
+                    font-size:20px;
                 "
             >
                 ${buttonText}
@@ -278,6 +280,7 @@ export function showHandOfDespairVictoryModal({
                     padding:10px 18px;
                     border-radius:8px;
                     cursor:pointer;
+                    font-size:20px;
                 "
             >
                 Continue
