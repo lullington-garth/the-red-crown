@@ -105,6 +105,8 @@ coins.forEach(item => {
     viewImg.src = "images/btnView.svg";
     viewImg.style.width = "15px";
     viewImg.style.height = "15px";
+    viewImg.style.justifyContent = "center";
+    viewImg.style.alignItems = "center";
 
     viewBtn.appendChild(viewImg);
 
