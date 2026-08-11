@@ -250,6 +250,7 @@ export function openItemSelectionModal(playerStats, {
             row.style.gap = "10px";
             row.style.padding = "6px 0";
             row.style.borderBottom = "1px solid #ccc";
+            row.style.backgroundImage = "url('./images/paper1.jpg')";
 
             const extraLine = formatItem ? formatItem(item) : "";
 
