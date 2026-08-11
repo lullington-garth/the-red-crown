@@ -76,6 +76,7 @@ options.forEach(opt => {
     container.appendChild(optionsWrapper);
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 }
 
@@ -195,6 +196,7 @@ export function showPostRollModal({
     container.appendChild(optionsWrapper);
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 }
 
