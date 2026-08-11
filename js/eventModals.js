@@ -365,19 +365,20 @@ export function showChooseContractTimedModal({
     scroll.style.maxHeight = "200px";
     scroll.style.overflowY = "auto";
     scroll.style.border = "1px solid #333";
+    scroll.style.borderRadius = "10px";
     scroll.style.padding = "10px";
     scroll.style.marginTop = "10px";
-    scroll.style.backgroundImage = "url('./images/paper1.jpg')";
-    scroll.style.isolation = "isolate";
+    scroll.style.boxShadow = "0 1px 15px rgba(0,0,0,0.7)";
+    scroll.style.background = "black";
+    scroll.style.color = "grey";
     scroll.classList.add("hide-scrollbar");
 
     scroll.innerHTML = `
             <img
-                src="images/scrollOpen.jpg"
+                src="images/scrollOpenContract.jpg"
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode:multiply;
                     border-radius:6px;
                 "
             />
@@ -403,11 +404,10 @@ Signed and entered into the Infernal Ledger under seal and eternal authority,<br
 <strong>The Supplier</strong></p><hr>
 
             <img
-                src="images/scrollOpen.jpg"
+                src="images/scrollOpenContract.jpg"
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode:multiply;
                     border-radius:6px;
                 "
             />
@@ -432,11 +432,10 @@ Signed and witnessed beneath the gaze of powers ancient and eternal,<br><br>
 <strong>The Supplier</strong></p><hr>
 
             <img
-                src="images/scrollOpen.jpg"
+                src="images/scrollOpenContract.jpg"
                 style="
                     width:100px;
                     margin-bottom:0px;
-                    mix-blend-mode:multiply;
                     border-radius:6px;
                 "
             />
