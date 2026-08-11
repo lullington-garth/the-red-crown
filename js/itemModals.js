@@ -1,5 +1,5 @@
 // itemModals.js
-import { setModalContent, openModal, closeModal, setModalWidth } from "./modal.js";
+import { setModalContent, openModal, closeModal, setModalWidth, hideModalCloseButton } from "./modal.js";
 import { getItemBonusText } from './inventoryUI.js';
 import { openCombatSelectionModal } from "./combatSelectionModal.js";
 
@@ -314,6 +314,7 @@ export function openItemSelectionModal(playerStats, {
 
     setModalContent(container);
     setModalWidth("450px");
+    hideModalCloseButton();
     openModal();
 }
 
