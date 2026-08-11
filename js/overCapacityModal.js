@@ -108,6 +108,7 @@ export function openOverCapacityModal({
             button.style.borderRadius = "6px";
             button.style.cursor = "pointer";
             button.style.height = "fit-content";
+            button.style.fontSize = "20px";
 
             const canInteract = filterFn ? filterFn(item) : true;
 
@@ -162,6 +163,7 @@ function updateFooter() {
             border-radius:8px;
             cursor:${isValid ? 'pointer' : 'not-allowed'};
             opacity:${isValid ? '1' : '0.5'};
+            font-size:20px;
         "
         ${!isValid ? 'disabled' : ''}>
             Return to Game

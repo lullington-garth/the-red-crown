@@ -1,5 +1,5 @@
 // eventModals.js
-import { setModalContent, openModal, closeModal } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { showItemDescription } from "./inventoryUI.js";
 
 export function showWrongChamberChoiceModal({
@@ -534,7 +534,7 @@ Signed and sealed under infernal authority,<br><br>
 
     updateUI(60);
     attachTimer(updateUI, triggerWarning);
-
+    hideModalCloseButton();
     setModalContent(container);
     openModal();
 
@@ -657,6 +657,7 @@ export function showLoseHorseModal({
             row.style.borderBottom = "1px solid #3b3a3a";
             row.style.paddingBottom = "10px";
             row.style.marginBottom = "10px";
+            row.style.backgroundImage = "url('./images/paper1.jpg')";
 
             const itemDisplay =
                 showItemDescription(
@@ -681,7 +682,8 @@ export function showLoseHorseModal({
             btn.style.cursor = "pointer";
             btn.style.flexShrink = "0";
             btn.style.marginTop = "4px";
-            btn.style.width = "70px";
+            btn.style.width = "100px";
+            btn.style.fontSize = "20px";
 
             btn.addEventListener("click", () => {
 
@@ -733,6 +735,7 @@ export function showLoseHorseModal({
     continueBtn.style.cursor = "not-allowed";
     continueBtn.style.opacity = "0.4";
     continueBtn.style.transition = "opacity 0.2s ease, transform 0.1s ease";
+    continueBtn.style.fontSize = "20px";
 
     continueBtn.addEventListener("click", () => {
 
@@ -754,6 +757,7 @@ export function showLoseHorseModal({
     };
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 
     refresh();
