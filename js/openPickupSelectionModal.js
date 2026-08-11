@@ -47,6 +47,7 @@ export function openPickupSelectionModal(playerStats, items, {
             btn.style.padding = "8px 12px";
             btn.style.borderRadius = "8px";
             btn.style.cursor = "pointer";
+            btn.style.fontSize = "20px";
 
             btn.addEventListener("click", () => {
                 closeModal();

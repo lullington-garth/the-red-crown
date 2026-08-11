@@ -34,7 +34,7 @@ export function runWizardFlow(gameDiv, wizards, horses, items, onComplete) {
         initializeGold(playerStats, 30);
 
         // Starter Items
-        const starterIds = ["0364", "0042",//"0058",// Spell Book
+        const starterIds = ["0364", //"0058",// Spell Book
 //            "0003","0004","0005","0006","0007","0008",// Spell Book
   //          "0257","0258","0259", // Shields
     //        "0290","0291","0292","0293","0294","0295","0296","0297", // Weapons
@@ -43,7 +43,7 @@ export function runWizardFlow(gameDiv, wizards, horses, items, onComplete) {
           //  "0276","0277","0278","0279","0280","0281", // Staff         
 //            "0160","0161","0162","0163","0164","0165","0166","0167", // Mix Potions
   //          "0168","0169","0170","0171","0172", // Mix Potions
-//            "0173","0174","0175","0176","0177","0178","0179","0180", // Potions
+            "0173","0174","0175","0176","0177","0178","0179","0180", // Potions
   //          "0181","0182","0183","0184","0185","0186","0187","0188", // Potions
 //            "0189","0190","0191","0192","0193","0194","0195","0196","0303", // Potions
           //  "0030","0031","0032", // Hats and Helmets

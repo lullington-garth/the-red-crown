@@ -367,8 +367,9 @@ export function showChooseContractTimedModal({
     scroll.style.border = "1px solid #333";
     scroll.style.padding = "10px";
     scroll.style.marginTop = "10px";
-    scroll.classList.add("hide-scrollbar");
     scroll.style.backgroundImage = "url('./images/paper1.jpg')";
+    scroll.style.isolation = "isolate";
+    scroll.classList.add("hide-scrollbar");
 
     scroll.innerHTML = `
             <img
