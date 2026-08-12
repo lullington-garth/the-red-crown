@@ -674,15 +674,6 @@ switch (state.phase) {
 
         <div style="text-align:center;">
 
-            <img
-                src="images/dice.jpg"
-                style="
-                    width:120px;
-                    margin-bottom:0px;
-                    padding-bottom:0px;
-                    mix-blend-mode:multiply;
-                "
-            />
                 <div style="
                 font-size:24px;
                 ">
@@ -1316,6 +1307,6 @@ if (brianDiceArea) {
     setModalContent(container);
     hideModalCloseButton();
     setModalWidth("700px");
-    setModalHeight("800px");
+    setModalHeight("850px");
     openModal();
 }
