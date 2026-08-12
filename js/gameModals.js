@@ -1,6 +1,6 @@
 // gameModals.js
 
-import { setModalContent, openModal, closeModal, hideModalCloseButton, setModalWidth } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton, setModalWidth, setModalHeight } from "./modal.js";
 import { renderPlayerDice, renderEnemyDice, renderGameDice } from "./diceUI.js";
 import { getGold } from "./gold.js";
 import { diceFlow } from "./diceFlow.js";
@@ -703,6 +703,7 @@ switch (state.phase) {
                 grid-template-columns:1fr 1fr;
                 gap:10px;
                 margin-bottom:15px;
+                background-image:url('./images/paper1.jpg');
             ">
 
                 <div style="
@@ -962,6 +963,7 @@ switch (state.phase) {
                     repeat(4, 1fr);
                 gap:10px;
                 margin-bottom:15px;
+                background-image:url('./images/paper1.jpg');
             ">
             <div style="
                 border:1px solid #555;
@@ -1314,5 +1316,6 @@ if (brianDiceArea) {
     setModalContent(container);
     hideModalCloseButton();
     setModalWidth("700px");
+    setModalHeight("800px");
     openModal();
 }
