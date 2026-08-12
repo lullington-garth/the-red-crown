@@ -1307,6 +1307,6 @@ if (brianDiceArea) {
     setModalContent(container);
     hideModalCloseButton();
     setModalWidth("700px");
-    setModalHeight("850px");
+    setModalHeight("1000px");
     openModal();
 }
