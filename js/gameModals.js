@@ -1,6 +1,6 @@
 // gameModals.js
 
-import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton, setModalWidth } from "./modal.js";
 import { renderPlayerDice, renderEnemyDice, renderGameDice } from "./diceUI.js";
 import { getGold } from "./gold.js";
 import { diceFlow } from "./diceFlow.js";
@@ -560,6 +560,7 @@ export function showTavernDiceGameModal({
         border:1px solid #555;
         box-shadow:0 1px 7px rgba(0,0,0,0.5);
         cursor:pointer;
+        font-size:20px;
     `;
 
 switch (state.phase) {
@@ -768,7 +769,7 @@ switch (state.phase) {
 
                 <img
                     src="images/${playerStats.wizardColor.toLowerCase()}Wizard.jpg"
-                    style="height:100px;mix-blend-mode:multiply;border-radius:8px;border:2px solid #555;"
+                    style="height:135px;mix-blend-mode:multiply;border-radius:8px;border:2px solid #555;"
                 />
 
                 ${
@@ -813,7 +814,7 @@ switch (state.phase) {
                 <img
                     src="images/${state.mintyActive ? "minty.jpg" : "0128.jpg"}"
                     style="
-                        height:100px;
+                        height:135px;
                         mix-blend-mode:multiply;
                         border-radius:8px;
                         border:2px solid #555;
@@ -862,7 +863,7 @@ switch (state.phase) {
                 <img
                     src="images/${state.fidgetActive ? "fidget.jpg" : "0128.jpg"}"
                     style="
-                        height:100px;
+                        height:135px;
                         mix-blend-mode:multiply;
                         border-radius:8px;
                         border:2px solid #555;
@@ -911,7 +912,7 @@ switch (state.phase) {
                 <img
                     src="images/${state.brianActive ? "brian.jpg" : "0128.jpg"}"
                     style="
-                        height:100px;
+                        height:135px;
                         mix-blend-mode:multiply;
                         border-radius:8px;
                         border:2px solid #555;
@@ -1311,5 +1312,7 @@ if (brianDiceArea) {
 }
 
     setModalContent(container);
+    hideModalCloseButton();
+    setModalWidth("700px");
     openModal();
 }

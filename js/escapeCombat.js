@@ -241,7 +241,8 @@ export function renderEscapeButton({
         cursor: "pointer",
         backgroundColor:"#424141",
         color: "#d7d4d4",
-        boxShadow: "0 1px 7px rgba(0,0,0,0.5)"
+        boxShadow: "0 1px 7px rgba(0,0,0,0.5)",
+        fontSize: "20px"
     });
 
     escapeBtn.onclick = () => {
