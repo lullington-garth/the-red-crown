@@ -677,10 +677,7 @@ switch (state.phase) {
                 <div style="
                 font-size:24px;
                 ">
-                <strong>Dice Table</strong>
-                </div>
-
-            <div>
+                <strong>Dice Table - </strong>
                 Round ${state.round}
                 / ${state.maxRounds}
             </div>
@@ -693,7 +690,7 @@ switch (state.phase) {
                 display:grid;
                 grid-template-columns:1fr 1fr;
                 gap:10px;
-                margin-bottom:15px;
+                margin-bottom:10px;
                 background-image:url('./images/paper1.jpg');
             ">
 
@@ -745,7 +742,7 @@ switch (state.phase) {
                 display:grid;
                 grid-template-columns:repeat(4, 1fr);
                 gap:10px;
-                margin-bottom:15px;
+                margin-bottom:10px;
                 text-align:center;
                 font-weight:bold;
                 font-size: 13px;
@@ -953,7 +950,7 @@ switch (state.phase) {
                 grid-template-columns:
                     repeat(4, 1fr);
                 gap:10px;
-                margin-bottom:15px;
+                margin-bottom:10px;
                 background-image:url('./images/paper1.jpg');
             ">
             <div style="
@@ -1119,7 +1116,7 @@ switch (state.phase) {
             <hr>
 
             <div style="
-                margin-top:15px;
+                margin-top:10px;
             ">
                 ${buttonSection}
             </div>
