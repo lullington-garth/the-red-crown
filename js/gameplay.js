@@ -29,11 +29,11 @@ export function startGameplay(
     playerStats.comeOnSam = false
     playerStats.fairyShower = false
     playerStats.visitingBrother = "Green"
-    playerStats.visitingBrotherName = "Lo Tae Zhao"
-    playerStats.visitingBrotherEthos = "STAMINA"
+    playerStats.visitingBrotherName = "Carolinus"
+    playerStats.visitingBrotherEthos = "MAGIC"
     playerStats.absentBrotherEthos = "LUCK"
-    playerStats.absentBrotherName = "Carolinus"
-    playerStats.absentBrotherColor = "Green"
+    playerStats.absentBrotherName = "Solarius"
+    playerStats.absentBrotherColor = "Blue"
     playerStats.foundUndergroundArea = false
     playerStats.paidForBed = false
     playerStats.ogreComing = false
@@ -107,7 +107,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(710);
+    engine.start(868);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);

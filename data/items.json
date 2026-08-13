@@ -1089,7 +1089,7 @@
     "breakable": true,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "LUCK -2",
+    "stat-mod": "LUCK (B)  -2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -1106,7 +1106,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "LUCK": -2
+      "LUCK (B)": -2
     },
     "effectiveness": null
   },
@@ -1124,7 +1124,7 @@
     "breakable": false,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "LUCK +2",
+    "stat-mod": "LUCK (B) +2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -1141,7 +1141,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "LUCK": 2
+      "LUCK (B)": 2
     },
     "effectiveness": null
   },
@@ -1159,7 +1159,7 @@
     "breakable": true,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "STAMINA -2",
+    "stat-mod": "STAMINA (B) -2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -1176,7 +1176,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "STAMINA": -2
+      "STAMINA (B)": -2
     },
     "effectiveness": null
   },
@@ -1194,7 +1194,7 @@
     "breakable": false,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "STAMINA +2",
+    "stat-mod": "STAMINA (B) +2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -1211,7 +1211,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "STAMINA": 2
+      "STAMINA (B)": 2
     },
     "effectiveness": null
   },
@@ -4619,7 +4619,7 @@
     "breakable": true,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "MAGIC -2",
+    "stat-mod": "MAGIC (B) -2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -4636,7 +4636,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "MAGIC": -2
+      "MAGIC (B)": -2
     },
     "effectiveness": null
   },
@@ -4654,7 +4654,7 @@
     "breakable": true,
     "can-discard": true,
     "can-equip": true,
-    "stat-mod": "MAGIC +2",
+    "stat-mod": "MAGIC (B) +2",
     "stat-mod-type": "pickup",
     "lose-on-use": false,
     "cost": 0,
@@ -4671,7 +4671,7 @@
     "bonus-against": "None",
     "bonus-mod": "None",
     "stat-mod-object": {
-      "MAGIC": 2
+      "MAGIC (B)": 2
     },
     "effectiveness": null
   },

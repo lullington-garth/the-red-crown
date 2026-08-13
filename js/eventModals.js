@@ -108,6 +108,7 @@ export function showWrongChamberChoiceModal({
     });
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 }
 

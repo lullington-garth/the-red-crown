@@ -21,8 +21,22 @@ export function resolveFortressEntranceVariable(path, playerStats) {
                 return `onyx wand`;
             }      
 
+        case "brotherOne":
+            if (wizard === "yellow") {
+                return `Carolinus`;
+            }
+            if (wizard === "blue") {
+                return `Lo Tae Zhao`;
+            }
+            if (wizard === "red") {
+                return `Solarius`;
+            }
+            if (wizard === "green") {
+                return `Ommadon`;
+            } 
+
         case "brotherOneItem":
-            if (wizard === "Yellow") {
+            if (wizard === "yellow") {
                 return `leaf-shaped amulet`;
             }
             if (wizard === "blue") {
@@ -33,6 +47,20 @@ export function resolveFortressEntranceVariable(path, playerStats) {
             }
             if (wizard === "green") {
                 return `onyx wand`;
+            } 
+
+        case "brotherTwo":
+            if (wizard === "blue") {
+                return `Carolinus`;
+            }
+            if (wizard === "red") {
+                return `Lo Tae Zhao`;
+            }
+            if (wizard === "green") {
+                return `Solarius`;
+            }
+            if (wizard === "yellow") {
+                return `Ommadon`;
             } 
 
         case "brotherTwoItem":
@@ -63,34 +91,6 @@ export function resolveFortressEntranceVariable(path, playerStats) {
                 return `onyx wand`;
             } 
 
-        case "brotherOne":
-            if (wizard === "Yellow") {
-                return `Carolinus`;
-            }
-            if (wizard === "blue") {
-                return `Lo Tae Zhao`;
-            }
-            if (wizard === "red") {
-                return `Solarius`;
-            }
-            if (wizard === "green") {
-                return `Ommadon`;
-            } 
-
-        case "brotherTwo":
-            if (wizard === "blue") {
-                return `Carolinus`;
-            }
-            if (wizard === "red") {
-                return `Lo Tae Zhao`;
-            }
-            if (wizard === "green") {
-                return `Solarius`;
-            }
-            if (wizard === "yellow") {
-                return `Ommadon`;
-            } 
-
         case "brotherThree":
             if (wizard === "red") {
                 return `Carolinus`;
@@ -105,61 +105,29 @@ export function resolveFortressEntranceVariable(path, playerStats) {
                 return `Ommadon`;
             } 
 
-        case "yourLossMessage":
-            if (wizard === "red") {
-                return `LOSE 1 STAMINA and 2 SKILL`;
-            }
-            if (wizard === "green") {
-                return `LOSE 1 STAMINA and 2 MAGIC`;
-            }
-            if (wizard === "yellow") {
-                return `LOSE 3 STAMINA`;
-            }
-            if (wizard === "blue") {
-                return `LOSE 1 STAMINA and 2 LUCK`;
-            } 
+        case "yourGiftImage":
+            if (wizard === "green") { return "0139.jpg"; }
+            if (wizard === "yellow") { return "0035.jpg"; }
+            if (wizard === "blue") { return "0033.jpg"; }
+            if (wizard === "red") { return "0260.jpg"; }   
 
-        case "brotherOneGainMessage":
-            if (wizard === "Yellow") {
-                return `GAIN 2 MAGIC`;
-            }
-            if (wizard === "blue") {
-                return `GAIN 2 STAMINA`;
-            }
-            if (wizard === "red") {
-                return `GAIN 2 LUCK`;
-            }
-            if (wizard === "green") {
-                return `GAIN 2 SKILL`;
-            } 
+        case "brotherOneGiftImage":
+            if (wizard === "green") { return "0260.jpg"; }
+            if (wizard === "yellow") { return "0139.jpg"; }
+            if (wizard === "blue") { return "0035.jpg"; }
+            if (wizard === "red") { return "0033.jpg"; }   
 
-        case "brotherTwoGainMessage":
-            if (wizard === "blue") {
-                return `GAIN 2 MAGIC`;
-            }
-            if (wizard === "red") {
-                return `GAIN 2 STAMINA`;
-            }
-            if (wizard === "green") {
-                return `GAIN 2 LUCK`;
-            }
-            if (wizard === "yellow") {
-                return `GAIN 2 SKILL`;
-            } 
+        case "brotherTwoGiftImage":
+            if (wizard === "green") { return "0033.jpg"; }
+            if (wizard === "yellow") { return "0260.jpg"; }
+            if (wizard === "blue") { return "0139.jpg"; }
+            if (wizard === "red") { return "0035.jpg"; }   
 
-        case "brotherThreeGainMessage":
-            if (wizard === "red") {
-                return `GAIN 2 MAGIC`;
-            }
-            if (wizard === "green") {
-                return `GAIN 2 STAMINA`;
-            }
-            if (wizard === "yellow") {
-                return `GAIN 2 LUCK`;
-            }
-            if (wizard === "blue") {
-                return `GAIN 2 SKILL`;
-            } 
+        case "brotherThreeGiftImage":
+            if (wizard === "green") { return "0035.jpg"; }
+            if (wizard === "yellow") { return "0033.jpg"; }
+            if (wizard === "blue") { return "0260.jpg"; }
+            if (wizard === "red") { return "0139.jpg"; }   
 
         default:
             return null;
