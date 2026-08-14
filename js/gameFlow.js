@@ -32,7 +32,7 @@ export function startGameFlow(
                 SKILL:   { current: 10, max: 10, min: 0 },
                 STAMINA: { current: 24, max: 24, min: 0 },
                 LUCK:    { current: 10, max: 10, min: 0 },
-                MAGIC:   { current: 8, max: 10, min: 0 },
+                MAGIC:   { current: 2, max: 10, min: 0 },
                 ATTACK:  { current: 2, max: 2, min: 2 }
             };
 

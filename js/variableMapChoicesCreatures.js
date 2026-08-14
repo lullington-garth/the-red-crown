@@ -43,6 +43,11 @@ export function resolveCreaturesVariable(path, playerStats) {
             if (wizard === "yellow") {return "creatureYellow.jpg";}
             if (wizard === "blue") {return "creatureBlue.jpg";}
 
+        case "creaturePartImage":
+            if (wizard === "green") {return "0105.jpg";}
+            if (wizard === "yellow") {return "0107.jpg";}
+            if (wizard === "blue") {return "0106.jpg";}
+
         case "creatureIntro":
             if (wizard === "green") {
                 return `The dragons vanish behind the trees as you travel farther into Carolinus’s woodland realm. Ferns carpet the forest floor, and ancient branches arch high overhead like the roof of some vast green hall. Every so often, the trees part just enough for you to glimpse distant hills rolling beneath the sunlight before the forest closes once more around you.
@@ -139,7 +144,7 @@ You thank them quietly.
 `;
             }
 
-        case "cretureAntiquityConfusedTrue":
+        case "creatureAntiquityConfusedTrue":
             if (wizard === "green") {
                 return `At once, the creatures begin a noisy debate of snorts, hoof-stamps and sweeping antlers. One scratches deep furrows into the ground while another immediately covers them with moss and blue flowers. Some point their horns towards the distant hills glimpsed through the trees, while others paw insistently at the roots below.
 

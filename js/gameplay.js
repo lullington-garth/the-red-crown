@@ -106,7 +106,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(680);
+    engine.start(540);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);
