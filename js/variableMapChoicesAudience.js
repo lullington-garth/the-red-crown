@@ -12,6 +12,16 @@ export function resolveAudienceVariable(path, playerStats) {
     // ----------------------------
     switch (path) {
 
+        case "potionOtherImage":
+            if (absentBrother === "green") { return "0187.jpg"; }
+            if (absentBrother === "yellow") { return "0186.jpg"; }
+            if (absentBrother === "blue") { return "0185.jpg"; }
+
+        case "questItemImage":
+            if (visiting === "green") { return "0208.jpg"; }
+            if (visiting === "yellow") { return "0130.jpg"; }
+            if (visiting === "blue") { return "0259.jpg"; }
+
         case "audienceDoor":
             if (wizard === "yellow" && visiting === "blue") {
                 return "Heavy Oak Door";
