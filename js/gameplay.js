@@ -28,7 +28,7 @@ export function startGameplay(
 
     playerStats.comeOnSam = false
     playerStats.fairyShower = false
-    playerStats.visitingBrother = "Green"
+    playerStats.visitingBrother = "Yellow"
     playerStats.visitingBrotherName = "Carolinus"
     playerStats.visitingBrotherEthos = "MAGIC"
     playerStats.absentBrotherEthos = "LUCK"
@@ -106,7 +106,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(540);
+    engine.start(1025);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);

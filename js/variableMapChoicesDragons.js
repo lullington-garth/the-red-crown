@@ -1363,8 +1363,30 @@ case "dragonPathIGNORE":
             }
             if (wizard === "blue") {
                 return "dragonRedBlue.jpg";
-            }             
-            
+            }                    
+
+        case "veilImage":
+            if (wizard === "green") {
+                return "0101.jpg";
+            }
+            if (wizard === "yellow") {
+                return "0099.jpg";
+            }
+            if (wizard === "blue") {
+                return "0100.jpg";
+            } 
+
+        case "dragonItemRedImage":
+            if (wizard === "green") {
+                return "0104.jpg";
+            }
+            if (wizard === "yellow") {
+                return "0102.jpg";
+            }
+            if (wizard === "blue") {
+                return "0103.jpg";
+            } 
+
         default:
             return null;
     }

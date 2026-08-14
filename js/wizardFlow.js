@@ -71,7 +71,7 @@ export function runWizardFlow(gameDiv, wizards, horses, items, onComplete) {
     //        "0197", // Provisions
         //    "0198","0199", // Rings
 //            "0037", // Silver Acorn
-      //      "0097","0115","0130","0282","0086","0138","0257","0258","0259","0046","0208",// Equip List
+            "0097","0115","0130","0282","0086","0138","0257","0258","0259","0046","0208",// Equip List
 
         ];
 

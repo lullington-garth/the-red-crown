@@ -50,7 +50,7 @@ export function resolveCreaturesVariable(path, playerStats) {
 
         case "creatureIntro":
             if (wizard === "green") {
-                return `The dragons vanish behind the trees as you travel farther into Carolinus’s woodland realm. Ferns carpet the forest floor, and ancient branches arch high overhead like the roof of some vast green hall. Every so often, the trees part just enough for you to glimpse distant hills rolling beneath the sunlight before the forest closes once more around you.
+                return `Putting your encounter behind you, you travel for a long while, farther into Carolinus’s woodland realm. Ferns carpet the forest floor, and ancient branches arch high overhead like the roof of some vast green hall. Every so often, the trees part just enough for you to glimpse distant hills rolling beneath the sunlight before the forest closes once more around you.
 
 Ahead stand several strange creatures watching you silently. They are broad-bodied animals with bark-like hides and heavy antlers shaped like twisting roots. Flowers bloom along their shoulders, and tiny insects of living light drift around them in slow spirals. Each movement they make is calm and deliberate.
 
@@ -58,7 +58,7 @@ You recall hearing tales of these deeply magical creatures. It is said that in c
 `;
             }
             if (wizard === "yellow") {
-                return `You leave the dragons behind and walk deeper into Lo Tae Zhao’s realm. Here, the world is made of sky alone. Vast plains of white cloud roll in every direction like drifting hills, broken now and then by deep blue chasms where the heavens fall away endlessly beneath your feet. Thin rainbows hang in the air like bridges woven from light, and the wind smells cold and clean.
+                return `Putting your encounter behind you, you travel deeper into Lo Tae Zhao’s realm. Here, the world is made of sky alone. Vast plains of white cloud roll in every direction like drifting hills, broken now and then by deep blue chasms where the heavens fall away endlessly beneath your feet. Thin rainbows hang in the air like bridges woven from light, and the wind smells cold and clean.
 
 You soon come upon a herd of curious creatures grazing among the clouds. They resemble great white stags, though their bodies are covered in sleek down rather than fur. Long tails trail behind them like streamers in the wind, and delicate feathers spread from their shoulders in layered crescents of pale gold and silver, while sparks leap softly from their antlers.
 
@@ -66,7 +66,7 @@ These creatures are beings of old sky magic and are highly prized by hunters. Th
 `;
             }
             if (wizard === "blue") {
-                return `As you travel deeper into Solarius’s realm, water stretches endlessly in every direction, dark and mirror-smooth, reflecting the stars so perfectly that the sky and sea seem to merge into one infinite cosmos.
+                return `Putting your encounter behind you, you travel deeper into Solarius’s realm, water stretches endlessly in every direction, dark and mirror-smooth, reflecting the stars so perfectly that the sky and sea seem to merge into one infinite cosmos.
 
 Something stirs beneath the surface. Great creatures emerge slowly beside your path — long-bodied beings with silver-scaled backs and luminous eyes. Streams of starlight ripple beneath their skin, and each movement leaves glowing trails floating across the water. Heavy claws curve from their forelegs like polished obsidian.
 
