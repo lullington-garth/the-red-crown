@@ -63,6 +63,17 @@ export function resolveAudienceVariable(path, playerStats) {
                 return "Dark Rippling Door";
             }
 
+        case "visitingDoor":
+            if (visiting === "blue") {
+                return "Dark Rippling Door";
+            }
+            if (visiting === "yellow") {
+                return "Cloudy Glass Door";
+            }
+            if (visiting === "green") {
+                return "Heavy Oak Door";
+            }
+
         case "brotherDoor":
             if (visiting === "blue") {
                 return "Dark Rippling Door";

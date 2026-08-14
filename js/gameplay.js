@@ -28,9 +28,9 @@ export function startGameplay(
 
     playerStats.comeOnSam = false
     playerStats.fairyShower = false
-    playerStats.visitingBrother = "Green"
-    playerStats.visitingBrotherName = "Carolinus"
-    playerStats.visitingBrotherEthos = "MAGIC"
+    playerStats.visitingBrother = "Yellow"
+    playerStats.visitingBrotherName = "Lo Tae Zhao"
+    playerStats.visitingBrotherEthos = "STAMINA"
     playerStats.absentBrotherEthos = "LUCK"
     playerStats.absentBrotherName = "Solarius"
     playerStats.absentBrotherColor = "Blue"
