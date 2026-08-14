@@ -65,7 +65,7 @@ if (wizard === "yellow") { return `Would you rather jump up and see if you can c
 if (wizard === "blue") { return `Would you rather dive into the water and follow the dispersing stars?`;}
 
 case "environment1WeirdChoice":
-if (wizard === "green") { return `You bound into the forest after the fawn, but within seconds it is gone, and the trees and undergrowth prove too thick for you to sensibly traverse. You turn back and follow and stumble back to the clearing.`;}
+if (wizard === "green") { return `You bound into the forest after the fawn, but within seconds it is gone, and the trees and undergrowth prove too thick for you to sensibly traverse. You turn around and stumble back to the clearing.`;}
 if (wizard === "yellow") { return `You can't.`;}
 if (wizard === "blue") { return `Donk! The water here does not appear to respond the same as it does in your realm. You collide with the surface and go skidding across it like it was ice.`;}
 
@@ -358,8 +358,7 @@ With that, she swoops back into the air and passes through the opening to her ho
 GAIN 2 MAGIC AND 1 LUCK
 
 GAIN ITEM
-
-DRAGON PETALS`;}
+Dragon Petals`;}
 if (wizard === "yellow") { return `You call upon your magic and push gently against the natural order of the realm.
 
 The stars in the water dart to the pool’s edge, then, as one, streak back to the centre. They collide in a spectacular shower of light, and a shimmering white tear appears beneath the water’s surface.
@@ -377,8 +376,7 @@ You feel a surge of magic fill you.
 GAIN 2 MAGIC AND 1 LUCK
 
 GAIN ITEM
-
-DRAGON PETALS`;}
+Dragon Petals`;}
 if (wizard === "blue") { return `You press gently against the fabric of the realm.
 
 At first, nothing happens. The silver reef remains still, the trees unmoving, the water calm. Then the stars beneath the surface begin to shift. They drift in slow spirals through the water, gathering beneath the reef before rising in unison. A thin, luminous seam opens in the air just above the waterline—a tear of pale starlight suspended between reflection and sky.
@@ -399,7 +397,8 @@ Warmth flows through you as the magic settles.
 
 GAIN 2 MAGIC AND 1 LUCK
 
-GAIN ITEM – DRAGON PETALS`;}
+GAIN ITEM
+Dragon Petals`;}
 
 case "Environment1Opposed":
     if (wizard === "green") { return `You pick your way down the slope with relative ease. While the stones are wet, they are also wide and not slippery underfoot. You are soon at the floor of the dell, with water trickling all around you.
@@ -594,10 +593,9 @@ Any loose root or branch found within this hollow will serve as the core of a po
 
 You search around and soon find a piece of wood that feels just right in your hand.
 
-You make sure to thank both the woodland and the ancient tree for their generous gift before continuing your journey through the realm.
+GAIN 2 MAGIC, 1 LUCK
 
-GAIN 2 MAGIC, 1 LUCK AND GAIN ITEM
-
+GAIN ITEM
 Tanglewood Rod`;}
 if (wizard === "yellow") { return `You take a breath to steady your nerves, watching the playful deer as you do. They are quite unconcerned by your presence and appear equally unconcerned about where they jump. They seem to trust that wherever they land, there will be solid ground to support them.
 
@@ -619,10 +617,9 @@ If you have been led to these crystals by beings of such great magic, then even 
 
 You search around and soon find a splinter of just the right size. It feels warm and alive in your hand.
 
-You offer silent thanks to the crystals and the magical creatures that brought you here before stowing away your prize and continuing your journey through the realm.
+GAIN 2 MAGIC, 1 LUCK
 
-GAIN 2 MAGIC, 1 LUCK AND GAIN ITEM
-
+GAIN ITEM
 Sky Shard`;}
 if (wizard === "blue") { return `You take a moment to calm your thoughts. The lights below continue their graceful, unhurried movements. They drift through the abyss with purpose, never hesitating, never questioning where they are going.
 
@@ -640,11 +637,9 @@ If even a tiny fragment of such a thing were shaped into a wand core, the result
 
 You search carefully around the formation and soon discover a loose shard no larger than your thumb. It pulses softly in your hand like a distant heartbeat.
 
-You offer silent thanks to the lights that guided you before securing your prize and continuing your journey.
+GAIN 2 MAGIC, 1 LUCK 
 
-GAIN 2 MAGIC, 1 LUCK AND  
 GAIN ITEM
-
 Star Shard`;}
 
 case "Environment1RealmPathFail":
@@ -654,11 +649,23 @@ Ivy snaps and shards of bark splinter away as you scrabble up the trunk's face, 
 
 There are insects and bugs everywhere. You brush them aside as you search for places to grip until, with a grunt of effort, you drag yourself over the top of the trunk and slide down the other side to the path beyond.`;}
 
-    if (wizard === "yellow") { return `You make a small jump, grab hold of some ivy, and haul yourself onto the trunk.
+    if (wizard === "yellow") { return `You watch the deer a little longer. They seem to know where the solid ground is, and you do not. You cannot follow them; their gait is too great for you to mimic.
 
-Ivy snaps and shards of bark splinter away as you scrabble up the trunk's face, sending little clumps of moss showering down beneath you, but the handholds and footholds are plentiful enough that the climb is relatively easy.
+Instead, as one of the larger creatures passes by, you leap and clamber onto its back.
 
-There are insects and bugs everywhere. You brush them aside as you search for places to grip until, with a grunt of effort, you drag yourself over the top of the trunk and slide down the other side to the path beyond.`;}
+The creature is alarmed but does not buck. Instead, it bolts, as does the rest of the herd.
+
+They streak across the cloudscape, their feet always finding solid ground, white wisps billowing up around them. You hold on for dear life.
+
+You are unsure how long you travel this way. The beasts seem to possess incredible stamina.
+
+Eventually, after what feels like an endless vista of rolling cloud hills and dales, you begin to see silver grass poking through the white, misty carpet.
+
+You are still taking in the sight when the deer you are riding suddenly leaps. The movement catches you unaware, and you tumble to the soft ground below.
+
+The deer have carried you across the platform and leapt onto the next.
+
+You pick yourself up, send a silent thank-you to your unwilling ride, and continue your journey through the realm.`;}
 
     if (wizard === "blue") { return `You stare into the darkness below. The drifting lights clearly know where they are going. You do not, but there appears to be no way across the darkness without them.
 
@@ -681,7 +688,22 @@ Then something catches you. Dozens of lights sweep beneath your falling form. Th
             if (wizard === "blue") {
                 return "starFish.jpg";
             }
- 
+
+
+        case "EnviornmentWandImage":
+
+            if (wizard === "green") {
+                return "0262.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "0275.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "0269.jpg";
+            }
+
         default:
             return null;
     }

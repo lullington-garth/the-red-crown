@@ -138,7 +138,7 @@ export function showItemModal(item, extraMessage = "", onClose, playerStats, opt
 
             <p>
                 ${item["use-message"] || ""}
-                ${extraMessage ? `<br><br><strong>${extraMessage}</strong>` : ""}
+                ${extraMessage ? `<br><br>${extraMessage}` : ""}
             </p>
 
             <div style="margin-top:15px; display:flex; justify-content:center;">

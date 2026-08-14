@@ -1259,7 +1259,7 @@ case "dragonRedPathTestFailChoice":
     if (wizard === "blue") { return `Counting yourself fortunate that the encounter ended no worse, you leave the black shore behind and continue your search for Antiquity.`;} 
 
 case "dragonPath":
-    if (wizard === "yellow") { return `The path brings you to a wide platform suspended among the clouds. It appears to be some kind of hub, laid out rather like a park in the sky. Four further paths lead onward from here.
+    if (wizard === "yellow") { return `You head deeper into the realm until the path brings you to a wide platform suspended among the clouds. It appears to be some kind of hub, laid out rather like a park in the sky. Four further paths lead onward from here.
 
 The first, The Silver Parade, is a winding, silver, tree-lined avenue that disappears through the clouds towards a distant platform, where you can make out a group of large creatures gathered in discussion.
 
@@ -1272,7 +1272,7 @@ To the left lies Firefly Gardens, an area filled with flowers in brilliant shade
 The final path, this one unnamed, skirts the edge of the park altogether. Following this route, you realise, would allow you to avoid the park and all of its destinations entirely.
 
 Which path would you like to take?`;}
-if (wizard === "green") { return `You arrive at a natural crossroads where four faint paths part ways through the forest.
+if (wizard === "green") { return `You head deeper into the realm until you arrive at a natural crossroads where four faint paths part ways through the forest.
 
 The first path follows a small stream which threads through the forest floor, widening in the distance where it appears to join a large lake. Though it is a way off and partially obscured by the trees, you can clearly see there is something huge down by the lakeside.
 
@@ -1284,7 +1284,7 @@ The fourth route is lined with lanterns placed at intervals on the ground betwee
 
 Which path would you like to take?`;}
 
-if (wizard === "blue") { return `It is difficult to pick out specific routes and paths in a realm such as Solarius's, where the sea and starlit sky appear to stretch on forever. Instead, you look for destinations, and in this matter, a number of places of interest stand out.
+if (wizard === "blue") { return `You head deeper into Solarius's domain. It is difficult to pick out specific routes and paths in a realm such as his, where the sea and starlit sky appear to stretch on forever. Instead, you look for destinations, and in this matter, a number of places of interest stand out.
 
 To the west, a little way out to sea, a group of silver serpentine creatures are gathering around a rocky outcrop. They appear to be waiting for something as they nestle between the patchy, scrubby vegetation on the rock's surface.
 
