@@ -1,4 +1,4 @@
-import { setModalContent, openModal, closeModal } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { showItemDescription } from "./inventoryUI.js";
 import { showItemOverlay } from "./itemOverlay.js";
 
@@ -205,6 +205,7 @@ function updateFooter() {
     container.appendChild(footer);
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 
     // attach after DOM exists

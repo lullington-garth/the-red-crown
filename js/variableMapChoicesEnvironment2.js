@@ -361,7 +361,39 @@ As you pass them, the crystals ring softly, until thousands of delicate notes dr
 The cavern, you realise, is a meeting of two magics. A place where they combine and strengthen each other rather than working to destroy or dominate.
 
 Do you possess the Crystal Shard?`;}  
-            
+
+
+        case "Environment2RealmPath":
+            if (wizard === "green") { return `You cautiously descend towards the gigantic roots. From above they appeared twisted and treacherous, great wooden arches thrown violently from the earth. Yet as you approach them, you discover that the roots have grown together into broad natural roads.
+
+Smooth bark forms gentle pathways between the trunks while smaller roots weave together to create railings and bridges.
+
+The great trees above sway gently while cool breezes drift through the vast wooden halls created by their roots. Water trickles between the roots and tiny flowers have already begun to grow in the newly exposed soil.
+
+The impossible growth caused by the rift has not damaged this place. Instead, the trees and the strange magic seem to have worked together, creating something entirely new.
+
+Do you possess the Tanglewood Staff?`;}
+            if (wizard === "yellow") { return `You make your way towards the place where the two weather fronts collide.
+
+From a distance the mingling clouds appeared violent, dark storm cloud and white summer cloud twisting together in a great whirlpool of sky. Yet as you step into the rolling vapours, you discover that the winds here are strangely calm.
+
+The black clouds and white clouds no longer struggle against one another. Instead they drift together in slow currents. Lightning flickers harmlessly through banks of warm mist while gentle rain falls from bright sunlit skies.
+
+The clouds beneath your feet become firm and springy. The storm winds that rage elsewhere seem unable to penetrate this place.
+
+Above you, shafts of golden sunlight pierce the dark cloud while stars of blue lightning dance silently between them and the air smells of rain and summer blossoms.
+
+Do you possess the Sky Shard?`;}
+            if (wizard === "blue") { return `From a distance the jagged shards appeared impassable, yet upon entering the tunnel you discover that the crystals have split the rock apart to create a broad winding walkway.
+
+The great shards rise from floor and ceiling like frozen waves in a beautiful array of colours. They glow faintly capturing and reflecting the distant starlight filtering through cracks in the cave roof high above. 
+
+As you pass them, the crystals ring softly, until thousands of delicate notes drift through the air filling the cavern with a mesmerising kind of music.
+
+The cavern, you realise, is a meeting of two magics. A place where they combine and strengthen each other rather and working to destroy or dominate.
+
+Do you possess the Crystal Shard?`;}   
+
         case "Environment2RealmPathStaff":
             if (wizard === "green") { return `The Tanglewood Staff suddenly grows warm in your hand. Fine roots emerge from the wood and curl around your fingers as the staff begins to glow with a soft green light. You should feel alarmed, but there is something natural about what is happening and you know it does not intend to harm you.
 
@@ -923,6 +955,34 @@ case "Environment2RedItmChoice":
 
             if (wizard === "blue") {
                 return "environment2Blue.jpg";
+            }
+
+        case "bloodMossImage":
+
+            if (wizard === "green") {
+                return "0108.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "0109.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "0110.jpg";
+            }
+
+        case "enviro2RedItemImage":
+
+            if (wizard === "green") {
+                return "0113.jpg";
+            }
+
+            if (wizard === "yellow") {
+                return "0112.jpg";
+            }
+
+            if (wizard === "blue") {
+                return "0111.jpg";
             }
 
         default:

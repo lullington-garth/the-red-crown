@@ -226,7 +226,7 @@ export function applyForcedPickups(playerStats, pickups) {
             else if (colour === "green") itemId = "0113";
             else if (colour === "blue") itemId = "0111";
             else {
-                console.warn("⚠️ Unknown colour for bloodMoss:", colour);
+                console.warn("⚠️ Unknown colour for enviro2RedItem:", colour);
                 continue;
             }
         }
