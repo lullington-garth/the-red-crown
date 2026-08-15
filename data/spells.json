@@ -749,7 +749,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "SKILL",
-      "amount": -1
+      "amount": -2
     },
     "description": "Conjures a spinning hurricane shield disrupting foes"
   },
@@ -790,7 +790,7 @@
       "description": "Weak spell casting. Spell duration shortened."
     },
     "statMod": {
-      "STAMINA": 1
+      "STAMINA": 2
     },
     "enemyMod": null,
     "description": "Draws on sky currents to restore stamina over time"
@@ -950,7 +950,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "ATTACK",
-      "amount": -1
+      "amount": -2
     },
     "description": "Encases body in oak strength to blunt enemy force"
   },
@@ -1149,7 +1149,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "SKILL",
-      "amount": -1
+      "amount": -4
     },
     "description": "Surrounds caster with static that disrupts precision"
   },
@@ -1190,7 +1190,7 @@
       "description": "Weak spell casting. Power of spell is halved."
     },
     "statMod": {
-      "STAMINA": 4
+      "STAMINA": 5
     },
     "enemyMod": null,
     "description": "Rides upper winds to restore stamina in bursts"
@@ -1348,7 +1348,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "ATTACK",
-      "amount": -1
+      "amount": -2
     },
     "description": "Tempers heart like steel, reducing enemy blows"
   },
@@ -1544,7 +1544,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "SKILL",
-      "amount": -1
+      "amount": -3
     },
     "description": "Raises spiraling cyclone screen twisting attacks"
   },
@@ -2140,7 +2140,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "SKILL",
-      "amount": -1
+      "amount": -4
     },
     "description": "Encases body in thunder-charged armor disrupting skill"
   },
@@ -2339,7 +2339,7 @@
     "statMod": {},
     "enemyMod": {
       "stat": "ATTACK",
-      "amount": -1
+      "amount": -2
     },
     "description": "Summons layered deep-water wards for protection"
   },
