@@ -57,7 +57,6 @@ export function showEasyMode(container, startNewGame) {
 
     btn.style.display = "block";
     btn.style.margin = "30px auto";
-    btn.style.width = "180px";
     btn.style.height = "40px";
     btn.style.backgroundColor = "#424141";
     btn.style.color = "#d7d4d4";
