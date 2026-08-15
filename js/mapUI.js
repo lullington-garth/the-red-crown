@@ -699,6 +699,14 @@ const blockChoices =
 
     content.appendChild(blankDiv); 
 
+    // ----------------------------
+    // Scroll to top on new node
+    // ----------------------------
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
 
 }
 
