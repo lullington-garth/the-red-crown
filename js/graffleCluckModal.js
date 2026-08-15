@@ -119,9 +119,9 @@ export function showGraffleCluckModal({
                 </div>
  
                 <div style="display:flex; justify-content:center; gap:10px; margin-top:15px;">
-                    <button id="ePeck" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
-                    <button id="eSquawk" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
-                    <button id="eHop" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
+                    <button id="ePeck" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
+                    <button id="eSquawk" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
+                    <button id="eHop" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
                 </div>
 
             </div>
