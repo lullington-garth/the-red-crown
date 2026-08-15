@@ -72,9 +72,9 @@ export function showGraffleCluckModal({
                 </div>
 
                 <div style="display:flex; justify-content:center; gap:10px; margin-top:15px;">
-                    <button id="pPeck" style=height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
-                    <button id="pSquawk" style=height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
-                    <button id="pHop" style=height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
+                    <button id="pPeck" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
+                    <button id="pSquawk" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
+                    <button id="pHop" style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
                 </div>
 
             </div>
@@ -119,9 +119,9 @@ export function showGraffleCluckModal({
                 </div>
  
                 <div style="display:flex; justify-content:center; gap:10px; margin-top:15px;">
-                    <button id="ePeck" disabled style="width:70px;height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
-                    <button id="eSquawk" disabled style="width:70px;height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
-                    <button id="eHop" disabled style="width:70px;height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
+                    <button id="ePeck" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Peck</button>
+                    <button id="eSquawk" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Squawk</button>
+                    <button id="eHop" disabled style="height:32px;border-radius:8px;box-shadow:0 1px 7px rgba(0,0,0,0.5);">Hop</button>
                 </div>
 
             </div>
