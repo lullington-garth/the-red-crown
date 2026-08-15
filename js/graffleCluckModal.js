@@ -1,5 +1,5 @@
 // graffleCluckModal.js
-import { setModalContent, openModal, closeModal } from "./modal.js";
+import { setModalContent, openModal, closeModal, hideModalCloseButton } from "./modal.js";
 import { getGold } from "./gold.js";
 
 export function showGraffleCluckModal({
@@ -34,7 +34,7 @@ export function showGraffleCluckModal({
 
     container.innerHTML = `
         <div style="text-align:center; margin-bottom:10px;">
-            <h2>Graffle Cluck Game</h2>
+            <h3>Graffle Cluck Game</h3>
         </div>
 
         <div style="display:flex; gap:20px;">
@@ -156,6 +156,7 @@ export function showGraffleCluckModal({
                 border:1px solid #555;
                 box-shadow:0 1px 7px rgba(0,0,0,0.5);
                 cursor:pointer;
+                font-size:20px;
             ">
                 Play
             </button>
@@ -186,6 +187,7 @@ export function showGraffleCluckModal({
         button.style.color = "#d7d4d4";
         button.style.opacity = "0.6";
         button.style.cursor = "default";
+        button.style.fontSize = "16px";
     });
 
     const eImgPeck = container.querySelector("#eImgPeck");
@@ -201,6 +203,7 @@ export function showGraffleCluckModal({
             btn.disabled = !enabled;
             btn.style.opacity = enabled ? "1" : "0.4";
             btn.style.cursor = enabled ? "pointer" : "default";
+            btn.style.fontSize = "16px";
         });
     }    
 
@@ -479,6 +482,7 @@ export function showGraffleCluckModal({
             playBtn.dataset.gameOver = "true";
             playBtn.style.background = "#424141";
             playBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
+            playBtn.style.fontSize = "20px";
         }
 
         if (!state.playerChoice && !state.resolved) {
@@ -495,6 +499,7 @@ export function showGraffleCluckModal({
     }
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
     updateUI(state);
     setMoveButtonsEnabled(true);

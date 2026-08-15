@@ -26,45 +26,45 @@ export function startGameplay(
     nodeIndex
 ) {
 
-    playerStats.comeOnSam = false
-    playerStats.fairyShower = false
-    playerStats.visitingBrother = "Yellow"
-    playerStats.visitingBrotherName = "Lo Tae Zhao"
-    playerStats.visitingBrotherEthos = "STAMINA"
-    playerStats.absentBrotherEthos = "LUCK"
-    playerStats.absentBrotherName = "Solarius"
-    playerStats.absentBrotherColor = "Blue"
-    playerStats.foundUndergroundArea = false
-    playerStats.paidForBed = false
-    playerStats.ogreComing = false
-    playerStats.foundOverseerTruth = false
-    playerStats.sirOrrin = false
-    playerStats.numberOfMisses = 0
-    playerStats.foundTreeSentinelHalfTruth = false
-    playerStats.foundTreeSentinelTruth = false
-    playerStats.foundATruth = false
-    playerStats.acornAttribute = null
-    playerStats.acornStrong = false
-    playerStats.acornMagic = false
-    playerStats.acornLogic = false
-    playerStats.acornUntouched = true
-    playerStats.wonTavernDiceGame = false
-    playerStats.playedMinty = false
-    playerStats.hasCorrectBrotherToken = false
-    playerStats.hasIncorrectBrotherToken = false
-    playerStats.hasNoBrotherToken = true
-    playerStats.sacrifiedItemName = null
-    playerStats.connectionModifier = 0
-    playerStats.horseName = null
-    playerStats.trueFocus = false
-    playerStats.passingStones = "that by some stroke of luck, you have stumbled upon the Passing Stones."
-    playerStats.lostHorse = false
-    playerStats.wolfComing = ""
-    playerStats.hadLolly = false
-    playerStats.treePlanted = false
-    playerStats.blessedByTree = false
-    playerStats.donationMade = false
-    playerStats.loveacreResponse = "Mr Loveacre seems thrilled with your purchase."
+    playerStats.comeOnSam = false;
+    playerStats.fairyShower = false;
+    playerStats.visitingBrother = "Yellow";
+    playerStats.visitingBrotherName = "Lo Tae Zhao";
+    playerStats.visitingBrotherEthos = "STAMINA";
+    playerStats.absentBrotherEthos = "LUCK";
+    playerStats.absentBrotherName = "Solarius";
+    playerStats.absentBrotherColor = "Blue";
+    playerStats.foundUndergroundArea = false;
+    playerStats.paidForBed = false;
+    playerStats.ogreComing = false;
+    playerStats.foundOverseerTruth = false;
+    playerStats.sirOrrin = false;
+    playerStats.numberOfMisses = 0;
+    playerStats.foundTreeSentinelHalfTruth = false;
+    playerStats.foundTreeSentinelTruth = false;
+    playerStats.foundATruth = false;
+    playerStats.acornAttribute = null;
+    playerStats.acornStrong = false;
+    playerStats.acornMagic = false;
+    playerStats.acornLogic = false;
+    playerStats.acornUntouched = true;
+    playerStats.wonTavernDiceGame = false;
+    playerStats.playedMinty = false;
+    playerStats.hasCorrectBrotherToken = false;
+    playerStats.hasIncorrectBrotherToken = false;
+    playerStats.hasNoBrotherToken = true;
+    playerStats.sacrifiedItemName = null;
+    playerStats.connectionModifier = 0;
+    playerStats.horseName = null;
+    playerStats.trueFocus = false;
+    playerStats.passingStones = "that by some stroke of luck, you have stumbled upon the Passing Stones.";
+    playerStats.lostHorse = false;
+    playerStats.wolfComing = "";
+    playerStats.hadLolly = false;
+    playerStats.treePlanted = false;
+    playerStats.blessedByTree = false;
+    playerStats.donationMade = false;
+    playerStats.loveacreResponse = "Mr Loveacre seems thrilled with your purchase.";
     // ---- Map state ----
     // ---- Engine (must exist before callbacks use it) ----
     const engine = new MapEngine({
@@ -106,7 +106,7 @@ export function startGameplay(
 
     // track current node
 
-    engine.start(655);
+    engine.start(585);
 
 function returnToMap() {
     engine.goToNode(engine.state.currentNode);

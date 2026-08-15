@@ -132,6 +132,20 @@ Far away beneath the vast canopy of stars, you can make out the dark outline of 
             if (wizardYou === "blue") { return `Spellbook - The Deepness Dark`;}  
             if (wizardYou === "red") { return `Spellbook - The Deepness Dark`;}
 
+        case "riftBookImage":
+            if (wizard === "green") {
+                return "0007.jpg";
+            }
+            if (wizard === "yellow") {
+                return "0008.jpg";
+            }
+            if (wizard === "blue") {
+                return "0006.jpg";
+            }
+            if (wizard === "red") {
+                return "0006.jpg";
+            }
+
         default:
             return null;
     }

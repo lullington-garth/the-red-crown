@@ -381,12 +381,17 @@ Farther along the beach stands a driftwood shack. Nearby, a solitary man walks t
         case "funeralLeaveChoice1":
             if (wizard === "green") { return `Follow the path through the valley to the cave?`; }
             if (wizard === "yellow") { return `Visit the shop?`; }
-            if (wizard === "blue") { return `Investigate the island?`; }
+            if (wizard === "blue") { return `See what the man upon the beach is doing?`; }
                     
         case "funeralLeaveChoice2":
             if (wizard === "green") { return `Head towards the woods where the men sit around a fire?`; }
             if (wizard === "yellow") { return `Head to the soldiers' encampment?`; }
-            if (wizard === "blue") { return `See what the man upon the beach is doing?`; } 
+            if (wizard === "blue") { return `Investigate the island?`; } 
+
+        case "funeralImage":
+            if (wizard === "green") { return "funeralGreen.jpg";}
+            if (wizard === "yellow") { return "funeralYellow.jpg";}
+            if (wizard === "blue") { return "funeralBlue.jpg";}
             
         default:
             return null;

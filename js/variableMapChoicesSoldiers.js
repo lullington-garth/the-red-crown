@@ -218,6 +218,11 @@ A monstrous shape rises from the star-speckled sea. Great tentacles thrash among
             if (wizard === "yellow") { return `You cross the bridge and step onto the larger island beyond.`;}
             if (wizard === "blue") { return `Horrified, you leave the island behind and return to the silver shore.`;}
 
+        case "soldierImage":
+            if (wizard === "green") { return "soldierGreen.jpg";}
+            if (wizard === "yellow") { return "soldierYellow.jpg";}
+            if (wizard === "blue") { return "soldierBlue.jpg";} 
+
         default:
             return null;
     }

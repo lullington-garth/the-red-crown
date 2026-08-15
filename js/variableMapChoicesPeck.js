@@ -141,7 +141,12 @@ Which area will you visit next?`;}
             if (wizard === "green") { return `The valley with the distant cave?`; }
             if (wizard === "yellow") { return `The platform containing the village shop?`; }
             if (wizard === "blue") { return `The beachcomber in his driftwood shack?`; } 
-                        
+
+        case "graffleImage":
+            if (wizard === "green") { return "grafflePeckGreen.jpg";}
+            if (wizard === "yellow") { return "grafflePeckYellow.jpg";}
+            if (wizard === "blue") { return "grafflePeckBlue.jpg";}             
+
         default:
             return null;
     }

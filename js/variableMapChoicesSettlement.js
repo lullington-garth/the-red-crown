@@ -8,7 +8,7 @@ const wizardYou = (playerStats.wizardColor || "").toLowerCase();
     switch (path) {
 
         case "settlementEnter":
-            if (wizard === "green") { return `It is not long before you find yourself approaching a small settlement nestled among rolling banks and ancient trees. Narrow paths wind between grassy rises, while a clear stream cuts through the land ahead, forming natural boundaries.
+            if (wizard === "green") { return `You travel for may hours, deeper into the Green Realm, before you find yourself approaching a small settlement nestled among rolling banks and ancient trees. Narrow paths wind between grassy rises, while a clear stream cuts through the land ahead, forming natural boundaries.
 
 Everything you have encountered thus far within this realm has felt vast and untamed. Here, for the first time, you glimpse how those who dwell within these wild places make their homes.
 
@@ -19,7 +19,7 @@ The first leads between clusters of low huts built from woven reeds, timber and 
 The second path follows the bank of a stream towards a shaded pool where three grey elves stand among the roots of several ancient trees.
 
 Will you:`;}
-            if (wizard === "yellow") { return `It is not long before you find yourself on the outskirts of a cluster of interconnected platforms. Rope bridges link the busy walkways, forming the first true settlement you have seen in this realm.
+            if (wizard === "yellow") { return `You travel for may hours, far deeper into the Sky Realm, before you find yourself on the outskirts of a cluster of interconnected platforms. Rope bridges link the busy walkways, forming the first true settlement you have seen in this realm.
 
 Everything you have encountered thus far has been grand and majestic in scale. Here, for the first time, you glimpse how those who dwell on the fringes of the realm live.
 
@@ -34,7 +34,7 @@ Calling this small collection of platforms a town may be somewhat generous, but 
 The second bridge leads to a fenced enclosure where three men and several horses are gathered around a well.
 
 Will you:`;}
-            if (wizard === "blue") { return `For some time, you have travelled towards a distant cluster of dark rocks rising from the silver sands like islands upon a frozen sea.
+            if (wizard === "blue") { return `You travel for may hours, far deeper into the Cosmic Realm. For some time now, you have been moving towards a distant cluster of dark rocks rising from the silver sands like islands upon a frozen sea.
 
 As you draw nearer, you begin to notice signs of habitation. Small stone dwellings have been built in the shelter of the rocks, their low walls stacked from black stone and their roofs covered with sailcloth and driftwood. Dim blue lanterns hang outside several doorways, and thin streams of smoke drift lazily into the star-filled sky.
 
@@ -493,6 +493,11 @@ Will you:`;}
             if (wizard === "green") { return `Travel towards the preacher's encampment?`;}
             if (wizard === "yellow") { return `Head over to the lush-looking platform where the bonfire awaits lighting?`;}
             if (wizard === "blue") { return `Investigate the glowing coral beds?`;}  
+
+        case "settlemetLanternImage":
+            if (wizard === "green") { return "settlemetLanternGreen.jpg";}
+            if (wizard === "yellow") { return "settlemetLanternYellow.jpg";}
+            if (wizard === "blue") { return "settlemetLanternBlue.jpg";}  
 
         default:
             return null;
