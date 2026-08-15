@@ -179,7 +179,7 @@ export function showGraffleCluckModal({
     const eHop = container.querySelector("#eHop");
 
     [ePeck, eSquawk, eHop].forEach(button => {
-        button.style.width = "70px";
+//        button.style.width = "70px";
         button.style.height = "32px";
         button.style.border = "none";
         button.style.borderRadius = "8px";
