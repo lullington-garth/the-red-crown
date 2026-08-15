@@ -1,6 +1,6 @@
 // rulesScreen.js
 
-export function showRulesScreen(container, onContinue) {
+export function showRulesScreen(container, onContinue, onEasyMode) {
 
     container.innerHTML = "";
 
@@ -389,6 +389,10 @@ There are twelve Worn Item slots, each intended for a different type of equipmen
 
     paragraph(`For example, if your current LUCK was 1, with a maximum of 10, and you drank a potion of LUCK (T), your LUCK would be restored to 10.`);
 
+    paragraph(`<strong>(M) Minimum:</strong> This is found in a few areas of the game, usually with respect to weapons, wands, and staffs. The number after the (M) denotes what your minimum stat score will be with this item equipped.`);
+
+    paragraph(`For example, if you equip a staff with MAGIC (M) +2, your MAGIC will never fall below 2. Effectively, your MAGIC will never run out.`);
+
     paragraph(`<strong>(=) EQUALS:</strong> This will alter a stat to the new figure.`);
 
     paragraph(`For example, if you enter into a contract where the outcome is MAGIC (=) 12, then whatever your current and maximum MAGIC were, they will both be changed to 12. These are rare and are not always announced.`);
@@ -396,6 +400,37 @@ There are twelve Worn Item slots, each intended for a different type of equipmen
     paragraph(`<strong>GENERAL:</strong> SKILL and ATTACK maximum and current scores are affected by (B), not just the maximum. An ATTACK (B) +2 weapon will raise both your current and maximum ATTACK scores by 2.`);
 
     paragraph(`All other stats work as they do in standard Fighting Fantasy games. LUCK +2 will add 2 to your current LUCK total, up to your current maximum.`);
+
+    divider();
+
+    section("EASY MODE");
+
+    paragraph(`If you find the game too hard, or would just prefer an easier time of it, click the button below.
+`);
+
+    // ------------------------------------------------
+
+    const eBtn = document.createElement("button");
+
+    eBtn.textContent = "Easy Mode";
+
+    eBtn.style.display = "block";
+    eBtn.style.margin = "30px auto 10px";
+    eBtn.style.width = "180px";
+    eBtn.style.height = "40px";
+    eBtn.style.backgroundColor = "#424141";
+    eBtn.style.color = "#d7d4d4";
+    eBtn.style.border = "1px solid #555";
+    eBtn.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
+    eBtn.style.borderRadius = "6px";
+    eBtn.style.cursor = "pointer";
+    eBtn.style.fontSize = "20px";
+    eBtn.style.marginBlock = "20px";
+    eBtn.style.marginBottom = "50px"; 
+
+    eBtn.onclick = onEasyMode;
+
+    wrapper.appendChild(eBtn);
 
     divider();
 

@@ -366,6 +366,7 @@ export function confirmModal(item, message, onConfirm) {
     `;
 
     setModalContent(container);
+    hideModalCloseButton();
     openModal();
 
     container.querySelector("#cancelBtn").addEventListener("click", () => {

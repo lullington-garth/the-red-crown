@@ -147,4 +147,10 @@ export function showBookSelection(container, playerStats, items, onComplete) {
     wrapper.appendChild(footer);    
 
     container.appendChild(wrapper);
+        
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
 }

@@ -4,6 +4,7 @@ import { startGameplay } from './gameplay.js';
 import { equipBook } from "./spells.js";
 import { showCoverScreen } from "./coverScreen.js";
 import { showRulesScreen } from "./rulesScreen.js";
+import { showEasyMode } from "./easyMode.js";
 
 export function startGameFlow(
     gameDiv,
@@ -16,11 +17,14 @@ export function startGameFlow(
     nodeIndex
 ) {
 
-    showCoverScreen(gameDiv, () => {
+showCoverScreen(gameDiv, () => {
 
-    showRulesScreen(gameDiv, () => {
+    showRulesScreen(
+        gameDiv,
 
-        runWizardFlow(gameDiv, wizards, horses, items, (playerStats) => {
+        // Normal game
+        () => {
+            runWizardFlow(gameDiv, wizards, horses, items, (playerStats) => {
 
         // ----------------------------
         // DEBUG MODE: set defaults
@@ -106,9 +110,14 @@ export function startGameFlow(
                 nodeIndex
             );
 
-        });
+            });
+        },
 
-    });
+        // Easy Mode
+        () => {
+            showEasyMode(gameDiv, initGame);
+        }
+    );
 
 });
 
