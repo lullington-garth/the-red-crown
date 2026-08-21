@@ -7,6 +7,7 @@ export function createHorseCard(horse, includeButton = false, onSelect = null, s
     card.style.display = "flex";
     card.style.flexDirection = "column";
     card.style.height = "100%";
+    card.style.backgroundImage = "url('./images/paper1.jpg')";
 
     // Image
     const image = document.createElement("img");
