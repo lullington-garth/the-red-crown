@@ -9,7 +9,7 @@
     "replenishUses": 3,
     "starterItem": "Flute of Healing Sleep",
     "starterItemDescription": "A slender golden flute engraved with flowing script enchanted to put dragons into a healing sleep.",
-    "bio": "Lo Tae Zhao is a Yellow Wizard. Master of the realm of Skies, Peace & Tranquillity. He has mastered the art of calming both body and mind, allowing him to endure hardships that would break lesser souls. He has a natural affinity with Defence magic, which finds its roots in his core magic. He finds Attack magic offensive and is therefore less skilled with it."
+    "bio": "Lo Tae Zhao is a Yellow Wizard, master of the realm of Skies, Peace & Tranquillity. He has mastered the art of calming both body and mind, allowing him to endure hardships that would break lesser souls. He has a natural affinity with Defence Magic, which finds its roots in his core magic. He finds Attack Magic offensive and is therefore less skilled with it."
   },
   "Green": {
     "wizardName": "Carolinus",
@@ -21,7 +21,7 @@
     "replenishUses": 3,
     "starterItem": "The Larva Ring",
     "starterItemDescription": "A heavy gold ring with a green gem enchanted to give the wearer power over grubs and worms.",
-    "bio": "Carolinus is a Green Wizard. Master of the realm of Nature and Enchantment. He walks in harmony with the forests, rivers, and ancient spirits of the natural world. He has a natural affinity with Slow Burn magic, which thrives on the ebb and flow of nature. He struggles with the chaotic nature of Explosive spells."
+    "bio": "Carolinus is a Green Wizard, master of the realm of Nature and Enchantment. He walks in harmony with the forests, rivers, and ancient spirits of the natural world. He has a natural affinity with Slow Burn Magic, which thrives on the ebb and flow of nature. He struggles with the chaotic nature of Explosive Spells."
   },
   "Blue": {
     "wizardName": "Solarius",
@@ -33,7 +33,7 @@
     "replenishUses": 3,
     "starterItem": "The Shield of Saturn",
     "starterItemDescription": "A round bronze shield painted with planetary rings. The shield is capable of blocking both physical blows and blocking some dark magic.",
-    "bio": "Solarius is a Blue Wizard. Master of the realm of The Deeps and The Cosmos. While they seem still to most Solarius knows of the ever changing nature of the heavens, and this has taught him that fortune favours the bold. He has a natural affinity with Explosive magic, which finds its magic in the suns and stars. He finds Slow Burn magic boring and has never really studied it."
+    "bio": "Solarius is a Blue Wizard, master of the realm of The Deeps and The Cosmos. While they seem still to most, Solarius knows of the ever-changing nature of the heavens, and this has taught him that fortune favours the bold. He has a natural affinity with Explosive Magic, which draws its power from the suns and stars. He finds Slow Burn Magic boring and has never really studied it."
   },
   "Red": {
     "wizardName": "Terry",
@@ -45,6 +45,6 @@
     "replenishUses": 3,
     "starterItem": "The Ring of the Beholder",
     "starterItemDescription": "A dark wide ring with an eye inset in a resin dome which allows the wearer to summon a minor beholder - Betty - to fight alongside them.",
-    "bio": "Terry is a Red Wizard. While he is a servant of Ommadon's dark realm, he believe in the unification of the four kingdoms and as such has come over to offer his services to the quest. Drawing from fire and darkness gives him great power. He has a natural affinity with Attack magic, but has no time for those cowards who hide behind Defence Spells."
+    "bio": "Terry is a Red Wizard. While he is a servant of Ommadon's dark realm, he believes in the unification of the four kingdoms and, as such, has come over to offer his services to the quest. Drawing from fire and darkness gives him great power. He has a natural affinity with Attack Magic but has no time for those cowards who hide behind Defence Spells."
   }
 }

@@ -5,7 +5,8 @@ import {
     openModal,
     showModalCloseButton,
     setModalWidth,
-    closeModal
+    closeModal,
+    hideModalCloseButton
 } from "./modal.js";
 
 export function showWizardModal(playerStats) {
@@ -14,6 +15,7 @@ export function showWizardModal(playerStats) {
 
     const container = document.createElement("div");
     container.style.textAlign = "center";
+    container.style.backgroundImage = "url('./images/paper1.jpg')";
 
     const title = document.createElement("h2");
     title.textContent = wizard.wizardName;
@@ -95,6 +97,7 @@ export function showWizardModal(playerStats) {
 
     setModalWidth("500px");
     setModalContent(container);
+    hideModalCloseButton();
     showModalCloseButton();
     openModal();
 }
