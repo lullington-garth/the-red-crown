@@ -3,7 +3,6 @@
 import {
     setModalContent,
     openModal,
-    showModalCloseButton,
     setModalWidth,
     closeModal,
     hideModalCloseButton
@@ -98,7 +97,6 @@ export function showWizardModal(playerStats) {
     setModalWidth("500px");
     setModalContent(container);
     hideModalCloseButton();
-    showModalCloseButton();
     openModal();
 
     window.scrollTo({
