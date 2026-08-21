@@ -72,6 +72,7 @@ document.body.appendChild(overlay);
 
 export function openModal() {
     overlay.style.display = "flex";
+    modal.scrollTop = 0;
 }
 
 export function closeModal() {
