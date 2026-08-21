@@ -14,7 +14,7 @@ export function createHorseCard(horse, includeButton = false, onSelect = null, s
 
     image.src = `images/${horse.id}.jpg`;
     image.alt = horse.name;
-    image.style.width = "100%";
+    image.style.width = "95%";
 //    image.style.height = "300px";
     image.style.objectFit = "block";
     image.style.borderRadius = "6px";
