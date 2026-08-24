@@ -14,7 +14,7 @@ import { createWizardCard } from "./wizardCard.js";
 import { createHorseCard } from "./horseCard.js";
 import { showBookPreview } from "./spellsUI.js";
 import { openSpellModal } from "./spellsModal.js";
-import { getEquippedBook } from "./spells.js";
+import { getEquippedBook, equipBook, unequipBook } from "./spells.js";
 
 export function startGameplay(
     gameDiv,
@@ -23,9 +23,20 @@ export function startGameplay(
     items,
     enchantments,
     startNewGame,
-    nodeIndex
+    nodeIndex,
+    savedGame = null
 ) {
 
+    // ======================================================
+    // NEW GAME / SAVED GAME PLAYER DATA
+    // ======================================================
+
+    if (savedGame) {
+        playerStats = savedGame.playerStats;
+    }
+
+
+    if (!savedGame) {
     playerStats.comeOnSam = false;
     playerStats.fairyShower = false;
     playerStats.visitingBrother = "Yellow";
@@ -65,6 +76,26 @@ export function startGameplay(
     playerStats.blessedByTree = false;
     playerStats.donationMade = false;
     playerStats.loveacreResponse = "Mr Loveacre seems thrilled with your purchase.";
+        }
+
+    // ======================================================
+    // RESTORE MODULE-LEVEL SPELLBOOK STATE
+    // ======================================================
+
+    if (savedGame) {
+
+        const savedBook =
+            playerStats.inventory?.wornItems?.book;
+
+        if (savedBook) {
+            equipBook(savedBook);
+        }
+        else {
+            unequipBook();
+        }
+    }
+
+
     // ---- Map state ----
     // ---- Engine (must exist before callbacks use it) ----
     const engine = new MapEngine({
@@ -104,13 +135,26 @@ export function startGameplay(
     // inject UI into engine AFTER creation
     engine.ui = ui;
 
-    // track current node
+    // ======================================================
+    // START NEW GAME OR RESTORE SAVED GAME
+    // ======================================================
 
-    engine.start(2);
+    if (savedGame) {
 
-function returnToMap() {
-    engine.goToNode(engine.state.currentNode);
-}
+        engine.restoreGame(savedGame);
+
+    }
+    else {
+
+        engine.start(2);
+
+    }
+
+
+    function returnToMap() {
+        engine.refreshNode();
+    }
+    
     // ======================================================
     // INVENTORY
     // ======================================================

@@ -5,6 +5,7 @@ import { equipBook } from "./spells.js";
 import { showCoverScreen } from "./coverScreen.js";
 import { showRulesScreen } from "./rulesScreen.js";
 import { showEasyMode } from "./easyMode.js";
+import { loadGame, hasSavedGame } from "./saveGame.js";
 
 export function startGameFlow(
     gameDiv,
@@ -116,7 +117,32 @@ showCoverScreen(gameDiv, () => {
         // Easy Mode
         () => {
             showEasyMode(gameDiv, initGame);
-        }
+        },
+
+        // Load saved game
+        () => {
+
+            const savedGame = loadGame();
+
+            if (!savedGame) {
+                console.warn("No valid saved game found.");
+                return;
+            }
+
+            startGameplay(
+                gameDiv,
+                savedGame.playerStats,
+                enemies,
+                items,
+                enchantments,
+                initGame,
+                nodeIndex,
+                savedGame
+            );
+        },
+
+        // Does a saved game exist?
+        hasSavedGame()
     );
 
 });

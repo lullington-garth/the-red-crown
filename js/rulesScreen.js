@@ -1,6 +1,12 @@
 // rulesScreen.js
 
-export function showRulesScreen(container, onContinue, onEasyMode) {
+export function showRulesScreen(
+    container,
+    onContinue,
+    onEasyMode,
+    onLoadGame,
+    savedGameAvailable = false
+) {
 
     container.innerHTML = "";
 
@@ -126,12 +132,26 @@ export function showRulesScreen(container, onContinue, onEasyMode) {
 
     // ------------------------------------------------
 
+    // ------------------------------------------------
+    // Top buttons
+    // ------------------------------------------------
+
+    const topButtons = document.createElement("div");
+
+    topButtons.style.display = "flex";
+    topButtons.style.justifyContent = "space-between";
+    topButtons.style.alignItems = "center";
+    topButtons.style.margin = "0";
+
+
+    // ------------------------------------------------
+    // Skip / New Game
+    // ------------------------------------------------
+
     const btnSkip = document.createElement("button");
 
     btnSkip.textContent = "Skip";
 
-    btnSkip.style.display = "block";
-    btnSkip.style.margin = "0";
     btnSkip.style.width = "80px";
     btnSkip.style.height = "30px";
     btnSkip.style.backgroundColor = "#424141";
@@ -144,7 +164,35 @@ export function showRulesScreen(container, onContinue, onEasyMode) {
 
     btnSkip.onclick = onContinue;
 
-    wrapper.appendChild(btnSkip);
+    topButtons.appendChild(btnSkip);
+
+
+    // ------------------------------------------------
+    // Load Game
+    // ------------------------------------------------
+
+    if (savedGameAvailable) {
+
+        const btnLoad = document.createElement("button");
+
+        btnLoad.textContent = "Load Game";
+
+        btnLoad.style.width = "130px";
+        btnLoad.style.height = "30px";
+        btnLoad.style.backgroundColor = "#424141";
+        btnLoad.style.color = "#d7d4d4";
+        btnLoad.style.border = "1px solid #555";
+        btnLoad.style.boxShadow = "0 1px 7px rgba(0,0,0,0.5)";
+        btnLoad.style.borderRadius = "6px";
+        btnLoad.style.cursor = "pointer";
+        btnLoad.style.fontSize = "20px";
+
+        btnLoad.onclick = onLoadGame;
+
+        topButtons.appendChild(btnLoad);
+    }
+
+    wrapper.appendChild(topButtons);
 
     const img = document.createElement("img");
     img.src = `mapImages/crown.jpg`;

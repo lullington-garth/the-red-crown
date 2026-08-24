@@ -37,6 +37,7 @@ import { handleSwapItem } from "./handleSwapItem.js";
 import { parseEventForced } from "./parseEventForced.js";
 import { startDaggerGame } from "./games.js";
 import { wrongChamberChoice, handOfDespair, chooseContractRandom, chooseContractTimed, loseHorse, wormNumber, sacrificeItem } from "./events.js";
+import { saveGame } from "./saveGame.js";
 
 export class MapEngine {
     constructor({ nodeIndex, nodesBasePath = "./nodes", ui, playerStats, startNewGame, startGroupCombat, enemies, items }) {
@@ -583,6 +584,9 @@ if (node.runFunction && node.runFunction.length > 0) {
             return;
         }
 
+        // AUTO SAVE
+        this.save();
+
         let filteredChoices = filterChoices(this, node.choices);
 
         // ---------------------------------
@@ -679,6 +683,9 @@ if (node.runFunction && node.runFunction.length > 0) {
                     }
                 }
 
+                // Save combat result and changed player stats
+                this.save();
+
                 this.refreshNode();
             }
                 });
@@ -692,6 +699,7 @@ if (node.runFunction && node.runFunction.length > 0) {
                     () => {
                         this.state.flags[`pickupSelect_${node.id}`] = true;
 
+                        this.save();
                         this.refreshNode();
                     }
                 );
@@ -706,6 +714,7 @@ if (node.runFunction && node.runFunction.length > 0) {
                     () => {
                         this.state.flags[`pickupSome_${node.id}`] = true;
 
+                        this.save();
                         this.refreshNode();
                     }
                 );
@@ -886,6 +895,8 @@ onSwapItem: () => {
                     node.pickupSelect,
                     () => {
                         this.state.flags[`pickupSelect_${node.id}`] = true;
+
+                        this.save();
                         this.refreshNode();
                     }
                 );
@@ -899,6 +910,8 @@ onSwapItem: () => {
                     node.pickupSome,
                     () => {
                         this.state.flags[`pickupSome_${node.id}`] = true;
+
+                        this.save();
                         this.refreshNode();
                     }
                 );
@@ -973,7 +986,51 @@ onSwapItem: () => {
         });
     }
 
-   
+    // ======================================================
+    // SAVE GAME
+    // ======================================================
+
+    save() {
+        return saveGame(this);
+    }    
+ 
+    // ======================================================
+    // RESTORE SAVED GAME
+    // ======================================================
+
+    async restoreGame(saveData) {
+
+        if (
+            !saveData ||
+            !saveData.playerStats ||
+            !saveData.state
+        ) {
+            console.error(
+                "Cannot restore game: invalid save data."
+            );
+
+            return false;
+        }
+
+        // Restore MapEngine state
+        this.state = saveData.state;
+
+        // Make sure the saved node exists
+        if (!this.state.currentNode) {
+            console.error(
+                "Cannot restore game: saved game has no current node."
+            );
+
+            return false;
+        }
+
+        // Render the saved node WITHOUT applying
+        // first-visit effects again
+        await this.refreshNode();
+
+        return true;
+    }
+
     isPlayerDead() {
         return this.playerStats.stats?.STAMINA?.current <= 0;
     }
