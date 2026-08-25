@@ -439,7 +439,7 @@ function renderBuyTab() {
 
         // Click
         btn.addEventListener("click", () => {
-            purchaseItem(item);
+            purchaseItem(item, price);
         });
 
         content.appendChild(row);
