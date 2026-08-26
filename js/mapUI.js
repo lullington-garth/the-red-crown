@@ -352,6 +352,43 @@ renderNode(node, handlers) {
     }    
 
     // ----------------------------
+    // Inventory Over Capacity Button
+    // ----------------------------
+    if (handlers.inventoryOverflow) {
+
+        const inventoryWrap =
+            document.createElement("div");
+
+        inventoryWrap.style.margin = "0";
+
+        const btn =
+            document.createElement("button");
+
+        btn.textContent =
+            "Your Inventory is Full. Discard Items";
+
+        btn.style.padding = "10px 16px";
+        btn.style.fontSize = "20px";
+        btn.style.cursor = "pointer";
+        btn.style.borderRadius = "6px";
+        btn.style.backgroundColor = "#424141";
+        btn.style.color = "#d7d4d4";
+        btn.style.border = "1px solid #555";
+        btn.style.boxShadow =
+            "0 1px 7px rgba(0,0,0,0.5)";
+
+        btn.addEventListener("click", () => {
+
+            if (handlers.onInventoryOverflow) {
+                handlers.onInventoryOverflow();
+            }
+        });
+
+        inventoryWrap.appendChild(btn);
+        actionRow.appendChild(inventoryWrap);
+    }
+
+    // ----------------------------
     // Pickup Select Button
     // ----------------------------
     if (handlers.pickupSelect?.length && !handlers.pickupSelectDone) {
@@ -571,7 +608,10 @@ const hasSwapItem =
     handlers.swapItem?.length && !handlers.swapItemDone;
 
 const hasForcedGame =
-    handlers.eventForced;    
+    handlers.eventForced;
+
+const hasInventoryOverflow =
+    !!handlers.inventoryOverflow;
 
 const blockChoices =
     hasStatCheck ||
@@ -580,6 +620,7 @@ const blockChoices =
     hasPickupSome ||
     hasSwapItem ||
     hasForcedGame ||
+    hasInventoryOverflow ||
     handlers.endQuest;
 
     choicesDiv.style.display = blockChoices ? "none" : "flex";

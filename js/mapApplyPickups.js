@@ -10,7 +10,11 @@ const REALM_STAFF = [
     "0272","0273","0274","0275","0276","0277","0278","0279","0280"
 ];
 
-export function applyForcedPickups(playerStats, pickups) {
+export function applyForcedPickups(
+    playerStats,
+    pickups,
+    { deferCapacityCheck = false } = {}
+) {
     if (!pickups || pickups.length === 0) return;
 
     const carried = playerStats.inventory?.carriedItems;
@@ -397,9 +401,23 @@ export function applyForcedPickups(playerStats, pickups) {
         itemsToAdd.push(item);
     }
 
+    // ---------------------------------
+    // DEFERRED FORCED PICKUP
+    // ---------------------------------
+    // MapEngine can request the resolved
+    // items without adding them yet.
+    // This allows the node to be shown
+    // before an over-capacity modal opens.
+    if (deferCapacityCheck) {
+        return itemsToAdd;
+    }
+
+    // Normal behaviour
     tryAddItems(playerStats, itemsToAdd, () => {
         // optional callback
     });
+
+    return itemsToAdd;
 }
 
 export function applyPayPickups(playerStats, pickups) {

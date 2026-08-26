@@ -1,5 +1,10 @@
 // mapEngine.js
-import { tryAddItems } from "./calculateCapacity.js";
+import {
+    calculateUsedSlots,
+    calculateMaxSlots
+} from "./calculateCapacity.js";
+
+import { openOverCapacityModal } from "./overCapacityModal.js";
 import { parseChoices } from "./parseChoices.js";
 import { parseEffects } from "./parseEffects.js";
 import { parsePickups } from "./parsePickups.js";
@@ -56,7 +61,8 @@ export class MapEngine {
             flags: {},
             inventory: [],
             visitedNodes: {},
-            shopState: {}
+            shopState: {},
+            inventoryOverflow: null
         };
 
         this.cache = {};
@@ -438,7 +444,51 @@ resolveChoiceDestination(choice) {
 
             this.state.visitedNodes[nodeId] = true;
 
-        applyForcedPickups(this.playerStats, node.pickupForced);
+        // ---------------------------------
+        // FORCED PICKUPS
+        // ---------------------------------
+        // Resolve the items first without
+        // immediately triggering the
+        // over-capacity modal.
+        const forcedItems = applyForcedPickups(
+            this.playerStats,
+            node.pickupForced,
+            { deferCapacityCheck: true }
+        ) || [];
+
+        if (forcedItems.length > 0) {
+
+            const used =
+                calculateUsedSlots(this.playerStats);
+
+            const max =
+                calculateMaxSlots(this.playerStats);
+
+            const incomingSlots =
+                forcedItems.reduce(
+                    (sum, item) =>
+                        sum + (item["inventory-slots"] || 0),
+                    0
+                );
+
+            // Everything fits — add immediately.
+            if (used + incomingSlots <= max) {
+
+                this.playerStats.inventory.carriedItems.push(
+                    ...forcedItems
+                );
+            }
+
+            // Doesn't fit — remember the items,
+            // but don't open the modal yet.
+            else {
+
+                this.state.inventoryOverflow = {
+                    nodeId: node.id,
+                    newItems: forcedItems
+                };
+            }
+        }
 
         // 🧨 LOSE ITEM FORCED
         if (node.loseItemForced && node.loseItemForced.length > 0) {
@@ -616,6 +666,49 @@ if (node.runFunction && node.runFunction.length > 0) {
 
             refreshNode: this.refreshNode.bind(this),
             engine: this,
+
+            inventoryOverflow:
+                this.state.inventoryOverflow?.nodeId === node.id
+                    ? this.state.inventoryOverflow
+                    : null,
+
+            onInventoryOverflow: () => {
+
+                const pending =
+                    this.state.inventoryOverflow;
+
+                if (
+                    !pending ||
+                    pending.nodeId !== node.id
+                ) {
+                    return;
+                }
+
+                const max =
+                    calculateMaxSlots(this.playerStats);
+
+                openOverCapacityModal({
+                    playerStats: this.playerStats,
+                    newItems: pending.newItems,
+                    maxSlots: max,
+
+                    filterFn: item =>
+                        item?.["can-discard"] === true,
+
+                    onConfirm: (finalItems) => {
+
+                        this.playerStats.inventory.carriedItems =
+                            finalItems;
+
+                        // Capacity problem has now
+                        // been resolved.
+                        this.state.inventoryOverflow = null;
+
+                        this.save();
+                        this.refreshNode();
+                    }
+                });
+            },
 
             onChoice: async (choice) => {
 
@@ -860,6 +953,47 @@ onSwapItem: () => {
 
             refreshNode: this.refreshNode.bind(this),
             engine: this,
+
+            inventoryOverflow:
+                this.state.inventoryOverflow?.nodeId === node.id
+                    ? this.state.inventoryOverflow
+                    : null,
+
+            onInventoryOverflow: () => {
+
+                const pending =
+                    this.state.inventoryOverflow;
+
+                if (
+                    !pending ||
+                    pending.nodeId !== node.id
+                ) {
+                    return;
+                }
+
+                const max =
+                    calculateMaxSlots(this.playerStats);
+
+                openOverCapacityModal({
+                    playerStats: this.playerStats,
+                    newItems: pending.newItems,
+                    maxSlots: max,
+
+                    filterFn: item =>
+                        item?.["can-discard"] === true,
+
+                    onConfirm: (finalItems) => {
+
+                        this.playerStats.inventory.carriedItems =
+                            finalItems;
+
+                        this.state.inventoryOverflow = null;
+
+                        this.save();
+                        this.refreshNode();
+                    }
+                });
+            },
 
             onChoice: async (choice) => {
 
